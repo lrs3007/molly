@@ -1,0 +1,3 @@
+# Apple Silicon. Isolated from the frontend build and deployment.
+mlx-audio==0.5.9
+soundfile==0.14.0
