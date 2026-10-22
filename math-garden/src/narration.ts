@@ -1,7 +1,7 @@
 import catalogData from './audio-catalog.json' with { type: 'json' };
 import { audioPath } from './content.ts';
 import type { Lesson } from './content.ts';
-export interface AudioEntry { src: string; text: string; duration: number; signature: string; sha256: string; sampleRate?: number }
+export interface AudioEntry { src: string; text: string; duration: number; signature: string; sha256: string; sampleRate?: number; sourceLessonId?: string }
 export interface AudioCatalog { schema: number; provider: string; voiceLabel?: string; speaker?: string; model?: string; modelRevision?: string; entries: Record<string, AudioEntry> }
 export const audioCatalog: AudioCatalog = catalogData;
 export function narrationKey(lesson: Lesson, step: number) { return `${lesson.id}-${step + 1}`; }

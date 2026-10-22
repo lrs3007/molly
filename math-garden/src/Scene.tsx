@@ -1,5 +1,6 @@
 import type { Lesson, Scene as SceneData } from './content';
 import ExtraScenes from './ExtraScenes';
+import StoryboardScene from './StoryboardScene';
 const palette: Record<string, string> = { 红: '#da7c69', 黄: '#e2ba57', 蓝: '#7aadd0', 绿: '#71a286' };
 function Tree({ x, y, index, opacity = 1, ghost = false }: { x: number; y: number; index: number; opacity?: number; ghost?: boolean }) {
   return <g transform={`translate(${x} ${y})`} opacity={opacity} className="scene-object">
@@ -103,6 +104,7 @@ function CycleScene({ scene, step, p }: { scene: Extract<SceneData, { kind: 'cyc
 }
 export default function Scene({ lesson, step, fraction }: { lesson: Lesson; step: number; fraction: number }) {
   const s = lesson.scene;
+  if (s.kind === 'storyboard') return <StoryboardScene key={`${lesson.id}-${step}`} lesson={lesson} step={step} fraction={fraction}/>;
   return <svg className="lesson-scene" viewBox="0 0 610 300" role="img" aria-label={`${lesson.steps[step].title}：${lesson.steps[step].caption}`}>
     {s.kind === 'trees' ? <PlantScene scene={s} step={step} p={fraction}/> : s.kind === 'unit' ? <UnitScene scene={s} step={step} p={fraction}/> : s.kind === 'sum' ? <SumScene scene={s} step={step} p={fraction}/> : s.kind === 'cycle' ? <CycleScene scene={s} step={step} p={fraction}/> : <ExtraScenes scene={s} step={step} p={fraction}/>}
   </svg>;

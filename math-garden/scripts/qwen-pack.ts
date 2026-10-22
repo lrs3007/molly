@@ -29,11 +29,12 @@ export function validateQwenPack(packDirectory: string) {
   for (const job of plan.jobs) {
     const entry = catalog.entries[job.id];
     if (!entry || entry.signature !== job.signature || entry.text !== job.text) throw new Error(`${job.id}的讲稿或生成设置已经变化，请重新生成。`);
-    if (!/^\/audio\/qwen3\/[a-f0-9]{12}\/[a-z]+-[34]-[1-5]\.[a-f0-9]{12}\.wav$/.test(entry.src) || !basename(entry.src).startsWith(`${job.id}.`)) throw new Error(`${job.id}的路径无效。`);
+    if (!/^\/audio\/qwen3\/[a-f0-9]{12}\/[a-z]+-[1-6]-[1-5]\.[a-f0-9]{12}\.wav$/.test(entry.src) || !basename(entry.src).startsWith(`${job.id}.`)) throw new Error(`${job.id}的路径无效。`);
     if (!prefix) prefix = dirname(entry.src);
     if (dirname(entry.src) !== prefix) throw new Error('音频包目录不一致。');
     const source = join(pack, basename(entry.src)), data = readFileSync(source);
     if (createHash('sha256').update(data).digest('hex') !== entry.sha256) throw new Error(`${job.id}的音频校验失败。`);
+    if (job.reuse && (entry.sha256 !== job.reuse.sha256 || entry.sourceLessonId !== job.reuse.sourceLessonId)) throw new Error(`${job.id}的历史配音来源不一致。`);
     const info = wavInfo(data);
     if (!Number.isFinite(entry.duration) || Math.abs(info.duration - entry.duration) > .001 || entry.sampleRate !== info.sampleRate) throw new Error(`${job.id}的音频时长或采样率无效。`);
     files.push({ source, relative: `public${entry.src}` });

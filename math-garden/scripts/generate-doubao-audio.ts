@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join, resolve } from 'node:path';
-import { lessons } from '../src/content.ts';
+import { audioPath, lessons } from '../src/content.ts';
 import type { AudioCatalog } from '../src/narration.ts';
 import { authHeaders, speechSignature, synthesize } from './doubao-client.ts';
 import { teachingText, voices } from './speech-plan.ts';
@@ -25,7 +25,7 @@ function activate(packDirectory: string) {
   for (const lesson of lessons) for (const step of lesson.steps.keys()) {
     const id = `${lesson.id}-${step + 1}`, entry = catalog.entries[id], text = teachingText(lesson, step);
     if (!entry || entry.text !== text || entry.signature !== speechSignature(text, voice, step)) throw new Error(`${id}的讲稿或音色设置已经改变，请重新生成。`);
-    if (!/^\/audio\/doubao\/[a-f0-9]{12}\/[a-z]+-[34]-[1-5]\.[a-f0-9]{12}\.wav$/.test(entry.src)) throw new Error(`${id}的音频路径无效。`);
+    if (!/^\/audio\/doubao\/[a-f0-9]{12}\/[a-z]+-[1-6]-[1-5]\.[a-f0-9]{12}\.wav$/.test(entry.src)) throw new Error(`${id}的音频路径无效。`);
     const source = join(pack, basename(entry.src)), data = readFileSync(source);
     if (hash(data) !== entry.sha256 || data.toString('ascii', 0, 4) !== 'RIFF' || data.toString('ascii', 8, 12) !== 'WAVE' || data.length < 48044 || data.readUInt32LE(24) !== 24000 || data.readUInt16LE(22) !== 1 || data.readUInt16LE(34) !== 16 || data.readUInt32LE(40) !== data.length - 44 || Math.abs(entry.duration - (data.length - 44) / 48000) > .001) throw new Error(`${id}的音频损坏或时长无效。`);
     files.push({ source, target: resolve(`public${entry.src}`) });
@@ -45,7 +45,7 @@ async function main() {
   if (args.includes('--sample') && args.includes('--all')) throw new Error('--sample和--all不能同时使用。');
   const samples = args.includes('--sample');
   const selectedVoices = samples && !option('--voice') ? Object.keys(voices) as VoiceName[] : [requested];
-  const selectedLessons = samples ? lessons.filter(x => x.id === 'trees-3') : lessons;
+  const selectedLessons = samples ? lessons.filter(x => x.id === 'trees-1') : lessons;
   const plans = selectedVoices.flatMap(voice => selectedLessons.flatMap(lesson => lesson.steps.flatMap((_, step) => samples && ![0, 3].includes(step) ? [] : [{ voice, lesson, step, text: teachingText(lesson, step) }])));
   if (args.includes('--dry-run') || (!samples && !args.includes('--all'))) {
     console.log(JSON.stringify({ mode: 'plan-only', requests: plans.length, textCharacters: plans.reduce((n, p) => n + p.text.length, 0), voice: voices[requested].label, note: '未调用API、未修改现有音频。', preview: plans.slice(0, 5).map(p => ({ id: `${p.lesson.id}-${p.step + 1}`, text: p.text })) }, null, 2)); return;
@@ -66,7 +66,7 @@ async function main() {
   }
   if (!samples) writeFileSync(join(output, 'catalog.json'), JSON.stringify(catalog, null, 2) + '\n');
   if (samples) for (const step of [0, 3]) {
-    const filename = `original-trees-3-${step + 1}.m4a`; copyFileSync(resolve(`public/audio/trees-3-${step + 1}.m4a`), join(output, filename));
+    const filename = `original-trees-1-${step + 1}.m4a`; copyFileSync(resolve(`public${audioPath(lessons[0], step)}`), join(output, filename));
     cards.push(`<article><h2>原版系统语音 · ${escape(lessons[0].steps[step].title)}</h2><audio controls preload="metadata" src="${filename}"></audio></article>`);
   }
   writeFileSync(join(output, 'index.html'), `<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数学讲题语音试听</title><style>body{font-family:system-ui;max-width:850px;margin:40px auto;padding:0 20px;background:#f7f8f2;color:#304936}article{background:white;border:1px solid #dce5d4;padding:24px;margin:20px 0;border-radius:14px}h1{font-size:26px}h2{font-size:18px}p{line-height:2}audio{width:100%}</style><h1>数学讲题语音试听</h1><p>重点听：标准普通话是否清楚、语气是否自然、数字与关系是否听得懂，以及孩子能否跟上节奏。</p>${cards.join('')}</html>`);

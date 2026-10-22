@@ -8,7 +8,7 @@ export const voices = {
 export type VoiceName = keyof typeof voices;
 export const speechRate = -8;
 export const sampleRate = 24000;
-export const teacherDirection = '请用清晰、自然的标准普通话，为小学三、四年级学生讲数学。像耐心亲切的老师在和一个孩子交流，语速稍慢，声线放松，句子连贯。关键数量关系稍作强调，问句自然上扬，句末适当停顿。保持成年老师的正常声线，避免播音腔、夸张卖萌和地方方言。只朗读提供的讲稿，不添加内容。';
+export const teacherDirection = '请用清晰、自然的标准普通话，为小学一年级奥数班学生讲数学。像耐心亲切的老师在和一个孩子交流，语速稍慢，声线放松，句子连贯。关键数量关系稍作强调，问句自然上扬，句末适当停顿。保持成年老师的正常声线，避免播音腔、夸张卖萌和地方方言。只朗读提供的讲稿，不添加内容。';
 
 export function spokenNumber(number: number): string {
   if (!Number.isInteger(number) || number < 0 || number >= 10000) throw new Error('Spoken numbers must be integers between 0 and 9999.');

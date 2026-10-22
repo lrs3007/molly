@@ -14,12 +14,14 @@ function makePack(root: string) {
   const pack = join(root, 'pack'), project = join(root, 'project');
   mkdirSync(pack); mkdirSync(join(project, 'src'), { recursive: true });
   writeFileSync(join(project, 'src/audio-catalog.json'), 'ORIGINAL');
-  const plan = qwenPlan(), wav = fixture(), digest = createHash('sha256').update(wav).digest('hex');
+  const plan = qwenPlan();
   const catalog: AudioCatalog = { schema: 1, provider: plan.provider, model: plan.model, modelRevision: plan.modelRevision, speaker: plan.speaker, voiceLabel: plan.voiceLabel, entries: {} };
   for (const job of plan.jobs) {
+    const wav = job.reuse ? readFileSync(`public${job.reuse.src}`) : fixture();
+    const digest = createHash('sha256').update(wav).digest('hex');
     const src = `/audio/qwen3/012345abcdef/${job.id}.${digest.slice(0, 12)}.wav`;
     writeFileSync(join(pack, basename(src)), wav);
-    catalog.entries[job.id] = { src, text: job.text, signature: job.signature, sha256: digest, duration: 1, sampleRate: 24000 };
+    catalog.entries[job.id] = { ...(job.reuse ?? {}), src, text: job.text, signature: job.signature, sha256: digest, duration: wavInfo(wav).duration, sampleRate: 24000 };
   }
   writeFileSync(join(pack, 'catalog.json'), JSON.stringify(catalog));
   writeFileSync(join(pack, 'index.html'), '<!doctype html><title>Test fixture review</title>');
@@ -30,8 +32,8 @@ test('Qwen plan selects local 1.7B Serena with a stable identity and child-frien
   assert.equal(plan.provider, 'qwen3-tts');
   assert.match(plan.model, /1.7B-CustomVoice-8bit$/);
   assert.equal(plan.speaker, 'serena');
-  assert.equal(plan.jobs.length, 90);
-  assert.equal(new Set(plan.jobs.map(j => j.id)).size, 90);
+  assert.equal(plan.jobs.length, 240);
+  assert.equal(new Set(plan.jobs.map(j => j.id)).size, 240);
   assert.deepEqual(plan, qwenPlan());
   for (const job of plan.jobs) {
     assert.equal(job.language, 'Chinese');
@@ -55,9 +57,9 @@ test('a complete Qwen pack atomically installs matching text and audio', () => {
   const root = mkdtempSync(join(tmpdir(), 'qwen-pack-test-'));
   try {
     const { pack, project } = makePack(root);
-    assert.equal(validateQwenPack(pack).files.length, 90);
+    assert.equal(validateQwenPack(pack).files.length, 240);
     const result = installQwenPack(pack, project);
-    assert.equal(result.entries, 90);
+    assert.equal(result.entries, 240);
     const installed = JSON.parse(readFileSync(join(project, 'src/audio-catalog.json'), 'utf8'));
     assert.equal(installed.provider, 'qwen3-tts');
     for (const entry of Object.values(installed.entries) as { src: string }[]) assert.ok(existsSync(join(project, `public${entry.src}`)));
@@ -68,7 +70,7 @@ test('a late stale transcript, incomplete pack or corrupt audio cannot activate 
   const root = mkdtempSync(join(tmpdir(), 'qwen-invalid-test-'));
   try {
     const { pack, project, catalog } = makePack(root);
-    const key = 'cycle-4-5', original = { ...catalog.entries[key] };
+    const key = 'unitfoodthree-1-5', original = { ...catalog.entries[key] };
     catalog.entries[key].text = '过期讲稿';
     writeFileSync(join(pack, 'catalog.json'), JSON.stringify(catalog));
     assert.throws(() => installQwenPack(pack, project), /讲稿或生成设置已经变化/);
@@ -77,7 +79,7 @@ test('a late stale transcript, incomplete pack or corrupt audio cannot activate 
     catalog.entries[key] = original;
     delete catalog.entries[key];
     writeFileSync(join(pack, 'catalog.json'), JSON.stringify(catalog));
-    assert.throws(() => validateQwenPack(pack), /90段/);
+    assert.throws(() => validateQwenPack(pack), /240段/);
     catalog.entries[key] = original;
     writeFileSync(join(pack, 'catalog.json'), JSON.stringify(catalog));
     writeFileSync(join(pack, basename(original.src)), 'corrupt');

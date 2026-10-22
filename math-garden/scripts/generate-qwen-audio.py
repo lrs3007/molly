@@ -55,14 +55,25 @@ def main() -> None:
     if plan.get("schema") != 1 or plan.get("provider") != "qwen3-tts" or not plan.get("jobs") or len({j['id'] for j in plan['jobs']}) != len(plan['jobs']):
         raise ValueError("请先运行 npm run audio:plan，导出完整课程讲稿。")
     jobs = plan["jobs"]
-    selected = [j for j in jobs if j["id"] in {"trees-3-1", "trees-3-4"}] if args.sample else jobs
-    pack_signature = sha256(json.dumps(plan, ensure_ascii=False, sort_keys=True).encode())[:12]
+    selected = [j for j in jobs if j["id"] in {"trees-1-1", "trees-1-4"}] if args.sample else jobs
+    identity = {**plan, 'jobs': [{**j, **({'reuse': {k: v for k, v in j['reuse'].items() if k != 'src'}} if j.get('reuse') else {})} for j in jobs]}
+    pack_signature = sha256(json.dumps(identity, ensure_ascii=False, sort_keys=True).encode())[:12]
     output = ROOT / ".audio-output" / f"qwen3-serena-{pack_signature}"
     output.mkdir(parents=True, exist_ok=True)
     checkpoint = output / "checkpoint.json"
     entries = json.loads(checkpoint.read_text()).get("entries", {}) if checkpoint.exists() else {}
     active_path = ROOT / 'src/audio-catalog.json'
     active = json.loads(active_path.read_text()) if active_path.exists() else {}
+    for job in selected:
+        if not job.get('reuse') or job['id'] in entries:
+            continue
+        entry = job['reuse']
+        source = (ROOT / 'public' / entry['src'].lstrip('/')).resolve()
+        if not source.is_relative_to((ROOT / 'public/audio').resolve()) or not source.is_file() or sha256(source.read_bytes()) != entry['sha256']:
+            raise ValueError(f"历史配音{job['id']}缺失或损坏，请先恢复对应资源。")
+        filename = f"{job['id']}.{entry['sha256'][:12]}.wav"
+        shutil.copyfile(source, output / filename)
+        entries[job['id']] = {**entry, 'src': f'/audio/qwen3/{pack_signature}/{filename}'}
     if all(active.get(key) == plan.get(key) for key in ('provider', 'model', 'modelRevision', 'speaker')):
         for job in selected:
             if job['id'] in entries:
@@ -91,6 +102,8 @@ def main() -> None:
                 print(f'复用 {job["id"]}: {entry["duration"]:.1f}秒', flush=True)
                 continue
         pending.append(job)
+        if job.get('reuse'):
+            raise ValueError(f"历史配音{job['id']}的断点文件损坏，请修复后重试。")
     if pending:
         import mlx.core as mx
         from mlx_audio.tts.utils import load_model

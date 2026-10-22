@@ -28,7 +28,7 @@ test('speech plans preserve all steps and use standard Mandarin teaching directi
     assert.equal(request.req_params.audio_params.speech_rate, -8);
     const additions = JSON.parse(request.req_params.additions);
     assert.ok(additions.context_texts[0].includes('标准普通话'));
-    assert.ok(additions.context_texts[0].includes('三、四年级'));
+    assert.ok(additions.context_texts[0].includes('一年级'));
     assert.equal(additions.silence_duration, step === 2 ? 1200 : 450);
   }
   for (const [n, text] of [[0, '零'], [10, '十'], [12, '十二'], [30, '三十'], [101, '一百零一'], [1008, '一千零八'], [9999, '九千九百九十九']] as const) assert.equal(spokenNumber(n), text);
@@ -90,7 +90,7 @@ test('a late mismatch in a full pack leaves the active catalog and public assets
       entries[id] = { src, text, signature, sha256: digest, duration: 1 };
       writeFileSync(join(temp, 'pack', basename(src)), wav);
     }
-    (entries['cycle-4-5'] as { text: string }).text = '过期讲稿';
+    (entries['age-1-5'] as { text: string }).text = '过期讲稿';
     writeFileSync(join(temp, 'pack/catalog.json'), JSON.stringify({ schema: 1, provider: 'doubao', speaker: voices.xiaohe.speaker, entries }));
     const result = spawnSync(process.execPath, ['--experimental-strip-types', resolve('scripts/generate-doubao-audio.ts'), '--install', join(temp, 'pack')], { cwd: temp, encoding: 'utf8' });
     assert.notEqual(result.status, 0);

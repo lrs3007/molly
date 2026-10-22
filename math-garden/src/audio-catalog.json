@@ -6,724 +6,1969 @@
   "speaker": "serena",
   "voiceLabel": "Serena · 温暖普通话女老师",
   "entries": {
-    "trees-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-3-1.a19df2b831b0.wav",
+    "trees-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/trees-1-1.a19df2b831b0.wav",
       "text": "来，咱们一起给小路种树。小路长三十米，只在一侧，每隔五米种一棵。先看清楚：起点和终点，都要种树。这个条件很重要，等会儿咱们还会用到它。",
       "duration": 13.57,
       "signature": "4a27dd292ee5dba91a7062655d22e5563f3ddd557fdede21a2999da1f12aeeb7",
       "sha256": "a19df2b831b0f803332744f5eaa7edf10930707e8acfff26f87cf4ed850b90a4",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "trees-3"
     },
-    "trees-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-3-2.a0996951d265.wav",
+    "trees-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/trees-1-2.a0996951d265.wav",
       "text": "先别急着数树。看图，两棵相邻的树之间，有一小段路，咱们叫它一个间隔。每段五米，三十米能分成几段呢？三十除以五，等于六。所以，有六个间隔。",
       "duration": 16.45,
       "signature": "7fa30a955d200dfbdc42d98ebf864056800f3b0d86e97155a3acb735f117e12b",
       "sha256": "a0996951d26518f016fd3ea143820f49757d2e5b2e0d72a8940ba74c0e4a10dd",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "trees-3"
     },
-    "trees-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-3-3.b209f15764c8.wav",
+    "trees-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/trees-1-3.b209f15764c8.wav",
       "text": "现在请你猜一猜：六个间隔，两端都种，需要几棵树呢？可以拿笔画几个点，再数一数。不着急，想好了再选。",
       "duration": 10.72,
       "signature": "ddf9b8d6c45a40f5e07a26d1d5ae5be1bad5a699e66634b4f06b9b8927feebbd",
       "sha256": "b209f15764c84437e4964c25a67bc990204c6e8a8014b8bd3e1da88f3374bc3b",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "trees-3"
     },
-    "trees-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-3-4.034f63c13892.wav",
+    "trees-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/trees-1-4.034f63c13892.wav",
       "text": "看，咱们从起点开始，先种第一棵。每走过一个间隔，再种一棵。发现了吗？六个间隔的两端，一共有七棵树。多出来的这一棵，就是起点的那棵。",
       "duration": 12.93,
       "signature": "3581ee6e5a96c660b60347e58c4efe8cba51c324a8c50915d9c9f28af6fab531",
       "sha256": "034f63c13892c5c25065a2a00ff03d7c2eebf881406ecd9f5e4be19d0e04e4e4",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "trees-3"
     },
-    "trees-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-3-5.8e3a0414cdd8.wav",
+    "trees-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/trees-1-5.8e3a0414cdd8.wav",
       "text": "咱们把方法连起来：先用三十除以五，求出六个间隔。两端都种，还要加一，所以是七棵。记住，先数间隔，再看两端。去试一道小练习吧！",
       "duration": 15.09,
       "signature": "3b31ea59948ae5a0f346bb33dec24b98aac241d911073c263cce57340abce94b",
       "sha256": "8e3a0414cdd81ce707c8545c326e0f1d68c50edffc911c27f9b170cb9f284022",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "trees-3"
     },
-    "trees-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-4-1.80a9e1774391.wav",
-      "text": "来，咱们一起给小路种树。小路长三十六米，只在一侧，每隔六米种一棵。先看清楚：起点种树，终点不种。这个条件很重要，等会儿咱们还会用到它。",
-      "duration": 13.33,
-      "signature": "57a60fc347249cf7866938e09f6c16fd038cbe801ee8c3fcecc7883a1917055a",
-      "sha256": "80a9e1774391f7f27a1ef6985c09561a9be36d4e1628ec3f00633b19b462b9d1",
-      "sampleRate": 24000
-    },
-    "trees-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-4-2.2ca0d21d2027.wav",
-      "text": "先别急着数树。看图，两棵相邻的树之间，有一小段路，咱们叫它一个间隔。每段六米，三十六米能分成几段呢？三十六除以六，等于六。所以，有六个间隔。",
-      "duration": 13.73,
-      "signature": "e7cd7d746c226bedf5ed91c1bfa95990192599f2aa229eb228af3037561cc757",
-      "sha256": "2ca0d21d2027ecd579263f409732c6431d4b277196e022c49c6d91f4648bbd01",
-      "sampleRate": 24000
-    },
-    "trees-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-4-3.7989e6920ecb.wav",
-      "text": "现在请你猜一猜：六个间隔，只在一端种，需要几棵树呢？可以拿笔画几个点，再数一数。不着急，想好了再选。",
-      "duration": 13.12,
-      "signature": "148d516af9f52a939045cbef84f83e53a4d5bfd65bfb09e74110cae47b028b74",
-      "sha256": "7989e6920ecbe6f921345902ac0eb20436b5a5268331bcb6ed26900de270d338",
-      "sampleRate": 24000
-    },
-    "trees-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-4-4.f58328f5cd62.wav",
-      "text": "看，先在每个分界点上种树。如果两端都种，就有七棵。可是，题目说终点不种。把终点这棵去掉，还剩六棵。只种一端，树和间隔就一样多啦。",
-      "duration": 14.77,
-      "signature": "cb348342b3e345225a182e168eb44b0a039be91a036b0cbe7cbef15e639d4835",
-      "sha256": "f58328f5cd628e4d52865ae986af525c66940db861fb99a2f7057de5c9b10b38",
-      "sampleRate": 24000
-    },
-    "trees-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/trees-4-5.085737fc70db.wav",
-      "text": "咱们把方法连起来：先用三十六除以六，求出六个间隔。只种一端，间隔数就是树的棵数，所以是六棵。记住，先数间隔，再看两端。去试一道小练习吧！",
-      "duration": 14.93,
-      "signature": "73966b3d1372e5426ab3e11b3b3dc2895cf2ee4d4f651e46bba1ee3089637966",
-      "sha256": "085737fc70db2a949d8f1302c1263a7c4aed8f7d8221bf464e9ea58f9584d6f9",
-      "sampleRate": 24000
-    },
-    "unit-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-3-1.31910f968f1a.wav",
+    "unit-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unit-1-1.31910f968f1a.wav",
       "text": "咱们去文具店看看。三支同样的铅笔，一共六元。现在想买五支，要花多少钱呢？先记住，每支铅笔的价格都一样。",
       "duration": 11.57,
       "signature": "4b3bbc4f10f1ba8d4a3e8d5ae8c714382841ee3431bee1604de564f909cdcf45",
       "sha256": "31910f968f1a5f71e47657ad1e0cdb6c3eaf2365fb47ec5d1c0000a1db8ff7eb",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "unit-3"
     },
-    "unit-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-3-2.5537728fe447.wav",
+    "unit-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unit-1-2.5537728fe447.wav",
       "text": "要算五支，可以先找一支。把六元平均分给三支铅笔。六除以三，等于二。原来，一支铅笔是两元。咱们找到最重要的这一份啦。",
       "duration": 13.01,
       "signature": "50e0e42db0c4c0977a2c6a031c8efc9b902b4006c8176192a3e604c365ee5141",
       "sha256": "5537728fe4471659b31284ffb392354c348aa4bb62adc597c6f89d3f11db6e43",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "unit-3"
     },
-    "unit-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-3-3.cccb21b7e893.wav",
+    "unit-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unit-1-3.cccb21b7e893.wav",
       "text": "一支是两元，那五支呢？应该把二和五相加，还是相乘？想一想，五支里面，有几个两元？选好再继续。",
       "duration": 13.68,
       "signature": "6f9f7b67c42bbaa051fab7e44ad9393125cd6ee7df6b366bba84c967ace64dcc",
       "sha256": "cccb21b7e89325d20e0d17b8448d91d450dd54ae6ff56fbfc6f2a5d66e4d9710",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "unit-3"
     },
-    "unit-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-3-4.f021c1c22db6.wav",
+    "unit-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unit-1-4.f021c1c22db6.wav",
       "text": "看，把一支变成五支。每支两元，就有五个两元。几个相同的数相加，可以用乘法。所以，二乘五，等于十元。",
       "duration": 16.05,
       "signature": "c7abc1307ad6a89fbda5f908ae79ca226d2dc1e09151735a1c7c0b95a46ba5ce",
       "sha256": "f021c1c22db62ceb9d1a798508c29073543e285dac6365584816094d1073d7da",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "unit-3"
     },
-    "unit-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-3-5.8364e4898458.wav",
+    "unit-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unit-1-5.8364e4898458.wav",
       "text": "这类题有个小办法：先找一份，再找几份。咱们先求一支多少钱，再乘要买的支数。答案是十元。换成积木或水量，也可以想想这个办法。去练练吧！",
       "duration": 13.57,
       "signature": "30bdb9e657c3cf3e43d29846880397479758cfcd3dd6f9a76d1dd1783ebbaa87",
       "sha256": "8364e4898458306bfefc7edcb30637e890c97aa58a169520993abb0acb4f89ed",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "unit-3"
     },
-    "unit-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-4-1.c007317edd42.wav",
-      "text": "咱们去文具店看看。六支同样的铅笔，一共十八元。现在想买八支，要花多少钱呢？先记住，每支铅笔的价格都一样。",
-      "duration": 12.77,
-      "signature": "a2d307e861ba96799c27cc243e8a950a325cbd3d712178985473f9c5b54dd4a6",
-      "sha256": "c007317edd42899af2fbef032cf34ff9161eaf60f1525d35be873b3abe117064",
-      "sampleRate": 24000
-    },
-    "unit-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-4-2.5514c329c4e3.wav",
-      "text": "要算八支，可以先找一支。把十八元平均分给六支铅笔。十八除以六，等于三。原来，一支铅笔是三元。咱们找到最重要的这一份啦。",
-      "duration": 15.41,
-      "signature": "a3f66426f1528f5231ff733ec9d3ff71772273e417e7a9dd60efd317a9b034cf",
-      "sha256": "5514c329c4e3632784003f6519134b262d5300638c4f864d6fce5141b67501ff",
-      "sampleRate": 24000
-    },
-    "unit-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-4-3.cb2a533e159d.wav",
-      "text": "一支是三元，那八支呢？应该把三和八相加，还是相乘？想一想，八支里面，有几个三元？选好再继续。",
-      "duration": 13.92,
-      "signature": "b5a875af1956d75ae0559cf9375e8fc9dfe09c4fe481393dc3d5d47857c39303",
-      "sha256": "cb2a533e159df48e820c1e2a044d6d2fe6f5f2d38f051cb30595d5960f45e9d2",
-      "sampleRate": 24000
-    },
-    "unit-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-4-4.51223121a46c.wav",
-      "text": "看，把一支变成八支。每支三元，就有八个三元。几个相同的数相加，可以用乘法。所以，三乘八，等于二十四元。",
-      "duration": 13.97,
-      "signature": "3b0efd31709ebc47cb682cd7d63076aa515818e88af30ae24d31bbf85c04f6a7",
-      "sha256": "51223121a46c0649aaca740d7e79c6780fc72a7cfbe2b512322b895d28310b26",
-      "sampleRate": 24000
-    },
-    "unit-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/unit-4-5.32ca647cf266.wav",
-      "text": "这类题有个小办法：先找一份，再找几份。咱们先求一支多少钱，再乘要买的支数。答案是二十四元。换成积木或水量，也可以想想这个办法。去练练吧！",
-      "duration": 14.93,
-      "signature": "6cc4fd91f15b66356e7c756a6721c51966d4253ea9588fcb8444abd13953b04d",
-      "sha256": "32ca647cf266f5969ab3c80068fbfba8b0034898d24d75199593fa70a21b1291",
-      "sampleRate": 24000
-    },
-    "sum-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-3-1.7a829d5c3736.wav",
+    "sum-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/sum-1-1.7a829d5c3736.wav",
       "text": "小米和小禾，一共有二十四颗弹珠。小米比小禾多六颗。咱们要找小米有多少颗。这次，试着把数量画成线段，好不好？",
       "duration": 13.49,
       "signature": "ce3548c420b627b850f8a3532f46e1d29f6bd0975fd130edcf6a42ed2bbfa74b",
       "sha256": "7a829d5c3736c418c9df06f32e0d80f48901137f12cca8a9b089947a9720ef5a",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "sum-3"
     },
-    "sum-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-3-2.6c14b28c9d61.wav",
+    "sum-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/sum-1-2.6c14b28c9d61.wav",
       "text": "看，长一点的线段代表小米，短一点的代表小禾。两条加起来，是二十四颗。长出来的这一小段，就是多出来的六颗。题目里的和与差，现在都看得见啦。",
       "duration": 18.93,
       "signature": "53982c1c9a22f968840bbb807156a644bb182ba78dd1a9d1216c4ccb7f9a31cf",
       "sha256": "6c14b28c9d615f157a39998d2ff075bac186876966bb7d284ac8beaeae51bac9",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "sum-3"
     },
-    "sum-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-3-3.da30a470bd09.wav",
+    "sum-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/sum-1-3.da30a470bd09.wav",
       "text": "想一想，如果暂时拿走小米多出来的六颗，两个人剩下的弹珠，会不会一样多？看看两条线段，再选一选。",
       "duration": 10.64,
       "signature": "b0fec7a37dacbf67ecfbc546c0bffdb4a803d40a06c237680695b3014289b810",
       "sha256": "da30a470bd09f1183ae423f782c8edf26cf8cf588c1c8b38c882f6d058676c51",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "sum-3"
     },
-    "sum-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-3-4.9dcf00e07702.wav",
+    "sum-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/sum-1-4.9dcf00e07702.wav",
       "text": "对，去掉多出来的一段，两份就相等啦。二十四减六，还剩十八颗。把它平均分成两份，每份是九颗。注意，这一步求出的是小禾的数量。",
       "duration": 12.69,
       "signature": "bc22fe9d18b54eb6cb03c2aa80e1b04e774306fabca467f9f49b51bc18f18851",
       "sha256": "9dcf00e07702057bd9f5d0832cb495d0fe08589bb276f47a921b32044e506b3b",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "sum-3"
     },
-    "sum-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-3-5.25d31fb25051.wav",
+    "sum-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/sum-1-5.25d31fb25051.wav",
       "text": "题目问的是小米，还要再走一步。小禾有九颗，小米多六颗，加起来就是十五颗。检查一下，两人一共二十四颗，又正好多六颗。都对上啦！",
       "duration": 12.37,
       "signature": "b5df2f3fec5d900b0b8cd5a01bde86cb60efd348046734183b9ffdf0465b613c",
       "sha256": "25d31fb250518f2c9d695a059286785e2dff33ce5c8a54a8ac5a67b6322573da",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "sum-3"
     },
-    "sum-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-4-1.b68ffa8a65c1.wav",
-      "text": "小米和小禾，一共有四十二颗弹珠。小米比小禾多十颗。咱们要找小米有多少颗。这次，试着把数量画成线段，好不好？",
-      "duration": 11.73,
-      "signature": "caf22d79d7b8ed5c6afbcbdeb9b5496d8fb151cbc027e181e874cec8dcf842ab",
-      "sha256": "b68ffa8a65c111c8974503f6a61546d974f90e3dafbbd01928a470470d5c5a9d",
-      "sampleRate": 24000
-    },
-    "sum-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-4-2.83b3bb1bfdff.wav",
-      "text": "看，长一点的线段代表小米，短一点的代表小禾。两条加起来，是四十二颗。长出来的这一小段，就是多出来的十颗。题目里的和与差，现在都看得见啦。",
-      "duration": 20.45,
-      "signature": "56f5862a5f938922c4722b2a3c32ee50c979d2baeaec0d440a91aa079ba13b69",
-      "sha256": "83b3bb1bfdff5d10c84e343ec2fbe5dae1048d231125591583bbc26ad107c3bb",
-      "sampleRate": 24000
-    },
-    "sum-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-4-3.ea191a10d4fe.wav",
-      "text": "想一想，如果暂时拿走小米多出来的十颗，两个人剩下的弹珠，会不会一样多？看看两条线段，再选一选。",
-      "duration": 10.72,
-      "signature": "ef056eacc534cf14e09f2c4b6fbae42850885fbde5fe839b548745b489cd8de7",
-      "sha256": "ea191a10d4fec4a28cfb9f9ceb10dcf4995b6a9db8bdc5bd3ec4a36e9b231963",
-      "sampleRate": 24000
-    },
-    "sum-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-4-4.af91aa5014ee.wav",
-      "text": "对，去掉多出来的一段，两份就相等啦。四十二减十，还剩三十二颗。把它平均分成两份，每份是十六颗。注意，这一步求出的是小禾的数量。",
-      "duration": 13.41,
-      "signature": "dad2c23988c3ba85a8968f2c4f1eb7e3a0fb4c53fef32468552b7de62bac92b8",
-      "sha256": "af91aa5014eef0ffe3c24a86c654e12540a8c729742519dea715b9daa6973422",
-      "sampleRate": 24000
-    },
-    "sum-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/sum-4-5.35331ec75ed8.wav",
-      "text": "题目问的是小米，还要再走一步。小禾有十六颗，小米多十颗，加起来就是二十六颗。检查一下，两人一共四十二颗，又正好多十颗。都对上啦！",
-      "duration": 15.41,
-      "signature": "60ecdb3e8dd3c816057c9de5b98adcb49feace5581833d6ed2349a9352539ceb",
-      "sha256": "35331ec75ed81fdadaead46f8f8900c41551e25068a028fbe09bff6b28206dd2",
-      "sampleRate": 24000
-    },
-    "cycle-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-3-1.a146646b25c9.wav",
+    "cycle-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/cycle-1-1.a146646b25c9.wav",
       "text": "来看这串彩色珠子。红、黄、蓝，后面又是一样的顺序。咱们要找第十四颗是什么颜色。你发现它藏着什么规律了吗？",
       "duration": 13.81,
       "signature": "4dc3c762777af81561a9551924bd045798c07742c9fd80e422402aa4c95b434c",
       "sha256": "a146646b25c9566e286284471a7c99574a0628f6000bf67c2e1d6ef75a8ec5e6",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "cycle-3"
     },
-    "cycle-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-3-2.81404d275454.wav",
+    "cycle-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/cycle-1-2.81404d275454.wav",
       "text": "把红、黄、蓝这三颗，圈成一组。下一组，颜色和顺序都一样。原来，珠子是每三颗重复一次。找到了这一组，就不用一颗一颗数到最后啦。",
       "duration": 12.53,
       "signature": "538cb244712529fe5a50761c0c6d2c7cafdec0ca7c18b89db64d4975d7d19a70",
       "sha256": "81404d27545439bff289e1b8c6c03d8013cf54d44f27010e9d51883133bab142",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "cycle-3"
     },
-    "cycle-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-3-3.3602d787b181.wav",
+    "cycle-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/cycle-1-3.3602d787b181.wav",
       "text": "先来检查一下：一个完整的重复单元，应该有几颗珠子呢？记得，要从一组的开头，数到这一组的结尾。想好了再选。",
       "duration": 10.96,
       "signature": "bb12a9d8f1d895557a32b630689d3658a981a04391e00170568f3e8cebc7fe21",
       "sha256": "3602d787b1818e7e978073bd538ff2c71d7ade925a146df3b3384d8d8a6746cd",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "cycle-3"
     },
-    "cycle-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-3-4.df73357743f9.wav",
+    "cycle-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/cycle-1-4.df73357743f9.wav",
       "text": "十四除以三，商是四，余数是二。前面有四个完整组，后面还剩两颗。所以，咱们只要看新的一组里，第二颗是什么颜色。",
       "duration": 11.49,
       "signature": "080eaef0455ea3d9cffc96249928c29969b3238e8bbc042c7410a84ecf7a3192",
       "sha256": "df73357743f9d4c38655ea024a9887a81332e4a12855a558ee6f527d9815b092",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "cycle-3"
     },
-    "cycle-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-3-5.a5ff97d5f1f8.wav",
+    "cycle-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/cycle-1-5.a5ff97d5f1f8.wav",
       "text": "看，一组里的第二颗，是黄色。所以，第十四颗也是黄色。还有个小提醒：如果正好分完，余数是零，就看每一组的最后一颗。去试试这个规律吧！",
       "duration": 16.29,
       "signature": "d37765f241110ff31b2e7861058ef8616bbe3fdd1461d7d86e1c6accbf44466d",
       "sha256": "a5ff97d5f1f826c76e2e6bb81890104c8f45098ce6afc19382795d8488ca23f9",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "cycle-3"
     },
-    "cycle-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-4-1.0acb654e8eea.wav",
-      "text": "来看这串彩色珠子。红、黄、蓝、绿，后面又是一样的顺序。咱们要找第二十六颗是什么颜色。你发现它藏着什么规律了吗？",
-      "duration": 10.05,
-      "signature": "bc8ac2408f77f35aae29bb15faa98dbc890037c4c4a9f8334c0c2f1f5b6071c7",
-      "sha256": "0acb654e8eea850aaf96013e122686b22ada5ebea059e0f664ae0d2b95e3d901",
-      "sampleRate": 24000
-    },
-    "cycle-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-4-2.27950169f8d3.wav",
-      "text": "把红、黄、蓝、绿这四颗，圈成一组。下一组，颜色和顺序都一样。原来，珠子是每四颗重复一次。找到了这一组，就不用一颗一颗数到最后啦。",
-      "duration": 17.17,
-      "signature": "d01f718d004d5822b433339552a51ec3c336c21e7973dc4b212afe11071c0c83",
-      "sha256": "27950169f8d38e3b5fbdd4619a370311076910ab3e75e328a8f437e8e697389c",
-      "sampleRate": 24000
-    },
-    "cycle-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-4-3.be71c87bd468.wav",
-      "text": "先来检查一下：一个完整的重复单元，应该有几颗珠子呢？记得，要从一组的开头，数到这一组的结尾。想好了再选。",
-      "duration": 12.72,
-      "signature": "64d9ad8a0fce5ea0a5974c037640ea8e58cca7c68ebdff5913a5f686a26339e2",
-      "sha256": "be71c87bd468325ce22d8ca851b87796c88d300d20f8ae19bb756fc313fd1d83",
-      "sampleRate": 24000
-    },
-    "cycle-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-4-4.8b86a5643290.wav",
-      "text": "二十六除以四，商是六，余数是二。前面有六个完整组，后面还剩两颗。所以，咱们只要看新的一组里，第二颗是什么颜色。",
-      "duration": 11.73,
-      "signature": "dc05aa7c42774417d5d8aa36584244ffa4023b55b51f4e0bc3de6624534862c3",
-      "sha256": "8b86a564329043ab3d1d0110e71741447a52a3202aaa87af7e4ce2dd3affce05",
-      "sampleRate": 24000
-    },
-    "cycle-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/cycle-4-5.963ed2520224.wav",
-      "text": "看，一组里的第二颗，是黄色。所以，第二十六颗也是黄色。还有个小提醒：如果正好分完，余数是零，就看每一组的最后一颗。去试试这个规律吧！",
-      "duration": 12.53,
-      "signature": "b4e87b864c016112f3bc717b938ffa472a1404b6e30ddf315b9f3c607ff49ab1",
-      "sha256": "963ed25202249e7bac84f8843a4b6d11e1f7a8723ececb28d1b65cdbcbb2b92a",
-      "sampleRate": 24000
-    },
-    "average-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-3-1.f860f277e942.wav",
+    "average-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/average-1-1.f860f277e942.wav",
       "text": "来看看这三盒积木，一盒四块，另外两盒都是七块。哪盒多，哪盒少呢？咱们想知道，如果让三盒一样多，平均每盒能有几块积木。",
       "duration": 11.73,
       "signature": "14e7b4cdb57f49967abd587e1046ac56b9ba189c864a74864cef3c1ab7e01e1c",
       "sha256": "f860f277e9429f6ebcc5217f7a59a0e48cb35f6cd91725487c4be8bcda02b482",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "average-3"
     },
-    "average-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-3-2.05a35d1369f5.wav",
+    "average-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/average-1-2.05a35d1369f5.wav",
       "text": "先把三盒的积木合起来。四加七加七，等于十八。把积木从一盒移到另一盒，总数并没有变。咱们一直分的，都是这十八块积木。",
       "duration": 13.57,
       "signature": "b1c449cb7a1fab2688689bcefd1d616ec994a72812de43b9954c58b1f1957721",
       "sha256": "05a35d1369f5c433669f8462bce3192cab94d8a28f5a856a097d4836b1106d14",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "average-3"
     },
-    "average-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-3-3.8bb65593c617.wav",
+    "average-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/average-1-3.8bb65593c617.wav",
       "text": "现在一共有十八块，要让三盒一样多。应该把十八除以三，还是乘三呢？想一想，平均分是在求每一份，选好以后再看动画。",
       "duration": 13.28,
       "signature": "d1dfc7462454528950fba3d8778d43b5fd2bbe683547c698b941b9efecd2a31e",
       "sha256": "8bb65593c6172dd6eaa64ef6d1eb6b60c087ca9f7f342130f4d415315f2c9762",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "average-3"
     },
-    "average-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-3-4.09902c87c96d.wav",
+    "average-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/average-1-4.09902c87c96d.wav",
       "text": "看，从两个七块的盒子，各拿一块给最少的那盒。四块添上两块，变成六块；七块各拿走一块，也都是六块。十八除以三，平均每盒六块。",
       "duration": 14.21,
       "signature": "4f6e4ce741f765238e6aa11f7778c4b7b3a0fa351cc46b236e94d90c0ce282eb",
       "sha256": "09902c87c96d641708e5669ee56f6095e0472f1413709161da46a64b395d6811",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "average-3"
     },
-    "average-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-3-5.d9ec6e1d726b.wav",
+    "average-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/average-1-5.d9ec6e1d726b.wav",
       "text": "现在三盒一样多，都是六块。六就是原来这组数量的平均数。原来没有哪一盒是六块，也没有关系。求平均数，先算总数，再除以份数。去试一试吧。",
       "duration": 13.57,
       "signature": "b78974a9e1e10c33da5146c10dd582b66925594c7bbdaae099aedc14dc07b975",
       "sha256": "d9ec6e1d726bb02b811c3d0d5fafb169380390896e13534574f49906b46069d8",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "average-3"
     },
-    "average-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-4-1.516dd17892a7.wav",
-      "text": "来看这四盒积木。平均每盒九块，前三盒分别有六块、八块、十块。最后一盒被遮住了。平均每盒九块，可不是说每盒原来都有九块哦。",
-      "duration": 16.29,
-      "signature": "1ec0d572cec7574ead43a383f10ff2f5d0e40ae530b8ecdee237f05aeb7a8be1",
-      "sha256": "516dd17892a74501064c6884ebd88cdd5f3bc998f5dec06bd1303c44bd850bda",
-      "sampleRate": 24000
-    },
-    "average-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-4-2.cb7da9995ea1.wav",
-      "text": "咱们先用平均数找总数。想象四盒都变成九块，总数就是四个九。九乘四，等于三十六。无论每盒原来怎样分，这四盒合起来一定是三十六块。",
-      "duration": 16.13,
-      "signature": "550306cbe9242a40ffdbda8ef8e4af4bdb7008d7350fef91a4613957ad6aa807",
-      "sha256": "cb7da9995ea17a2ae8ea2c5a2bdc0fe06b423490530b99018c6b1b4e90532f36",
-      "sampleRate": 24000
-    },
-    "average-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-4-3.14e4d3de239e.wav",
-      "text": "现在知道四盒一共三十六块。前三盒的数量也都知道。想一想，找到最后一盒，应该从总数里面减去什么呢？不着急，先选一选。",
-      "duration": 12.32,
-      "signature": "2a8ae798e6377a1a0ca694db453995b4e46264815826bf9dce56219a6c51280e",
-      "sha256": "14e4d3de239ea827da4abfbec38a1b1f69dcc68def34fa8aac7a307c8d2363fe",
-      "sampleRate": 24000
-    },
-    "average-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-4-4.6d3d0ee53636.wav",
-      "text": "把前三盒加起来，六加八加十，等于二十四。再从三十六里面减去二十四，得到十二。看，被遮住的最后一盒，原来有十二块积木。",
-      "duration": 12.21,
-      "signature": "67950383dbc7ba39188f0e1c4d012451764b5b3af366d5cf2d376257d333c0d7",
-      "sha256": "6d3d0ee5363633455f76300e4614c718457537e84edaea3f3b04b0392571cf1f",
-      "sampleRate": 24000
-    },
-    "average-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/average-4-5.10facf98a7bb.wav",
-      "text": "咱们检查一下，六、八、十、十二，加起来是三十六。三十六除以四，正好是九。记住，已知平均数和份数，先把总数找回来，再求缺少的那一份。",
-      "duration": 16.05,
-      "signature": "2b0fd4af9170347b9ab4e28e5d2a3f3527c8a8775f18502963717a42d0441f4a",
-      "sha256": "10facf98a7bbdb1b201dd8c948c75a646ae372d278d9d65666642d3270d2db2b",
-      "sampleRate": 24000
-    },
-    "ratio-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-3-1.879eb1ca88ec.wav",
+    "ratio-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/ratio-1-1.879eb1ca88ec.wav",
       "text": "姐姐的彩笔是弟弟的三倍。题目还告诉咱们，两人一共有三十二支。咱们要找姐姐有多少支。把弟弟看成一份，会更容易想。",
       "duration": 11.49,
       "signature": "b2f6b51ef289ea49c4a5e57a315ea61154cd9db71acc3300ca8ac3445159ab39",
       "sha256": "879eb1ca88ec5fc3656ab4d47268d138f3bac8889e38f3b83004fea35e852905",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "ratio-3"
     },
-    "ratio-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-3-2.8ffed99ebbee.wav",
+    "ratio-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/ratio-1-2.8ffed99ebbee.wav",
       "text": "看线段图，弟弟画一份，姐姐就画三个同样长的份。两个人合起来，是三加一，也就是四份。每一份都一样多哦。",
       "duration": 9.89,
       "signature": "1d8e642975365d911ff73711dda6523b985042e639d58237bcc8febf59b0e61f",
       "sha256": "8ffed99ebbee78c206e772f53c1be988b1990b6877069253e055281b3fe2e86f",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "ratio-3"
     },
-    "ratio-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-3-3.af85a23d8021.wav",
+    "ratio-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/ratio-1-3.af85a23d8021.wav",
       "text": "三十二支，表示的是两个人合起来的数量。请看图想一想，这个数对应几份呢？分清是和还是差，再选择答案。",
       "duration": 12.32,
       "signature": "d1c66036209c2c0aeedb21bb19bd7ced682af4b2798a55cac6b63790d861bb83",
       "sha256": "af85a23d80212f0711403e507ec20eedfb20b690e9dac5c70c7806a8ff0c16e2",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "ratio-3"
     },
-    "ratio-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-3-4.407b73f94ffd.wav",
+    "ratio-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/ratio-1-4.407b73f94ffd.wav",
       "text": "现在把份数和支数对上。四份一共三十二支，所以一份是三十二除以四，等于八支。弟弟就是这一份。别急，题目问的姐姐，还要再算一步。",
       "duration": 12.05,
       "signature": "1305ff4d73b57c09538e765422495d4b92e758ceb9ad9c0e8985d68a0e7b9927",
       "sha256": "407b73f94ffd2de4cc5a4b7751b23fefe79aa899b381b6e3053163e1a499c8eb",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "ratio-3"
     },
-    "ratio-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-3-5.ed287e44d007.wav",
+    "ratio-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/ratio-1-5.ed287e44d007.wav",
       "text": "姐姐有三份，用八乘三，得到二十四支。再检查，二十四加八，正好是三十二。她的数量也是弟弟的三倍，两个条件都对上啦。",
       "duration": 12.45,
       "signature": "d5604e6eebf01b91033b04cae9c9ad92fe446d28793e215a7cd5eb84394217e2",
       "sha256": "ed287e44d007a06f4aab0053b0cb22569e427d65fd2401d916dd95446f23cb7d",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "ratio-3"
     },
-    "ratio-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-4-1.925f91342fe3.wav",
-      "text": "姐姐的彩笔是弟弟的四倍。题目还告诉咱们，姐姐比弟弟多二十四支。咱们要找姐姐有多少支。把弟弟看成一份，会更容易想。",
-      "duration": 11.49,
-      "signature": "fa3bfa9f0a644ac7686f4664d9d19e747da50e13ac58038aad46217e6636b32a",
-      "sha256": "925f91342fe34e09a89b060c5f060a090caedcbdb2699e1573daa44965082e6d",
-      "sampleRate": 24000
-    },
-    "ratio-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-4-2.ce5bd48715d5.wav",
-      "text": "看线段图，弟弟画一份，姐姐就画四个同样长的份。把一样长的这一份对齐，姐姐多出的部分有四减一，也就是三份。每一份都一样多哦。",
-      "duration": 12.85,
-      "signature": "92cd62e6c491e79ac1ae578b17205bfb1a14a7ad58ff9b0a941f8549be698e75",
-      "sha256": "ce5bd48715d585feadb54ad75a1e340b5c0ecd4fc71f509dc5929b366600efae",
-      "sampleRate": 24000
-    },
-    "ratio-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-4-3.92fc2ec84b04.wav",
-      "text": "二十四支，表示的是姐姐比弟弟多出的数量。请看图想一想，这个数对应几份呢？分清是和还是差，再选择答案。",
-      "duration": 14.32,
-      "signature": "1cc18c2aa513cbeb38cddd80ce900484573cb54132e8cae292251cf51a19c356",
-      "sha256": "92fc2ec84b04ce42e1fa02daabfd1680333b0f5ca1279f52f781afa4be99ee63",
-      "sampleRate": 24000
-    },
-    "ratio-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-4-4.23bed007215e.wav",
-      "text": "现在把份数和支数对上。三份一共二十四支，所以一份是二十四除以三，等于八支。弟弟就是这一份。别急，题目问的姐姐，还要再算一步。",
-      "duration": 13.25,
-      "signature": "a986c6bd93c5c9db1836e07b97cd8e5c4baf21bd0d061d406137bac16490cd6e",
-      "sha256": "23bed007215e3b3f55f21f233f60c97bffa39685bc2f6663b4951fe507200780",
-      "sampleRate": 24000
-    },
-    "ratio-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/ratio-4-5.5c832d0e91bb.wav",
-      "text": "姐姐有四份，用八乘四，得到三十二支。再检查，三十二减八，正好是二十四。她的数量也是弟弟的四倍，两个条件都对上啦。",
-      "duration": 12.05,
-      "signature": "fbd5482164b07084346507fa348b98e1b5e48dd35a44dfcbc07a10ece1b68719",
-      "sha256": "5c832d0e91bbacdb6ffb69b7b11eced3fdd43034b11c379a4eae2930130d6187",
-      "sampleRate": 24000
-    },
-    "transfer-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-3-1.fd13491ed504.wav",
+    "transfer-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/transfer-1-1.fd13491ed504.wav",
       "text": "小米有十四颗弹珠，小禾只有六颗。小米想分一些给小禾，让两人一样多。先别猜要送几颗，咱们一起看看，移动会怎样改变两盘的数量。",
       "duration": 13.49,
       "signature": "1e3d7a85e20dbe1f557b97bb1f0d79c693fd870312c383f907522c86641734b5",
       "sha256": "fd13491ed504ef006d5d34cb8c8b54adb5966cda2d173aa61ef2d920e3f4cb26",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "transfer-3"
     },
-    "transfer-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-3-2.1afb82550d9d.wav",
+    "transfer-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/transfer-1-2.1afb82550d9d.wav",
       "text": "看，先移一颗。小米从十四变成十三，小禾从六变成七。小米少一颗，小禾多一颗，两边同时改变，所以数量差一下就缩小了两颗。",
       "duration": 16.21,
       "signature": "b88b2285e8d08b02543bf97f4552b3cf71d848ae09a9576fa30ca2e23b9fb578",
       "sha256": "1afb82550d9dca46b76f355f951f5d774680d2b566a82076bd74dd4accd88e0c",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "transfer-3"
     },
-    "transfer-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-3-3.c28b6e84429c.wav",
+    "transfer-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/transfer-1-3.c28b6e84429c.wav",
       "text": "原来十四比六多八颗。每移一颗，差就缩小两颗。要让差变成零，应该移多少颗呢？想一想，可不能把多出来的八颗全部送过去哦。",
       "duration": 12.16,
       "signature": "969ba250c3d539dd3dc8ce2823f15c57c8ad473dc4fad927e1b5720b7b407f1f",
       "sha256": "c28b6e84429c4ba25c280434d966056ae23039a7a2720b53fa7cba5a889f00fd",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "transfer-3"
     },
-    "transfer-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-3-4.44b1ebc54e40.wav",
+    "transfer-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/transfer-1-4.44b1ebc54e40.wav",
       "text": "看，把差八颗分成两半，八除以二，等于四。从小米这里移四颗给小禾。十四减四是十，六加四也是十，现在两盘一样多啦。",
       "duration": 18.29,
       "signature": "f43ccad92c47b56f2639d310cafabdf1c7d4c05a6734e94105812b459682af6d",
       "sha256": "44b1ebc54e40794dc74d16b208ac8048787285100679ee3b79a340863823731b",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "transfer-3"
     },
-    "transfer-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-3-5.b89efdb5015b.wav",
+    "transfer-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/transfer-1-5.b89efdb5015b.wav",
       "text": "为什么要除以二？因为每移一颗，给的一方少一，收的一方多一，差会缩小二。总数还是二十颗，平均每人十颗。记住，求移动多少，要用数量差的一半。",
       "duration": 14.13,
       "signature": "2d029e31dd8818c450bfa6eb954f00db5af7571148a82a1486369a3c854fdaaf",
       "sha256": "b89efdb5015b19940a215021b22aac6b1ac956acd37315342e003b1e32b0a8c7",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "transfer-3"
     },
-    "transfer-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-4-1.456cd0bbf535.wav",
-      "text": "小米给了小禾五颗弹珠以后，两人都是十八颗。咱们要找小米原来有多少颗。注意，十八颗是给过以后的数量，不是小米原来的数量哦。",
-      "duration": 12.45,
-      "signature": "53450e6b22fb62f9415eca5efa772efd097545c1d597b137a90bdf7814b3a792",
-      "sha256": "456cd0bbf535fc0d155e61eb10293e8ca5b49537f0c8189d46c7ef109e39720e",
-      "sampleRate": 24000
-    },
-    "transfer-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-4-2.b3eb75f220c9.wav",
-      "text": "看，画面先摆出移动后的结果，两盘都是十八颗。要回到原来，就把这五颗从小禾那边还给小米。像倒着放一段小动画，原来的数量就会出现。",
-      "duration": 14.29,
-      "signature": "194c2df402785ecf098217a400cfe5b089e8176b4e063700b37e6265812b49e5",
-      "sha256": "b3eb75f220c938a78f677b386874845bca3ff9fab5136049aa498ba197c6e922",
-      "sampleRate": 24000
-    },
-    "transfer-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-4-3.54bb40ae1f98.wav",
-      "text": "小米原来比小禾多。送出五颗时，小米少五颗，小禾多五颗。请想一想，这样一来，两人的数量差一共缩小了多少颗？选好再看还原动画。",
-      "duration": 15.12,
-      "signature": "db9568d324112e6e718e5f58b733e42640f358004b33f24a0a9549573d29cc0d",
-      "sha256": "54bb40ae1f981a612ece8bcad877344193613688efa7f53d5ab7dfa97dc75626",
-      "sampleRate": 24000
-    },
-    "transfer-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-4-4.36db8ce8181d.wav",
-      "text": "把五颗还给小米。小米是十八加五，原来二十三颗。小禾把刚才收到的五颗还出去，十八减五，原来十三颗。两人的总数，一直没有改变。",
-      "duration": 16.77,
-      "signature": "e9ef7bf05f0fd8fda0385fb2c136ccc0a0db2699d8d46c436501067711f8ab1a",
-      "sha256": "36db8ce8181da3c9323ff50d6f1cc8b0f4bf7d716db8c35150ab901cf6dd7f6e",
-      "sampleRate": 24000
-    },
-    "transfer-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/transfer-4-5.efbdc28cffa9.wav",
-      "text": "咱们再顺着题目检查。小米二十三颗，送出五颗，还剩十八颗；小禾十三颗，收到五颗，也变成十八颗。记住，倒着求原来，给出的要加回，收到的要减去。",
-      "duration": 15.09,
-      "signature": "81659c5df29a558ac86a2599ccf94488716fd9d0373ac2172d3701f5db783256",
-      "sha256": "efbdc28cffa9868ca3892332840ce4cc8fff95593afa390a466456e9c8a59272",
-      "sampleRate": 24000
-    },
-    "geometry-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-3-1.d16904219055.wav",
+    "geometry-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/geometry-1-1.d16904219055.wav",
       "text": "三个小正方形排成一行。题目问一共有几个长方形，特别说了，正方形也算。除了单独的小格子，两格、三格拼起来，也能组成新的长方形哦。",
       "duration": 13.57,
       "signature": "d9ace78b6f6ee81c79e4a5e4b72ff56959099027d808323b9def02b6b9e0f914",
       "sha256": "d169042190558889b8e76385aecc09818080c8ef7ef0b389c565ef289bd50e1d",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "geometry-3"
     },
-    "geometry-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-3-2.b816fa0d5e3c.wav",
+    "geometry-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/geometry-1-2.b816fa0d5e3c.wav",
       "text": "先数宽一格的。最左边一个，中间一个，最右边一个，一共有三个。咱们给它们按位置排好队，这样每个只数一次，就不会重复。",
       "duration": 15.49,
       "signature": "1bd0c2f32e810201341258c549f9989f5e36f37d9b83ecb93d15d2ab8419d78f",
       "sha256": "b816fa0d5e3cc9770f8c23e993a1733af9a8a2920ce4ab34ce543cb8993a054e",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "geometry-3"
     },
-    "geometry-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-3-3.7ab567823acf.wav",
+    "geometry-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/geometry-1-3.7ab567823acf.wav",
       "text": "现在把框变宽，盖住连续的两格。它可以盖住左边两格，还能盖住哪两格呢？请看清位置，宽两格的框并不是只有一个，选一选吧。",
       "duration": 12.48,
       "signature": "2075674e3f6c568a53ebfadf6e1cc714c7f8f35c276fa3824331bb91a36247d9",
       "sha256": "7ab567823acfa44328eeb59f42476ada5af8a7bf22ded8b79015cbeaff7b1457",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "geometry-3"
     },
-    "geometry-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-3-4.080dafd8db81.wav",
+    "geometry-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/geometry-1-4.080dafd8db81.wav",
       "text": "看框从左边两格，移动到右边两格。宽两格的，一共有两个。再把框放大到宽三格，只能盖住整排，一共一个。虽然框会重叠，它们的位置却不同。",
       "duration": 15.25,
       "signature": "f400860b8880c2d8797b7aba2b2aaaa4b8f8a72c16e591398a20a36be180d9ad",
       "sha256": "080dafd8db81ea9db8851efaa11f97e03a235eef4658a91d7a619f373302132c",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "geometry-3"
     },
-    "geometry-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-3-5.1ec9eb004ee1.wav",
+    "geometry-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/geometry-1-5.1ec9eb004ee1.wav",
       "text": "咱们把三类放在一起，宽一格三个，宽两格两个，宽三格一个。三加二加一，总共六个。数图形时，先分类，再按位置数，小图形和组合图形都要算。",
       "duration": 19.49,
       "signature": "720a9f48e1df9e9365d22394059d71124f1543487135efedb67f47258e5bcf99",
       "sha256": "1ec9eb004ee1eb6b3430832a2971d70e7f5f2bca6637a9b92fbcf1572e0c0910",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "geometry-3"
     },
-    "geometry-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-4-1.d8001e6dd094.wav",
-      "text": "看这个三行三列的方格图。题目要数的是正方形，而且每条边都要沿着格线。除了眼前的小格子，还有藏在里面的大正方形哦。咱们按边长分类找。",
-      "duration": 13.57,
-      "signature": "6599821fbdaf369aa4a936b85ea960eb3674a431b70278a912d45dd1737c295a",
-      "sha256": "d8001e6dd09482ea69bd57184f9e19c14ef20f81be6b49ad6d9ec372469e640b",
-      "sampleRate": 24000
-    },
-    "geometry-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-4-2.262a0eb23da5.wav",
-      "text": "先看边长一格的小正方形。一行有三个，一共有三行，所以是九个。看，高亮框按顺序一个一个走，咱们从左到右，再从上到下，就不容易漏掉。",
-      "duration": 12.93,
-      "signature": "38c256ab4033815287534853dc16b4669acf326aa8c671ad3515d1dacbe751a8",
-      "sha256": "262a0eb23da56b18afca5d8ca42fb017b8452220073e72757caf846f67b31854",
-      "sampleRate": 24000
-    },
-    "geometry-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-4-3.74b8dfed87d0.wav",
-      "text": "再想一想，边长两格的正方形有几个？试着让框从左上角开始，向右移，再向下移。它们可以重叠，但左上角的位置不同，就算不同的正方形。",
-      "duration": 14.96,
-      "signature": "c6c157c7b53afd4d391f5642595fd7f5b095b016534af66d68078bce3e73e211",
-      "sha256": "74b8dfed87d08a9e902a6b27690817cd8118555d5cdc4fc76b3887152b61876c",
-      "sampleRate": 24000
-    },
-    "geometry-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-4-4.49dd3d17b2b3.wav",
-      "text": "看边长两格的框，左上角能放在四个位置，所以有四个。再放大成边长三格，就只能盖住整个图，一共一个。大图形要单独数，不能只数小格子。",
-      "duration": 12.69,
-      "signature": "7352c46bbfd361dfc8c1e13767221eb19b3a54c26380a849472e0328cff6a1b1",
-      "sha256": "49dd3d17b2b321b7a8e78e67bfbeb82570f3db461dc66b697a966842acdd2256",
-      "sampleRate": 24000
-    },
-    "geometry-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/geometry-4-5.e3528b6b298a.wav",
-      "text": "现在把三类合起来。边长一格有九个，边长两格有四个，边长三格有一个。九加四加一，一共十四个。按大小分类，每类按位置数，最后再相加。",
-      "duration": 16.53,
-      "signature": "059b9c03631132221e5dc350f11664d426b7f458c07ea0b47b06621af15bf115",
-      "sha256": "e3528b6b298a67f5c77076d0c935c511698d2b5ebaec00cad8f436f22caa42b2",
-      "sampleRate": 24000
-    },
-    "age-3-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-3-1.043f63c20588.wav",
+    "age-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/age-1-1.043f63c20588.wav",
       "text": "爸爸今年三十二岁，小明今年八岁。题目问，几年后，爸爸的年龄会是小明的三倍。两个人的年龄都在变，咱们先找一个不变的关系。",
       "duration": 17.25,
       "signature": "a268acd23f30f815731d13ec7929e27cf914a1cd4e68cac8b32ccc825354443d",
       "sha256": "043f63c205882fe72cdbb40fd6388473bc45f1e75d550499c5e32649684ee38c",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "age-3"
     },
-    "age-3-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-3-2.497be2084964.wav",
+    "age-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/age-1-2.497be2084964.wav",
       "text": "过一年，两个人都增加一岁。爸爸和小明的年龄差，还是二十四岁。往前倒一年，两个人都减一岁，差也一样。看时间轴，两条线一起走，距离始终不变。",
       "duration": 14.45,
       "signature": "9974e3b3061ecc5c81599992c1737ea3c6afb574150ec3d5874a7f0a5dec0933",
       "sha256": "497be20849643272275739dc93636c5eb37d02235f4102c676a9dc1cb5322327",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "age-3"
     },
-    "age-3-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-3-3.071dff04c02f.wav",
+    "age-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/age-1-3.071dff04c02f.wav",
       "text": "到了三倍的那个时刻，把孩子的年龄看成一份，大人就是三份。请看线段想一想，年龄差对应的是三份，还是三减一得到的两份呢？选好再继续。",
       "duration": 15.68,
       "signature": "e9e735d7e63280d71ee48be68784470b8f6636bb0ec3632e0a26588cdbfa8e68",
       "sha256": "071dff04c02f0606a16ad8b8e4a9f44abf42c62b54d7c8edb39d80e48a0e23e1",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "age-3"
     },
-    "age-3-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-3-4.ee682a4f3fcd.wav",
+    "age-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/age-1-4.ee682a4f3fcd.wav",
       "text": "年龄差一直是二十四岁，对应两份。所以孩子那时是二十四除以二，等于十二岁。大人三份，就是三十六岁。先求那个时刻的年龄，还不是最后的年数哦。",
       "duration": 16.37,
       "signature": "84ce430d838e9b1f2630d76edd9eb2e1dd44323e3a8bc30969275084c084bb2f",
       "sha256": "ee682a4f3fcd5fef74f35c379d77c7583efabf92e958cd21234c0b551be0001f",
-      "sampleRate": 24000
+      "sampleRate": 24000,
+      "sourceLessonId": "age-3"
     },
-    "age-3-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-3-5.c87f69e23b47.wav",
+    "age-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/age-1-5.c87f69e23b47.wav",
       "text": "小明今年八岁，要长到十二岁，相差四年。所以是四年后。检查一下，那时大人三十六岁，孩子十二岁，正好是三倍。每个人都要一起加上这四岁。",
       "duration": 13.89,
       "signature": "b5d039c84542c5a4da3bfb02948466e8d37dfcf54f8c9d044fb5064b0fcbbec4",
       "sha256": "c87f69e23b477ba2ecb9fa4626f22d80e75b67d26e501ceaf599f255939b3e5e",
+      "sampleRate": 24000,
+      "sourceLessonId": "age-3"
+    },
+    "treesone-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treesone-1-1.1a85b6f5add2.wav",
+      "text": "和基础题比较，小路还是三十米，每隔五米种一棵。只有一个条件变了，终点不种树。先别照搬七棵的答案，看看少的是哪一棵。",
+      "duration": 11.89,
+      "signature": "eb9f16989fc1a02d3e6133717ea05def12bc5344e08dec65113fc6ac12fd6ae2",
+      "sha256": "1a85b6f5add275b3ec62c0e4f067fc49c6e904e6953c3cfa87c91d3ea1ae419e",
       "sampleRate": 24000
     },
-    "age-4-1": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-4-1.7c7c615139db.wav",
-      "text": "妈妈今年三十五岁，小禾今年十五岁。题目问，几年前，妈妈的年龄会是小禾的三倍。两个人的年龄都在变，咱们先找一个不变的关系。",
-      "duration": 15.57,
-      "signature": "da38df1fbac595bcd8ef081b0e8d16843bcd05c3d47a644c0162f9e2a4b1ad82",
-      "sha256": "7c7c615139db854f5d8161844b66d083ac9cc4e3bbae0cccb65e07716a27889e",
+    "treesone-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treesone-1-2.aa9011b7c804.wav",
+      "text": "咱们先数小段。三十除以五，还是六个间隔。终点种不种树，不会改变小路长度，也不会改变这六个间隔。",
+      "duration": 11.09,
+      "signature": "ced293baf82a0ce629edab82431e6988ccae31bd2cd3b1b8ad132c5bcf79481d",
+      "sha256": "aa9011b7c8043aa8c17e49a12a0acf3c7ce674184b38e3b955a05bfeef41ef62",
       "sampleRate": 24000
     },
-    "age-4-2": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-4-2.4fe7fe9c8bea.wav",
-      "text": "过一年，两个人都增加一岁。妈妈和小禾的年龄差，还是二十岁。往前倒一年，两个人都减一岁，差也一样。看时间轴，两条线一起走，距离始终不变。",
-      "duration": 16.85,
-      "signature": "eb1c67675757274eb3f8ba85cdb29011e9c5ec6e417b5a126aca2ce13eafd2f8",
-      "sha256": "4fe7fe9c8beac16ff1c7215339eeb43bc3ebc634b38d1239c203eb444b23d2fc",
+    "treesone-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treesone-1-3.d9cc6d73990a.wav",
+      "text": "如果把两端都种的图先画出来，应该有七棵。现在终点这一棵不要了。应该减去一棵，还是把两个端点都去掉呢？",
+      "duration": 12,
+      "signature": "fd755c97bccb926def6d071c37cc44c6a8df910dd727ae259e7e4a338efe062d",
+      "sha256": "d9cc6d73990ab42e51a983de8d63daca3c3350f06de618dccb1ea4868006e30d",
       "sampleRate": 24000
     },
-    "age-4-3": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-4-3.a79bf2336509.wav",
-      "text": "到了三倍的那个时刻，把孩子的年龄看成一份，大人就是三份。请看线段想一想，年龄差对应的是三份，还是三减一得到的两份呢？选好再继续。",
+    "treesone-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treesone-1-4.e0d560577ee9.wav",
+      "text": "看动画，先摆出七棵，再拿走终点的那棵。七减一等于六。起点的树还在，可不能把它也去掉。",
+      "duration": 9.17,
+      "signature": "8fc948dbb145bb69fb9a3e44f1445684bb1028f7768c5ad157350804c2a4d0e1",
+      "sha256": "e0d560577ee9f759c3bb82f030bdab4388614e63181ae3c5513c687afe213e0f",
+      "sampleRate": 24000
+    },
+    "treesone-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treesone-1-5.071057e75a31.wav",
+      "text": "把条件对照着记，两端都种，比间隔多一；只种一端，和间隔一样多。答案六棵。先求间隔，再看两端，方法就不会混。",
+      "duration": 12.61,
+      "signature": "dc84093e6a80c1fd33553f4b2765596a364f638fcb2d6bfc0205d30c61176fa7",
+      "sha256": "071057e75a31209558746387489e96acb63ab9d6639597fed8fccf64b63a09a8",
+      "sampleRate": 24000
+    },
+    "treesnone-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treesnone-1-1.17bbdec5e386.wav",
+      "text": "这次把树换成花，方法一样。走廊二十四米，每隔四米放一盆，两端都不放。请先把两个端点圈出来，免得漏看其中一个。",
+      "duration": 12.61,
+      "signature": "2dd76b23bb6b548cdbf42b41aee0fb920173929e20b4b5c5e682d19481f2f4d0",
+      "sha256": "17bbdec5e3869ade0e006d2a233d4b4ee53429d301c7694f7f900441cb031908",
+      "sampleRate": 24000
+    },
+    "treesnone-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treesnone-1-2.deffcd48220d.wav",
+      "text": "不管两端放不放，走廊都能分成六个四米长的小段。咱们先找到六个间隔，再处理端点，先后顺序不要反。",
+      "duration": 10.37,
+      "signature": "855ed061f28b9f306f4a90ac986dbc2e24eef388de80198aae80427ad3ebcbc4",
+      "sha256": "deffcd48220d3f512540e82b56277feb6b606d0e4e15ba0bbd3e79f52b45e774",
+      "sampleRate": 24000
+    },
+    "treesnone-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treesnone-1-3.b7586a73580b.wav",
+      "text": "如果两端都放，六个间隔要七盆。现在两个端点都不放，要从七盆里面去掉几盆呢？请看清楚，起点和终点都要去掉。",
+      "duration": 12.16,
+      "signature": "88042dfd23afc1995a32dafbd6e4f38fdd5e86a72eda5e589aa00ed2a737f723",
+      "sha256": "b7586a73580bb071582e01acedb1fa22d1ab44e1daf66664d06a9615a446fd39",
+      "sampleRate": 24000
+    },
+    "treesnone-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treesnone-1-4.7950ce928d1e.wav",
+      "text": "看，先拿走起点的一盆，再拿走终点的一盆。七减二，还剩五盆。也就是间隔数六，再减一。",
+      "duration": 9.65,
+      "signature": "22f05ab33a8f4b11b6938d1ee4c1356acee582b341d5ac1bf3afa5e248e82b11",
+      "sha256": "7950ce928d1e12657839e31df93f96f23b9d04550cd8338ad1c0add24e650f45",
+      "sampleRate": 24000
+    },
+    "treesnone-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treesnone-1-5.0d51ca19c3f2.wav",
+      "text": "把三种条件排在一起。间隔数都先算出来，两端都放加一，只放一端不加减，两端都不放减一。这里答案是五盆。",
+      "duration": 11.49,
+      "signature": "5631740ded53715d9e3a4edb784e3d58bec2bc1b7a24d7339a1d11d7f926aba5",
+      "sha256": "0d51ca19c3f2b8ca62ec096666ca2500279c861f0b53df68a2f0c1d10d7a5f35",
+      "sampleRate": 24000
+    },
+    "treesperiod-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treesperiod-1-1.190fb2905fa8.wav",
+      "text": "请对照原题的图片，杨树后面到椰树一米，再到松树两米，再到下一棵杨树三米。树种会重复，间隔的长度也会重复。我们要找整条路多长。",
+      "duration": 13.65,
+      "signature": "eb16d3bddd110fe325cdb5e755dfabe3b3cf61cddf301e900e472c0864f2acb6",
+      "sha256": "190fb2905fa8a835c06ddeb1de1648547be6ff3ab661e1916b45d092e0736088",
+      "sampleRate": 24000
+    },
+    "treesperiod-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treesperiod-1-2.4712ebcd8a4d.wav",
+      "text": "从第一棵走到第二十棵，一共只走过十九个间隔。不要把二十棵当成二十段路。先把棵数减一，再处理一米、两米、三米的重复。",
+      "duration": 11.01,
+      "signature": "e9ff389f7c3e572531bbf2fc81ffac9023cbd05880298ec812c6c02b062e64fc",
+      "sha256": "4712ebcd8a4de0411df49631d9c0c7fdeb149aaefbf4dc38fe3181118500ab90",
+      "sampleRate": 24000
+    },
+    "treesperiod-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treesperiod-1-3.a46cbcfbf94e.wav",
+      "text": "一米、两米、三米，三个间隔正好一组。每一组的长度是多少呢？先加一加，再用十九个间隔分组，想好了选答案。",
+      "duration": 13.84,
+      "signature": "321a23d01c14ca631063d55066f97d5aa02bbb1b3a6883eb8ee1de1224cc555c",
+      "sha256": "a46cbcfbf94e35a8af4ab3914b23a4ba393ed36fc16880c6146b4008b80fa933",
+      "sampleRate": 24000
+    },
+    "treesperiod-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treesperiod-1-4.d51fe39e0988.wav",
+      "text": "十九除以三，有六个完整组，还剩一个间隔。每个完整组长六米。剩下的是新一组的第一个间隔，所以要再加一米，可不是再加三米。",
+      "duration": 13.25,
+      "signature": "51b48a0f727ea357cfb27cc26d9b05956eca43320d51da2a582352b1d9c105f4",
+      "sha256": "d51fe39e0988da42f79d53daa1e861e40db1730e32459fbc3e7dedda7b0f1102",
+      "sampleRate": 24000
+    },
+    "treesperiod-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treesperiod-1-5.0b93c1b352e2.wav",
+      "text": "六组，每组六米，一共三十六米。再加剩下的一米，整条路长三十七米。记住，先求间隔的个数，再把变化的长度按周期相加。",
+      "duration": 14.05,
+      "signature": "47206dd9c8c48565344db072990c2bc870a3d6372f73e40d3861ec97ec2af873",
+      "sha256": "0b93c1b352e2c3408b0943e5f5a5f0d4416ce2b10e93900906a358f9e1bc32fe",
+      "sampleRate": 24000
+    },
+    "treesobjects-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treesobjects-1-1.04a8f495f2ef.wav",
+      "text": "这道题比种树多了一个条件，垃圾桶、长椅、花坛都有宽度。它们的宽度按一、二、三米重复，空隙按四、五、六、七米重复。两种长度要分开算。",
+      "duration": 16.13,
+      "signature": "d011ed17222a9d3507b72ed03802de4453c23c05cf61e8aab4cbfc9d4cee36e9",
+      "sha256": "04a8f495f2ef2f0997a9d7550c7a448b35abe67ec302d1151a6ce79f60068c93",
+      "sampleRate": 24000
+    },
+    "treesobjects-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treesobjects-1-2.7f6271bc96e1.wav",
+      "text": "先只看二十个物品。每三个一组，宽度是一加二加三，合起来六米。二十个有六组，还剩垃圾桶和长椅，所以宽度是三十六加三，等于三十九米。",
+      "duration": 15.65,
+      "signature": "9c8e78389e4456740f2f273741efb179dff1b050aedd2202891094956392a153",
+      "sha256": "7f6271bc96e14d3b40e0676da031d6032656f49e51409c44aa0038c487e99720",
+      "sampleRate": 24000
+    },
+    "treesobjects-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treesobjects-1-3.927732bf5070.wav",
+      "text": "接下来算空隙。虽然有二十个物品，但从第一个物品到第二十个物品，中间的空隙有几个呢？先想清楚数量，再看空隙的长度周期。",
+      "duration": 12.48,
+      "signature": "b57694afedcbd93b161250489fa4697b049a73a0327794ad377244f3aad113d2",
+      "sha256": "927732bf5070442f91bbde8725a0f618441d66cf1d4295b253cccb44b34f110b",
+      "sampleRate": 24000
+    },
+    "treesobjects-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treesobjects-1-4.cd10187565d1.wav",
+      "text": "十九个空隙，每四个一组，一组是四加五加六加七，等于二十二米。四组八十八米，再加四、五、六这三个空隙，一共一百零三米。",
+      "duration": 15.25,
+      "signature": "f34553cab7655c46fe3cf2166dc68be861b21a9b81dfa83ad5a66641289506e2",
+      "sha256": "cd10187565d1224b6877efbcf097eef827e5f10477fbfef3ee63efa33fa76883",
+      "sampleRate": 24000
+    },
+    "treesobjects-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treesobjects-1-5.a26baaebf520.wav",
+      "text": "最后把物品本身的三十九米，与空隙的一百零三米合起来，得到一百四十二米。两个周期长度不同，要分别分组。物品有二十个，空隙只有十九个。",
+      "duration": 14.21,
+      "signature": "0b7c4a5b149dbe5aa95990c754e8580519cfd2b3eecf2dac3a7410bf2048e2a2",
+      "sha256": "a26baaebf5205cd6d285d6f666f975b35929c66fe62ec9ab0ca57a0d9843550e",
+      "sampleRate": 24000
+    },
+    "unitinverse-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitinverse-1-1.11d370227524.wav",
+      "text": "基础题最后问要花多少钱，这次反过来，告诉咱们有十二元，问可以买几本。虽然问法变了，第一步仍然先找一本的价钱。",
+      "duration": 10.77,
+      "signature": "8081e66366ad5310a5e23c29e3a48662dc22fcfe760c748573f2594f18458f48",
+      "sha256": "11d370227524ab45e9b7b42ea130a61fad16162f50a55f945fc5600d0ee67b22",
+      "sampleRate": 24000
+    },
+    "unitinverse-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitinverse-1-2.f5cf6a35472a.wav",
+      "text": "五本总共二十元，每本价格相同。二十平均分成五份，每份四元。所以一本本子是四元，先把这一个数量稳稳地找出来。",
+      "duration": 11.73,
+      "signature": "351bf17d12532472d7325642af6343aec62beac6874ee461e0feb82e77c4349f",
+      "sha256": "f5cf6a35472ae862086885914b0fd438fa0ad611835151979ddeb4c05612b942",
+      "sampleRate": 24000
+    },
+    "unitinverse-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitinverse-1-3.30766cda01f8.wav",
+      "text": "现在每本四元，手里十二元。是用十二乘四，还是看十二里面有几个四呢？把钱分成四元一组，再选择合适的算式。",
+      "duration": 13.76,
+      "signature": "85c347d740f739cca82fa17f983de0e76214dfef8f67f2e1cef3ab883bf7f7d6",
+      "sha256": "30766cda01f88a53fc9dc60aa20a0b575fb4547f745f653b9fa0db0755d1e075",
+      "sampleRate": 24000
+    },
+    "unitinverse-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitinverse-1-4.28abef206711.wav",
+      "text": "看，把十二元分成每组四元，正好三组。每组钱买一本，所以可以买三本。问几份的时候，要用新总量除以每份的量。",
+      "duration": 11.01,
+      "signature": "785da5f9cb6e2a4d239bc4981700c9d58759959df9cbe3fdf06454d218ffd448",
+      "sha256": "28abef2067110721e6710f26b1606de25a1eb21b3e97f1ca69212689107675e5",
+      "sampleRate": 24000
+    },
+    "unitinverse-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitinverse-1-5.0af00f97148d.wav",
+      "text": "先求一份这个办法没变，变的是最后问什么。已知本数求钱数，用乘法；已知钱数求本数，用除法。三本，每本四元，正好十二元。",
+      "duration": 13.17,
+      "signature": "fcd56e918b5537afb7c8b96195aff3c052b3e37cc82d3197d02444eb090b8d21",
+      "sha256": "0af00f97148dd74fc361b4b50bf6937f8745802a92c21af3d2ad0021e25b83fc",
+      "sampleRate": 24000
+    },
+    "unitdelay-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitdelay-1-1.43e14940c254.wav",
+      "text": "先看时间条件，大刘原来打算二十分钟到达，可是出发前修车耽误五分钟。按原时间到达，不能再骑满二十分钟。咱们先算还能骑多久。",
+      "duration": 12.85,
+      "signature": "56833ade7f2904ca0dc69856891ab2124c207a1709d156fb2aa97443170f3da9",
+      "sha256": "43e14940c254e2dc7766ee35df7e87ae9cab4457c5887bd6446f0a54d37ac167",
+      "sampleRate": 24000
+    },
+    "unitdelay-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitdelay-1-2.8b34b4c4cabc.wav",
+      "text": "看时间条，前面的五分钟已经用掉，剩下十五分钟可以骑车。路还没有开始走，三千米一点没少。剩余时间变少了，需要的速度就得变快。",
+      "duration": 12.37,
+      "signature": "0f38f71902f87155979e235799de570000b00fa59d6439e777ccc0c4358c866f",
+      "sha256": "8b34b4c4cabc0f6ded6b814d11f897e216214ff8b450df4cb1877308e5d39641",
+      "sampleRate": 24000
+    },
+    "unitdelay-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitdelay-1-3.59eeaa975fe0.wav",
+      "text": "求每分钟骑多少米，要把三千米平均分到实际骑车的分钟数里。是除以二十，还是除以十五呢？先把修车与骑车的时间分开。",
+      "duration": 14.56,
+      "signature": "74c78325c20f2e3a94ead83c7a5828a6d790306c5175d5bfdfeaaf306d48a510",
+      "sha256": "59eeaa975fe00f88832b3a8f78c8e2b22e973ec34c231d92d10b331ec26f5076",
+      "sampleRate": 24000
+    },
+    "unitdelay-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitdelay-1-4.5a65b2469438.wav",
+      "text": "把三千米平均分成十五份，每份两百米。这说明每分钟要骑两百米，十五分钟才能走完三千米。题目问的是修车后需要的速度。",
+      "duration": 11.33,
+      "signature": "01cd65634ea56f0b9c43d376a2e538b1dc6f18e4bdda85fa26242293c2934c2d",
+      "sha256": "5a65b246943809759de86a36969ef094f19460d76c2f5a27f8f67898069e125d",
+      "sampleRate": 24000
+    },
+    "unitdelay-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitdelay-1-5.88cd735f45c3.wav",
+      "text": "咱们检查，两百乘十五等于三千米。骑车十五分钟，加上修车五分钟，正好二十分钟。先处理时间变化，再做归一计算，答案才会符合全部条件。",
+      "duration": 13.49,
+      "signature": "c341f582292b8e54a8b5bb58df9fa9f44884e8717cea313189f6fe21ff3a663c",
+      "sha256": "88cd735f45c3e1c4fb1667aee7069545cff19abfb1f2f31e980a834e5e175c0b",
+      "sampleRate": 24000
+    },
+    "unitremaining-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitremaining-1-1.a7299a1fb1c4.wav",
+      "text": "请把已经走的与还没走的分开。小灵全程要走两百千米，前一百二十千米用了十五小时。接下来保持相同速度，问题问还需要多少小时。",
+      "duration": 13.81,
+      "signature": "3c332ffc411dc0f80d2380734bc6feccd358a5f0a90d8127658c0c3890178b4b",
+      "sha256": "a7299a1fb1c446e204e89cb897bb88e86f9e6cc88743d409ef59c1c9ff2e0862",
+      "sampleRate": 24000
+    },
+    "unitremaining-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitremaining-1-2.cd22d20c4e0b.wav",
+      "text": "前一百二十千米，用了十五小时。平均每小时走八千米。这就是后面继续使用的一份，速度相同，所以每小时的路程不变。",
+      "duration": 11.01,
+      "signature": "6bf1f68a414f7d1005a076375aec1c6edb9e5f6de6f8e999a339c9615864d5f4",
+      "sha256": "cd22d20c4e0b4c389dd819445f02e78d95278f79cfe79f51b6360c4b2fe9581b",
+      "sampleRate": 24000
+    },
+    "unitremaining-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitremaining-1-3.e98c7033838a.wav",
+      "text": "求还需要多少时间，只能计算没有走完的路。两百千米里已经走了一百二十千米，还剩多少呢？别把整条路重新计算一遍。",
+      "duration": 11.2,
+      "signature": "89a7901e53030aeb65378635e6f4735999054f742cdff2c7282bd1d7c7647666",
+      "sha256": "e98c7033838a0aec09ef14ac88304732ed070668c7f82b008ca3da74e2dc4d59",
+      "sampleRate": 24000
+    },
+    "unitremaining-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitremaining-1-4.5d8b064a7dcf.wav",
+      "text": "两百减一百二十，剩八十千米。八十里面有十个八，所以再走十小时。单位也要对上，用千米除以每小时的千米数，就得到小时。",
+      "duration": 12.29,
+      "signature": "4624f5919200865082448e4abb28dd6dd1bd303ae6bbd8802f18b484dc6a006f",
+      "sha256": "5d8b064a7dcf000aea84c9c7d78f386ce37fe4f1d5445abe687a01e733e625e0",
+      "sampleRate": 24000
+    },
+    "unitremaining-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitremaining-1-5.4f16b533edcd.wav",
+      "text": "检查一下，八乘十等于八十千米。前面的一百二十，加后面的八十，正好两百。题目没有给休息时长，所以这里只求继续走路的十小时。",
+      "duration": 11.97,
+      "signature": "ab0a684a0c980347d1f820f6432689c9f3b69b177606a7bf29cdf1e38b054bb5",
+      "sha256": "4f16b533edcd8121e08d41ba9b7d9753c7b290d5e93f4812efb7505b4fca557c",
+      "sampleRate": 24000
+    },
+    "sumsmall-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/sumsmall-1-1.c8e7aaf6f1db.wav",
+      "text": "前面的基础题问小米有多少颗，这次改问小禾。两人共二十八颗，相差四颗。咱们还是用线段图，但最后不用再把差加回去。",
+      "duration": 13.09,
+      "signature": "67255f590d8ec30601f13daf8f4ea2ba962c0a6a5893d4b674a9364b01f8c88f",
+      "sha256": "c8e7aaf6f1db2136503bbbeeb7fd48ca30c24dea4457322ff6a6475ceff4e115",
+      "sampleRate": 24000
+    },
+    "sumsmall-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/sumsmall-1-2.5dca440b98f1.wav",
+      "text": "先暂时拿走小米多出来的四颗。总数二十八减四，还剩二十四颗。现在两条线一样长，里面都有一份小禾的数量。",
+      "duration": 11.41,
+      "signature": "a24d1dd4da6a171547378aee511e9382f5428f508151c662f8f0e117502bb0c0",
+      "sha256": "5dca440b98f19b173e41f25bd2a812fde214b8912664fa94f3a9f71c636cc26c",
+      "sampleRate": 24000
+    },
+    "sumsmall-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/sumsmall-1-3.d32123f55356.wav",
+      "text": "拿走差以后，剩下的是两个一样多的人合起来的数量。请想一想，这二十四颗是一份小禾，还是两份小禾？不要忘记平均分。",
+      "duration": 13.36,
+      "signature": "ec8c99316bda420c06e7cf68a73a4c6cbeb5f9851ef902e9e294f5db9c9b8fda",
+      "sha256": "d32123f55356d5875cd57cbf7202825a9102b2ff753c9444264787c7828d3f0e",
+      "sampleRate": 24000
+    },
+    "sumsmall-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/sumsmall-1-4.f799754be763.wav",
+      "text": "二十四除以二，每份十二颗。这就是小禾的数量。题目问较少的小禾，所以做到这里，就已经回答了问题，不需要再加四。",
+      "duration": 10.69,
+      "signature": "c8d3eeacfd146ca4cec48bba742fda7412c4a7452b0a14f8cef26cb29c45a91d",
+      "sha256": "f799754be76360fdb85841980d07ab51558501e70d3129b6a023a46345296b97",
+      "sampleRate": 24000
+    },
+    "sumsmall-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/sumsmall-1-5.ec633165d816.wav",
+      "text": "用小禾十二颗，加四颗，得到小米十六颗。两人合起来二十八颗，相差四颗。最后一定要再看一眼，题目问的是小禾，答案十二颗。",
+      "duration": 11.33,
+      "signature": "f7b29c9739f153b48fd4e37cc0d4214d7e44012cafd95979746fa1061b61e680",
+      "sha256": "ec633165d816bda7905a32ce00c77297d3ed943e4e1765522ef0587b6a2f8038",
+      "sampleRate": 24000
+    },
+    "sumchange-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/sumchange-1-1.e3031b8e7ad3.wav",
+      "text": "两盒一共三十块，只是从左盒搬到右盒，总数不会改变。现在知道移动三块后一样多，要求的是左盒原来的数量。咱们先找原来的差。",
+      "duration": 11.57,
+      "signature": "c7dc87d30a6b66323f4521f8c884e342bb14e277dee155f5d15804fdfccd9df2",
+      "sha256": "e3031b8e7ad3fe0153b18be2f3bb3e8653832eaebff98995c4aa0b241b06aa20",
+      "sampleRate": 24000
+    },
+    "sumchange-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/sumchange-1-2.a131df09e19b.wav",
+      "text": "左盒送出三块，自己少三块，右盒同时多三块。所以数量差减少六块。移动后差变成零，说明原来左盒比右盒多六块。",
+      "duration": 16.93,
+      "signature": "3eb37a7218a038b4b6950575bfd62f908794e19eb0ac0fc62d60411c49c60151",
+      "sha256": "a131df09e19bfc35b2fedd55550e88d0a5adf9c3c885e591cef72c1c91d96244",
+      "sampleRate": 24000
+    },
+    "sumchange-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/sumchange-1-3.738551db1e1e.wav",
+      "text": "这一步最容易看漏另一边。送出三块，是只让左盒变少，还是右盒也同时变多呢？看两条线一起变化，再选原来的数量差。",
+      "duration": 11.36,
+      "signature": "ab5951f404b04a6998f049798f7df74c8045d7156cfdb63bab9627905b60466a",
+      "sha256": "738551db1e1eb9d07e080f39b8639f4e010ef8f98a0a9b7a6163924069351bfc",
+      "sampleRate": 24000
+    },
+    "sumchange-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/sumchange-1-4.d0993a83b452.wav",
+      "text": "原来合计三十块，左盒比右盒多六块。先求右盒，三十减六再除以二，得到十二块；左盒再加六，就是十八块。",
+      "duration": 10.77,
+      "signature": "09475f067f4c3a1d798b646a21fbfaf366bedde59219f4435a3b4b2a2461e24b",
+      "sha256": "d0993a83b452ae0e6b0d59d417b1069795b6efa672d3a827f02da594f01a816b",
+      "sampleRate": 24000
+    },
+    "sumchange-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/sumchange-1-5.3c4b8323aa67.wav",
+      "text": "检查，左盒十八块送走三块，还剩十五。右盒十二块收到三块，也是十五。移完一样多，合计仍然三十块。移动问题和和差问题，原来可以连起来想。",
+      "duration": 14.21,
+      "signature": "e326b6ccecf4de13976ab5cfe9f18c8fee2531811cbabb9378d55b5319b7d9d5",
+      "sha256": "3c4b8323aa67abb92fa0ae801de4b4409280d72e73c6d3cda1be02c984ac7382",
+      "sampleRate": 24000
+    },
+    "cycleweek-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/cycleweek-1-1.ba46a7591dad.wav",
+      "text": "颜色会按一组重复，星期也一样。从星期一到星期日，七天以后又回到同一天。今天星期三，再过十天，咱们先看看有几个完整星期。",
+      "duration": 13.09,
+      "signature": "6af4da299648e0f16a93466dbd2bdba53fe7f219e916c13bc34e06f28679c389",
+      "sha256": "ba46a7591dad6273836beafb1669cd01112502001779503cf47a11ab7f9da85e",
+      "sampleRate": 24000
+    },
+    "cycleweek-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/cycleweek-1-2.8bcca171ca2b.wav",
+      "text": "十天可以拆成七天和三天。先过一个完整星期，还是星期三。七天这个完整周期，不会改变星期几，接下来只需要移动三天。",
+      "duration": 13.01,
+      "signature": "ec3555518f3e5389dba21f787e0381f061d8e34fc9d83a56aea8214407f84bab",
+      "sha256": "8bcca171ca2bd51dbe39be8c835f4c9aa6fc0d7f31adfbb5009c83beee2a57ca",
+      "sampleRate": 24000
+    },
+    "cycleweek-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/cycleweek-1-3.6f54777276ee.wav",
+      "text": "从星期三出发，再过一天才是星期四。要走三步，不要把今天也数成第一步。十天除以七的余数是多少呢？",
+      "duration": 10.88,
+      "signature": "85c2f5ff52839c9482f8b93c8d4a4ab4b7d54a83719499581d5116620c6b2f7b",
+      "sha256": "6f54777276ee363698d4cc5b95415798e79deb5ca2f08602b0cb0a9d46483b17",
+      "sampleRate": 24000
+    },
+    "cycleweek-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/cycleweek-1-4.08996d1286fb.wav",
+      "text": "看高亮从星期三开始，走一步到星期四，两步到星期五，三步到星期六。所以，再过十天是星期六，完整的一周已经先去掉了。",
+      "duration": 15.41,
+      "signature": "d74ac235ec37bdb9f493b0b9a39b6c75a48feb56767c8041cb61ddc400dbb3de",
+      "sha256": "08996d1286fbff80313531fda603fd46610280e0455e610a510616e03f78e823",
+      "sampleRate": 24000
+    },
+    "cycleweek-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/cycleweek-1-5.d6ae446098a9.wav",
+      "text": "咱们把方法带走，问过多少天后的星期，先除以七，把完整星期跳过去，只走余数那么多步。往后走，与把今天当第一天，是两种不同问法。",
+      "duration": 13.73,
+      "signature": "6fb1ec631a74d7c2344ef1af9c9d60c3543d56375af27a1a665af724d754b85c",
+      "sha256": "d6ae446098a96cfe26638bdb18ea0475a12484126aa456edcd6a7eb108d9863c",
+      "sampleRate": 24000
+    },
+    "cyclecentury-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclecentury-1-1.7acb2ad903e2.wav",
+      "text": "这道题的两天都是八月一日，相差一百年。已知后面那天是星期日，要找前面那天。咱们先把年份换成天数，再用七天一个星期来倒推。",
+      "duration": 12.69,
+      "signature": "931afab263125633cab61aa2e1273e2c7a033e86e8a03164ca658b7b8dd8a0ec",
+      "sha256": "7acb2ad903e2f3dbeb8c0e2171e8817a6222d72494fc046ec341d90c1a9c9bb0",
+      "sampleRate": 24000
+    },
+    "cyclecentury-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclecentury-1-2.1bb8470da1b1.wav",
+      "text": "普通年三百六十五天，闰年会多一天。从一九二八年到二零二四年，每四年一个闰年，这段里面共有二十五次二月二十九日，二零零零年也是闰年。合起来三万六千五百二十五天。",
+      "duration": 19.65,
+      "signature": "dece2af2197b35961e5ff6389ea2d9fd8f83480ab98e00b8fe53c1ca177467b3",
+      "sha256": "1bb8470da1b1c97d564ebd1bee50039b6953ec4fa8adf6be558515c13339f9df",
+      "sampleRate": 24000
+    },
+    "cyclecentury-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclecentury-1-3.52d35a8fe947.wav",
+      "text": "总天数除以七，只需要看余数。现在知道的是后面二零二七年的星期，要找过去的星期。应该向后加余数，还是向前减余数？先把方向分清楚。",
       "duration": 16.32,
-      "signature": "4eb435d33c055ca7c561944f10eb1123641858dbd1773a3fb3290d183a585ea5",
-      "sha256": "a79bf23365091bae1242cc432c70d76e3d943817c209350dd1f34bd18fcee4c6",
+      "signature": "e9ebc004703bd8503f4563cd80236acaf0587907a5c2692a245f33892d1e40e4",
+      "sha256": "52d35a8fe947a58eda27d008567d5ae9cf90a9af21dc779136719677a409d52c",
       "sampleRate": 24000
     },
-    "age-4-4": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-4-4.5d5a75e38b68.wav",
-      "text": "年龄差一直是二十岁，对应两份。所以孩子那时是二十除以二，等于十岁。大人三份，就是三十岁。先求那个时刻的年龄，还不是最后的年数哦。",
-      "duration": 13.97,
-      "signature": "9d25ae143f2d8e4d4b61e901d31267854eb542c5d3e1a0186e72e27989a07c55",
-      "sha256": "5d5a75e38b68815fec39f27d25592e9935b8a475696772b207e32a638d3485a3",
+    "cyclecentury-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclecentury-1-4.4cae821e6c6f.wav",
+      "text": "三万六千五百二十五除以七，余数六。也就是说，后面那天比前面那天，在星期循环里向后走了六步。星期日倒回六步，就到了星期一。",
+      "duration": 16.77,
+      "signature": "b1e553f19c5cac0d9d67208e906ea94920b8f280456c1243c4f3b1539afd012e",
+      "sha256": "4cae821e6c6f710bbb04db12956fe8b2e2879efd81551e52548e2a3b0c4cf893",
       "sampleRate": 24000
     },
-    "age-4-5": {
-      "src": "/audio/qwen3/4d43ab7a32c7/age-4-5.dc7d444dd206.wav",
-      "text": "小禾今年十五岁，要倒回十岁，相差五年。所以是五年前。检查一下，那时大人三十岁，孩子十岁，正好是三倍。每个人都要一起减去这五岁。",
+    "cyclecentury-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclecentury-1-5.71c9ee35bb97.wav",
+      "text": "咱们顺着检查，星期一向后走六天，正好到星期日。所以，一九二七年八月一日是星期一。跨年份的题，要先核对闰日，再用周期，不能只把每年都当三百六十五天。",
+      "duration": 13.81,
+      "signature": "703fabc1f4f8261a0c8245da5d75f8a9fc140e8705c5c4adee6ab3dcdefe7224",
+      "sha256": "71c9ee35bb9785860693e975f20f3853988ac39cd45a692f84e34c72485b5037",
+      "sampleRate": 24000
+    },
+    "cyclemonth-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemonth-1-1.fbad4fa73b8f.wav",
+      "text": "先别猜二十号是星期几。三十一天可以拆成四个完整星期，再多三天。四个星期里，每种星期都出现四次，多出来的三天，才会让某些星期出现第五次。",
+      "duration": 17.57,
+      "signature": "7ddf79fd7944fac4f1f03c83dc85b21e93703be178f481b4624115d46fdfec63",
+      "sha256": "fbad4fa73b8fe07119cdc306da67ae2044bbe4da354f82e3cac0c840da68e5ed",
+      "sampleRate": 24000
+    },
+    "cyclemonth-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemonth-1-2.5c3bd64840b0.wav",
+      "text": "多出的三天，从这个月一号的星期开始，必须是连续三种星期。题目说星期二只有四次，星期五也只有四次，说明这三天里面，不能有星期二，也不能有星期五。",
+      "duration": 18.45,
+      "signature": "0a3cedea84dd30facabbd44a0d3520508f7f2eabe27732a98a2620853185f316",
+      "sha256": "5c3bd64840b039dd5914957562b782d8a6e0408411745ed3722932202d949ded",
+      "sampleRate": 24000
+    },
+    "cyclemonth-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemonth-1-3.95640c8db1a8.wav",
+      "text": "咱们试着把三天一起挪动。如果包含星期二或星期五，就不符合条件。哪组三天既连续，又能同时避开它们呢？看选项，慢慢排除。",
+      "duration": 11.36,
+      "signature": "c53299fa796f70f1c6efc7645a8b10397bab2701733dd9740b198862a4271e94",
+      "sha256": "95640c8db1a8a7fc6e5ce33c6dbb928d2ee3ffbc39e0a55dfbe261f66fb55e15",
+      "sampleRate": 24000
+    },
+    "cyclemonth-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemonth-1-4.9dd7a9323fc2.wav",
+      "text": "唯一符合的是星期六、星期日、星期一。因此一号是星期六。从一号到二十号，相隔十九天。十九除以七余五，星期六向后五天，到了星期四。",
+      "duration": 12.85,
+      "signature": "2b440eb720528e046d9b101a34d421a919b145882b1c7f04cc56982c1920b8f6",
+      "sha256": "9dd7a9323fc25a82ae2f1430ffb2c31d886d18a4a2074ff63bdc76cfd269cfa8",
+      "sampleRate": 24000
+    },
+    "cyclemonth-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemonth-1-5.b7308ac23fe6.wav",
+      "text": "请看月历，星期二、星期五这两列都只有四个日期；一号是星期六，二十号确实落在星期四。数日期的位移，要用二十减一，不能直接加二十天。",
+      "duration": 12.53,
+      "signature": "10578fce5710cbb2b323e8109339329b59374a374be428e0616b7b5e0a2f9dd0",
+      "sha256": "b7308ac23fe6aee59cd3995d16d20c4ea17abb2532dc8c2dcdf083e90c2f4aa7",
+      "sampleRate": 24000
+    },
+    "cyclemore-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemore-1-1.c0753557cbbb.wav",
+      "text": "每个完整星期，星期一和星期二各出现一次，次数一样。现在星期二更多，差别一定来自完整星期之外，多出来的那几天。咱们去月初找原因。",
+      "duration": 15.57,
+      "signature": "66926bafb5f5954552cb51f62029582278d61f495f5480d90aaa267d06a0da64",
+      "sha256": "c0753557cbbb8e5608874c982cfa1444d0deb4ff566822db7affb6d6e1d985d3",
+      "sampleRate": 24000
+    },
+    "cyclemore-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemore-1-2.0f53b860be80.wav",
+      "text": "一个月最多比四个完整星期多三天。这几天连续出现，要含星期二，却不能含星期一。往前想，周一紧挨着周二，所以这段只能从周二开始。",
+      "duration": 14.69,
+      "signature": "a09418a7fde5849f1bee412fb1384bdb099d2baea79313df030d0e465fd338a9",
+      "sha256": "0f53b860be8027bf5e93483ecc1724ed21a9064077ca82aa28c82aa2dfba0908",
+      "sampleRate": 24000
+    },
+    "cyclemore-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemore-1-3.6e34da3f9644.wav",
+      "text": "如果从星期一开始，多出的天数一旦走到星期二，就已经包含星期一了，两者不会有次数差。要让星期二多一次，一号应该从哪个星期开始呢？",
+      "duration": 18.4,
+      "signature": "42ca18b26e34c63f3c034f2200acce817d480afbcba1747b6db1b641129548e5",
+      "sha256": "6e34da3f9644dbd09c2849535cd06b94005248ac5e446c47fff7ddce683a9f81",
+      "sampleRate": 24000
+    },
+    "cyclemore-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemore-1-4.4573e089da66.wav",
+      "text": "一号是星期二。从一号到二十五号，经过二十四天。二十四除以七余三，星期二再向后走三步，就是星期五。",
+      "duration": 12.29,
+      "signature": "3c7f638fe09fece760243aaa22c9431d54dd7d3a4bde0d626dbf6505c962cb08",
+      "sha256": "4573e089da663f6fdd93c53a5fba79046b983e850beb2377fb4b6659c23108e6",
+      "sampleRate": 24000
+    },
+    "cyclemore-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/cyclemore-1-5.6daf23c5ed7c.wav",
+      "text": "这个月可能有二十九、三十或三十一天，但只要周二比周一多，一号就要是周二。后面的月长不影响二十五号，答案都是星期五。",
+      "duration": 14.29,
+      "signature": "6edd21a609453ee4d7e03eaa151fe886c2f0b165d7f1849c122bac5d597cbf54",
+      "sha256": "6daf23c5ed7cd971bebac70ec0333a163c4200f727977216061907251e66ee80",
+      "sampleRate": 24000
+    },
+    "averagemissing-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/averagemissing-1-1.a2b4d890073b.wav",
+      "text": "这道题把平均数告诉咱们了，反过来求最后一盒。平均九块，并不是说每盒原来都九块。咱们先用平均数，把四盒的总数找回来。",
+      "duration": 10.93,
+      "signature": "bce479d613d64efd6720ba5c94f3ef445c85d5e0d23d35b360ced827b6aff735",
+      "sha256": "a2b4d890073b43553c5b0da80a1c6cef5d7f396f7a9448b138d2874e971b2a82",
+      "sampleRate": 24000
+    },
+    "averagemissing-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/averagemissing-1-2.138f7781c646.wav",
+      "text": "如果四盒都平均成九块，总数就是四个九，三十六块。不管原来怎样分，总数都不会变。现在先记住三十六这个总数。",
+      "duration": 12.29,
+      "signature": "15f2bb9a37860871fed049d139398f3830ed3f67c6aa86e27fded59dd6b0d4a7",
+      "sha256": "138f7781c6467fd6e2c1874557165c717014ffe8f08ee31f1ee31806a09fbc12",
+      "sampleRate": 24000
+    },
+    "averagemissing-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/averagemissing-1-3.f0167a1a8ca6.wav",
+      "text": "前三盒分别是六块、八块、十块。它们合起来是总数的一部分。要找到最后一盒，应该从三十六里面减去什么呢？先想好再选。",
+      "duration": 12.88,
+      "signature": "e346a7c6cfc9847afddbcb09ea579575af900e47b39a0dfde29475b3ac9c0b17",
+      "sha256": "f0167a1a8ca6fd87e87b1d20d099f9b4eb4ddfeff41580fd241263e4661d7cd4",
+      "sampleRate": 24000
+    },
+    "averagemissing-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/averagemissing-1-4.dd4721f4c688.wav",
+      "text": "先把前三盒加起来，六加八加十，得到二十四。总数三十六减二十四，剩十二，所以最后一盒有十二块。",
+      "duration": 11.01,
+      "signature": "b73b8b7eb5a0bb06015b780bceedae77b9f4d068dcdd8a91b473bed09701ea52",
+      "sha256": "dd4721f4c688e4a783e5e11b77a97aef70c649e814843df110a469ee2c0e3fb5",
+      "sampleRate": 24000
+    },
+    "averagemissing-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/averagemissing-1-5.27d3d1a39339.wav",
+      "text": "四盒合起来三十六块，除以四，平均正好九块。知道平均数求缺少的一份，先求总数，再减已知，和正着求平均数连起来想。",
+      "duration": 13.73,
+      "signature": "28123ffb3bed015395b42864ea45e36e44cb4e7f66332df3d8d8920d048d56e8",
+      "sha256": "27d3d1a3933953a86e03751183e1f1f44e6b5b78b1e46bff13ae24a7106234e9",
+      "sampleRate": 24000
+    },
+    "averageweighted-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/averageweighted-1-1.9bf4111b6caa.wav",
+      "text": "这题不是直接把二十七和三十二再平均，因为男女人数不同。总平均三十岁，像一条平衡线。咱们看每位男老师少了多少，每位女老师多了多少。",
+      "duration": 11.89,
+      "signature": "6e41fecf42d6ff2187236d58338cf00df4dea4d62a98091aab4c1186c07cc902",
+      "sha256": "9bf4111b6caa3a69929087123b310ef7a909e1a3b3e37313a7d79df7d7132617",
+      "sampleRate": 24000
+    },
+    "averageweighted-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/averageweighted-1-2.5a2a5a7afa05.wav",
+      "text": "三十减二十七，少三岁；三十二减三十，多两岁。要使总平均正好三十，少出来的总量与多出来的总量必须抵消。想象把高的部分补到低的部分。",
+      "duration": 17.73,
+      "signature": "07d92c741da08c9cc26231e975eafc0f186668083d5835e7839941fde231cfe8",
+      "sha256": "5a2a5a7afa05de28be4989bd25dc882326e14a00e42b6a899ff00f8337ff8a59",
+      "sampleRate": 24000
+    },
+    "averageweighted-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/averageweighted-1-3.302d20630c89.wav",
+      "text": "两位男老师各少三，合起来少六；三位女老师各多二，合起来多六。这样一组正好平衡，所以男女人数可以看成两份与三份。哪种分组才平衡呢？",
+      "duration": 14.48,
+      "signature": "ae35d520c7374e4166c695fd0845b531d5c79c1890d5adaaad9a9689ec7ecd51",
+      "sha256": "302d20630c89d7c9145b2538e92abe932526c6dea93fcc8c50d50bd4d5f5ba62",
+      "sampleRate": 24000
+    },
+    "averageweighted-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/averageweighted-1-4.c61c663b2821.wav",
+      "text": "女老师三份，男老师两份，女老师比男老师多一份。题目说这份差是十三人，所以男老师二十六人，女老师三十九人。",
+      "duration": 9.97,
+      "signature": "2566543050b526263bd22fa1c3eae68c735250dbd2e80f740cc62972252124b9",
+      "sha256": "c61c663b28219906a0838068d764e84188d37e96b2723ecfe796e24051c4370b",
+      "sampleRate": 24000
+    },
+    "averageweighted-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/averageweighted-1-5.e9288fca24c1.wav",
+      "text": "两份加三份，一共五份，每份十三人，所以共有六十五位老师。检查，男老师少的三乘二十六，与女老师多的二乘三十九，都是七十八，平均数才能是三十。",
+      "duration": 12.05,
+      "signature": "9a254d4e9bf12071e0c7125750f64ec598701a343947cdf340a75a35ef8409ca",
+      "sha256": "e9288fca24c1b2d411bf52d87bf7b5fa294c00e064a62f18bdd34da425cdbd00",
+      "sampleRate": 24000
+    },
+    "averagescores-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/averagescores-1-1.4d822cc167dd.wav",
+      "text": "请对照原图读表，八个人中，只有第三格和第六格还不知道。咱们仍按表中的字母叫它们。平均六十四分，先求八个人的总分。",
+      "duration": 11.01,
+      "signature": "cbb894365c22cfdb4101e2ea3801859d3d308e3be997e300d4704fd820556bfb",
+      "sha256": "4d822cc167dd332fecba2e59b576e655939ad9675b1bf80aefd5c17dd93b8c40",
+      "sampleRate": 24000
+    },
+    "averagescores-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/averagescores-1-2.1125c7e27efe.wav",
+      "text": "八乘六十四，得到五百一十二分。把六个已知成绩相加，是三百八十三分。总分减去已知部分，两个空格合起来一百二十九分。",
+      "duration": 13.65,
+      "signature": "86584b0a8806be799294533d2317c0aaa6c7c46b965ef6f2921064c8ca4734d7",
+      "sha256": "1125c7e27efe4f7d3b453d458f6a972416937c677809d48c9a258d07e21569d4",
+      "sampleRate": 24000
+    },
+    "averagescores-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/averagescores-1-3.2861d50cbb12.wav",
+      "text": "表里已经有人九十分，而第六格的分数是最高的，所以它必须超过九十，而且满分一百，不能再多。其他人的两倍里，哪些候选能落在这个范围？",
+      "duration": 13.2,
+      "signature": "e8b3436669c505a40a22af50eece97aa7e4681d020011301269c7a2d0fab26c5",
+      "sha256": "2861d50cbb120ffbd486e437d32c1f2c302a462793b59cbd2fbee694343de748",
+      "sampleRate": 24000
+    },
+    "averagescores-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/averagescores-1-4.5b10cfe329cb.wav",
+      "text": "已知成绩里面，四十八的两倍是九十六，超过九十，又不超过一百，符合要求。如果第六格是第三格的两倍，它们合计一百二十九，第三格四十三，第六格八十六，反而低于九十，要排除。",
+      "duration": 21.49,
+      "signature": "84de69053ec2d7ec2aaf51ae3a707d83988c12fcdfb3c16d4a8a5e020ba82323",
+      "sha256": "5b10cfe329cb15be9f116034a4fc17921a6bf6f3c340313b4f4efbbc94e8eb95",
+      "sampleRate": 24000
+    },
+    "averagescores-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/averagescores-1-5.71506d99f61c.wav",
+      "text": "因此第六格是九十六分，第三格是一百二十九减九十六，得到三十三分。总分、两倍、最高分和满分四个条件，都检查过，才算找到完整答案。",
+      "duration": 11.97,
+      "signature": "cb17f34899ac3a5ba4051928b5c5b3991709f7b05a911f47d16198f7d333f9f4",
+      "sha256": "71506d99f61c5de3fd0528456217c9b201db1e30af3981806b15c3c93e708abd",
+      "sampleRate": 24000
+    },
+    "ratiodifference-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiodifference-1-1.b03cc465ecee.wav",
+      "text": "这次没有告诉两人合起来多少，而是说姐姐比弟弟多二十四支。姐姐四份，弟弟一份，多出来的部分才是二十四支。不要再用四加一。",
+      "duration": 12.69,
+      "signature": "8e2ce89c1a05ec03284c0dc574ec52a686c4a85cf36793eac132cae0c773dc8c",
+      "sha256": "b03cc465ecee2d63f7ad16f8aee88ad5286c0cd7462b82448bc1813af08d8b8f",
+      "sampleRate": 24000
+    },
+    "ratiodifference-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiodifference-1-2.50c49e91ff3c.wav",
+      "text": "把弟弟的一份放在姐姐四份的下面，起点对齐。相同的一份先不看，姐姐还多三份。这三份，对应题目中的二十四支。",
+      "duration": 11.73,
+      "signature": "73231c6249cf6db66ae65bab21fd71ac22cce786d4c5dd70cbeda7c857edeede",
+      "sha256": "50c49e91ff3cc3cbb70fa1cf1cccbe1c49ab1fa763b63869a24e1d11c97a5edc",
+      "sampleRate": 24000
+    },
+    "ratiodifference-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiodifference-1-3.e9aabc172439.wav",
+      "text": "请再看一眼线段，二十四支表示的不是姐姐全部四份，也不是两人合计五份，而是姐姐多出的部分。应该对应几份呢？",
+      "duration": 13.76,
+      "signature": "cc1438828f3659423c14ee368cd204f637702f13eb5404761fa6bf08ab249b2f",
+      "sha256": "e9aabc1724392d8734999940a95e7e910af306ad615d4f578ecb7c5fd8e7f18d",
+      "sampleRate": 24000
+    },
+    "ratiodifference-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiodifference-1-4.99dd6be6c1a4.wav",
+      "text": "三份二十四支，所以一份是八支。弟弟就是这一份。题目问姐姐，她有四份，还要把一份八支乘四，才是最后的答案。",
+      "duration": 12.29,
+      "signature": "96a844b22979eb989504e71d4d822d5a60590c0583816d1474b8a31ecb60c6fd",
+      "sha256": "99dd6be6c1a458657473d7d6aef585791f97a927abd946d16246fddf0cd0729f",
+      "sampleRate": 24000
+    },
+    "ratiodifference-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiodifference-1-5.d8ab3f450709.wav",
+      "text": "八乘四等于三十二。检查，三十二减八是二十四，而且三十二正好是八的四倍。已知和看份数相加，已知差看份数相减。",
+      "duration": 11.25,
+      "signature": "e09a3431f24031c46a0b42e1812f40aaba8683109bb6ca0ffed9d6268632730c",
+      "sha256": "d8ab3f4507095eaccab8bc35ed880c26d7e5926ebfb87a48c803131152201b8a",
+      "sampleRate": 24000
+    },
+    "ratiorope-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiorope-1-1.572b59845cae.wav",
+      "text": "绳子对折，每段是绳长的一半；三折，每段是绳长的三分之一。两次都垂到同一个井底，所以井深不变。多露出的部分，可以直接比较。",
+      "duration": 16.53,
+      "signature": "d9372fff5a34cfa1ee8389fa85f3033e86bdabcc9f84fc3446794857410fe214",
+      "sha256": "572b59845caec4308ed74058f747906c3b7133db2e45ce6fba082ee599d7cbcb",
+      "sampleRate": 24000
+    },
+    "ratiorope-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiorope-1-2.5ecd1b91f1e8.wav",
+      "text": "对折时比井深多九米，三折时多两米。井深相同，所以一半绳长减去三分之一，就等于九减二，差七米。",
+      "duration": 10.93,
+      "signature": "a3eaa5eb83d18a53574b7fd9340229c1b80cac1237a3c96f8c3978ffc33096c5",
+      "sha256": "5ecd1b91f1e844c112ad41f56a3dc7e54beac6d1b30e2f5cb70c576eda1ddf31",
+      "sampleRate": 24000
+    },
+    "ratiorope-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiorope-1-3.6ef57631439b.wav",
+      "text": "为了把两种折法画在同一张图上，把整根绳平均分成六小份。一半占三份，三分之一占两份。两种长度之间，正好相差几个小份呢？",
+      "duration": 14.24,
+      "signature": "c0a52925122addcc9639ab52d04457bb35c8e199ea73084640ceaf781616a25f",
+      "sha256": "6ef57631439b28e38c0bf14f10e115dd9228c729c2b1960a3084f4e3beba6236",
+      "sampleRate": 24000
+    },
+    "ratiorope-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiorope-1-4.6975bf248bf6.wav",
+      "text": "三份减两份，只差一份。所以每小份就是七米，整根六份，绳长四十二米。看，折法不同，但我们用同样大小的小份，就能比较。",
+      "duration": 13.41,
+      "signature": "35d145afa677801b2bf9490f7c20f117588fe5588f477aca4de3777e23eb92d5",
+      "sha256": "6975bf248bf6470a02503a7ecb2bcf72be240c7c3cd94984fa7254704cedbb88",
+      "sampleRate": 24000
+    },
+    "ratiorope-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiorope-1-5.1899a15a1880.wav",
+      "text": "对折后每段二十一米，减去井口外的九米，井深十二米。三折每段十四米，减去两米，也得十二米。因此绳长四十二米，井深十二米。",
+      "duration": 14.45,
+      "signature": "798c5d855a25d799c97d3c923e108a2ab5a38422b8e072c709461ffd9140d182",
+      "sha256": "1899a15a18807266318e41bda8dc5d6c26e70f5b20f8d71305259ef9ddbd8e30",
+      "sampleRate": 24000
+    },
+    "ratiocards-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiocards-1-1.c52f5ce55635.wav",
+      "text": "这道题条件多，先把时刻分开。第一轮后，牛牛比团团的两倍少十张。后两轮牛牛一共输了二十九张，最后团团又比牛牛的七倍少十张。两人的总牌数始终不变。",
+      "duration": 15.49,
+      "signature": "91fed36c6e130c85e623b6b8565066422fb0f8813e6d8c25eff0fb3d58614b78",
+      "sha256": "c52f5ce556357c38859e417d4acb8b7a009692594b960449f1088e084387430b",
+      "sampleRate": 24000
+    },
+    "ratiocards-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiocards-1-2.30d3d89437bf.wav",
+      "text": "先只在图上借十张，不是真的改变题目。前一次给牛牛补十张，变成团团的两倍，总数分三份。后一次给团团补十张，变成牛牛的七倍，总数分八份。两次都补十张，虚拟总数相同。",
+      "duration": 17.41,
+      "signature": "ee1a130bb1e66ca463edcd63070253332b95aa49fffb90a51e22fcbf32277d9f",
+      "sha256": "30d3d89437bf399c745a1ea4f75c8af40a03b9e7a3393221b5fb44a894bf07d4",
+      "sampleRate": 24000
+    },
+    "ratiocards-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiocards-1-3.f6ec49002b9c.wav",
+      "text": "三份和八份的大小不同，不能直接相减。把同一个虚拟总数再分成二十四小份，前一次的两份相当于十六小份，后一次的一份相当于三小份。小份相同，才可以比较。",
+      "duration": 14.56,
+      "signature": "75b405f44fa8cac46e8da747eb9b990c00ee116f8c95a9560b149d15a3c7517e",
+      "sha256": "f6ec49002b9cb0e87c360a664a181d17038e60e8ec8eb8d755ad9ec5b4b3c3e2",
+      "sampleRate": 24000
+    },
+    "ratiocards-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiocards-1-4.b75c3a6f234d.wav",
+      "text": "前一次牛牛补十张，比最后牛牛多二十九加十，也就是三十九张。图上十六小份减三小份，差十三份。所以一小份三张。前一次牛牛十六乘三再减十，是三十八张，团团是二十四张。",
+      "duration": 18.29,
+      "signature": "af42a84d66c264ef1fcd545b13523e353cbd325da4928689731b2955979669e3",
+      "sha256": "b75c3a6f234df20c2b6d76e43395f6aae6b5c16c20b6417fd0554a131c208804",
+      "sampleRate": 24000
+    },
+    "ratiocards-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/ratiocards-1-5.d96491d2115b.wav",
+      "text": "第一轮牛牛赢了十三张，所以原来要从三十八减十三，牛牛二十五张。团团把输掉的十三张加回，原来三十七张。最后牛牛九张，团团五十三张，确实是七倍少十张。",
+      "duration": 17.33,
+      "signature": "545700897289438180cff169d5b81b928563089cc75c79d97163157ab43854b1",
+      "sha256": "d96491d2115b8df65adf4c04bb7337b2b95bc3417a2cd51415ec48cbe0899d47",
+      "sampleRate": 24000
+    },
+    "transferreverse-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/transferreverse-1-1.bfa25c506ef6.wav",
+      "text": "基础题知道原来有多少，问要搬几颗。这次反过来，只告诉移动以后的结果。两人现在都十八颗，小米给出去过五颗，咱们倒着还原。",
+      "duration": 14.13,
+      "signature": "f11558c18dd21efb30128ebd3a468a43feb4443e79154397a7548dd1242ea8a0",
+      "sha256": "bfa25c506ef6216ce700d9c437c7c9aed6bf48d5042664d8e52802a254d2713a",
+      "sampleRate": 24000
+    },
+    "transferreverse-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/transferreverse-1-2.11fee3bf83e8.wav",
+      "text": "看，原来是小米送给小禾。要回到更早的时候，就让小禾把这五颗还回去。给出的一边要加回，收到的一边要减去，方向不能颠倒。",
+      "duration": 12.77,
+      "signature": "df010ee4680e985953f2084b9582034152280653e7d208dcd6682e5c7fa41a94",
+      "sha256": "11fee3bf83e83dbf4d5ee4425f085ed32fd2749237276ceeeaf3471368e9d18d",
+      "sampleRate": 24000
+    },
+    "transferreverse-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/transferreverse-1-3.faac9901f8c7.wav",
+      "text": "小米现在剩十八颗，这还是送走五颗以后的数量。原来的数量应该更多，还是更少呢？先判断大小，再决定加减，会更稳当。",
+      "duration": 13.68,
+      "signature": "849b31b410bba450030504e4ccb6dda3b99ce9efe262f5b4c2723601a9acfe94",
+      "sha256": "faac9901f8c722a3ecf00186e0bb81bd8d181f9544f06b65ce9aa2bca4456752",
+      "sampleRate": 24000
+    },
+    "transferreverse-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/transferreverse-1-4.f48e6a614527.wav",
+      "text": "小米送过五颗，原来十八加五，二十三颗。小禾收过五颗，原来十八减五，十三颗。合起来仍是三十六颗，只是换了分法。",
+      "duration": 13.73,
+      "signature": "c40a0640ae3c7696ff49ae421f0bf13b2ce909a191d2be7d9ac20c9718756054",
+      "sha256": "f48e6a61452744fa322a0b923627715fe2d51335c1541297b9fbd8d694852e0f",
+      "sampleRate": 24000
+    },
+    "transferreverse-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/transferreverse-1-5.0139e5bd11d1.wav",
+      "text": "顺着检查一次，小米二十三颗送走五颗，还剩十八。小禾十三颗收到五颗，也变成十八。倒推题要先反着做，再顺着题意核对。",
+      "duration": 11.41,
+      "signature": "c0b621cd24c92c06454d47c1eafd380addd2f34953acc1892e435f702edc8766",
+      "sha256": "0139e5bd11d1f7c1ab99e7b4e592b808b0c10b367cc135a60116d678170cd2a6",
+      "sampleRate": 24000
+    },
+    "transferratio-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/transferratio-1-1.8ae99c181a4d.wav",
+      "text": "题目换了目标，两盒合计三十块，左盒原来二十四块。搬完以后，左盒是右盒的两倍，可不是一样多。咱们先把目标画出来。",
+      "duration": 11.33,
+      "signature": "e80b81b8e2a840e51db3e9c5988a92aec4572d89cd4e7ce3c2f330d0aedf1c95",
+      "sha256": "8ae99c181a4d048f344edbeefbcf17b742f51c743c1e8449b05e64703a2c0b64",
+      "sampleRate": 24000
+    },
+    "transferratio-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/transferratio-1-2.ea98162e49e5.wav",
+      "text": "移动不改变总数。搬完以后，右盒一份，左盒两份，合起来三份。三十除以三，每份十块。所以目标是左二十，右十。",
+      "duration": 19.81,
+      "signature": "ca23b3a3c65e4f99dcd8fd3d1dff10fb9ecc5368b7e287e4d24e618184de088a",
+      "sha256": "ea98162e49e52790ed91df1e148a56ba1dd81dcb9269135ba48604960b42fa7b",
+      "sampleRate": 24000
+    },
+    "transferratio-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/transferratio-1-3.8c32579de89e.wav",
+      "text": "目标数量找到以后，再与原来比较。左盒从二十四变成二十，多出的那几块要搬给右边。这里还能直接用原来数量差的一半吗？想想目标已经变了。",
+      "duration": 14.64,
+      "signature": "61d2322485b98fd91e77076db13a632c14f9fbfd61e69c28d76225379f77e336",
+      "sha256": "8c32579de89e0fe42586f168631ff27650bc33cf33279f0b3c33c2a7874f6294",
+      "sampleRate": 24000
+    },
+    "transferratio-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/transferratio-1-4.ed1c13c31141.wav",
+      "text": "左盒少四块，就变成二十。右盒原来三十减二十四，是六块，收到四块以后变成十。看，两盒正好到达倍数要求。",
+      "duration": 13.41,
+      "signature": "0b0d0f67a87c13cfa4afa6d5a854998ef2e2c339c8c7ca1f871fdcdab6762693",
+      "sha256": "ed1c13c31141a5a6b687dcf86e093d1663de881d7005d774f4d18511d648960e",
+      "sampleRate": 24000
+    },
+    "transferratio-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/transferratio-1-5.ee39b041adac.wav",
+      "text": "最后检查，左二十，右十，二十是十的两倍；合起来三十，没多没少。移多补少不一定要移到相等，先求目标数量，再与原来比较。",
+      "duration": 12.85,
+      "signature": "cef37b750b0cc594ff005c45acde42a8cb5b8bccc464cd9673bcae95c29ee96f",
+      "sha256": "ee39b041adacd19d155ae7958077b381ecaad0be228303f834cfdbbc83c95fa4",
+      "sampleRate": 24000
+    },
+    "geometrysquare-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrysquare-1-1.b52fdc771375.wav",
+      "text": "一排格子里数长方形，换成三行三列以后，这次只数正方形。请记住，长和宽要一样，而且边都要沿着画好的格线。先按边长分类。",
+      "duration": 19.33,
+      "signature": "e7a1eda36d850e503d3d08321a87a410eeaf329a402082b1badfaad1ec354fa9",
+      "sha256": "b52fdc771375478d275b49504615883bf52b85171fdc940229e4e0e5368cd71c",
+      "sampleRate": 24000
+    },
+    "geometrysquare-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrysquare-1-2.473c52a10407.wav",
+      "text": "先看最小的正方形，边长一格。一行三个，一共有三行，所以九个。再看大一点的，不要数完小格子就停下来。",
+      "duration": 9.49,
+      "signature": "717ecb52c0fc2288d1cd9f0d803df68411d778ad04cefacb82633fad68936435",
+      "sha256": "473c52a1040737cdf767c3491c2ef02065d89400c826891758cee8222f98faf8",
+      "sampleRate": 24000
+    },
+    "geometrysquare-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrysquare-1-3.244235fc60d0.wav",
+      "text": "把框放大成边长两格，从左上角开始，向右挪，再向下挪。图形可以重叠，只要位置不同，就分别算。边长两格的有几个呢？",
+      "duration": 15.6,
+      "signature": "32b4b26d544ee3784a79e00bc878d8358d39ed7f9e876422cdb0ed0358585d14",
+      "sha256": "244235fc60d0b1f99cea946da4903634b94cf73419cef67aee4bb4c2e39ce6a8",
+      "sampleRate": 24000
+    },
+    "geometrysquare-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrysquare-1-4.5de6cfe3bbd1.wav",
+      "text": "边长两格的左上角有两行、两列位置，合起来四个。边长三格，只能把整张图圈起来，一个。三种大小已经都找齐了。",
+      "duration": 13.57,
+      "signature": "8985f42663cfc06b272a550911cc2025280f8e3cccd346aef87179894b72ed84",
+      "sha256": "5de6cfe3bbd14a8c472747625a21e4bcdbce575691d53398d616e2388357b74d",
+      "sampleRate": 24000
+    },
+    "geometrysquare-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrysquare-1-5.62d343a064f7.wav",
+      "text": "把三类合起来，九加四加一，十四个。大小不同分开数，位置不同逐个数，最后相加。这个方法还能用到不完整的方格图里。",
+      "duration": 12.61,
+      "signature": "4004ba62b0b32bcb09fb806ac3df66308390ec842118ddddf43123b664a557a4",
+      "sha256": "62d343a064f7e380dfe5f2d134f21c120fdad43274300e871aa1fcf3f526c71c",
+      "sampleRate": 24000
+    },
+    "geometrylshape-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrylshape-1-1.af55b42ed959.wav",
+      "text": "这张原图像一个拐角。下半部五列三行，右上方又接了两列三行。虽然整体不是一个大正方形，里面仍能找到许多正方形。边沿格线，按大小来数。",
+      "duration": 14.93,
+      "signature": "8a99ae9ffd380f6f927c0959c7a2f67e0979dd204305068ef5bb5c4adf010797",
+      "sha256": "af55b42ed9594a0e0dadc0046454c246a79503e9c8279b6d9de8943b3e15a418",
+      "sampleRate": 24000
+    },
+    "geometrylshape-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrylshape-1-2.dcf5746c43fb.wav",
+      "text": "先数最小格子。下方五乘三，十五个；右上二乘三，六个。合起来二十一个。看高亮按位置走，每个小格只数一次。",
+      "duration": 10.61,
+      "signature": "11a9e583533009a3972d0d3e0b0c737d66bc4738ee28cbd5641eeb91320f1e23",
+      "sha256": "dcf5746c43fbb684c279597fccf8ae0104458e13a38d55f7bb9ba686345313e4",
+      "sampleRate": 24000
+    },
+    "geometrylshape-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrylshape-1-3.26573e201738.wav",
+      "text": "再找边长两格的正方形。除了完全在下方或上方的，还有跨过接缝的那个框。请想一想，跨过接缝，但四条边都完整，要不要算进去？",
+      "duration": 14,
+      "signature": "937a647a37ea8efe767bcc00d6f98d4463a3125a5bc99732760ad905821fd87e",
+      "sha256": "26573e2017386caf5ab9c1310b729afd3e0c905dc85fc326bb6ca558a171a2be",
+      "sampleRate": 24000
+    },
+    "geometrylshape-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrylshape-1-4.ab321f2cceab.wav",
+      "text": "边长两格的，下方八个，右上方两个，再加跨接缝的一个，共十一个。边长三格的，只有下方能完整摆放，一共三个。更大的框会缺边，不能算。",
+      "duration": 12.93,
+      "signature": "37aa15794dee3c008ae4e5a58c67b0406dd55624985576e62ea487380dbcbba7",
+      "sha256": "ab321f2cceab4b8c1118e2381f6c266f13efad8e50bf53e4fa27794f2c586d83",
+      "sampleRate": 24000
+    },
+    "geometrylshape-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrylshape-1-5.c384a364dad2.wav",
+      "text": "把完整的三类加起来，二十一加十一加三，三十五个。不能把空白的左上角想象成格子，也不能漏掉跨接缝的大框。原图虽斜拍，计数看的是格线结构。",
+      "duration": 13.33,
+      "signature": "3008d0c84988540c889058269450892ab0daf9bd7bf42c4284f644c144391ed9",
+      "sha256": "c384a364dad2743e6771ec36a67b9e574c34b78dcd38a8389cb5542efe584ca2",
+      "sampleRate": 24000
+    },
+    "geometrytriangleone-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangleone-1-1.a552db4828ac.wav",
+      "text": "请对照原图，咱们这节数第一张。三角形的三个角，可以落在原来的端点，也可以落在线段的交点。每条边都要有完整的直线连接，不能凭想象补线。",
+      "duration": 15.81,
+      "signature": "bdaf21deb9cddc5b4e85b20161dcdea252c31837fb0c6d2ee51df5f21f31e139",
+      "sha256": "a552db4828ac08f5ab51009266cbe8c5d83037a69998bd146d03cc1fb54623bd",
+      "sampleRate": 24000
+    },
+    "geometrytriangleone-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangleone-1-2.3d7a1cfc385b.wav",
+      "text": "给最上面的顶点做个标记。先把所有包含这个顶点的三角形归在一类，看高亮框逐个变化。这些图形不一定只在上半部，有的会跨过中间。这一类共有二十四个。",
+      "duration": 17.49,
+      "signature": "1b47660be2e285dd7dbbabc3c8991a03b18e0e6d16e2d5d04255c5babc40d8d6",
+      "sha256": "3d7a1cfc385bdf904864a317edd40b5016a4edbf6abd8d70e6251d6612525959",
+      "sampleRate": 24000
+    },
+    "geometrytriangleone-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangleone-1-3.012bdc641bb1.wav",
+      "text": "数完含最上顶点的图形，还不能停。剩下的那些不含这个顶点的三角形，也要单独找。这样分类时，一个三角形能同时属于两类吗？想清楚就不会重复。",
+      "duration": 15.84,
+      "signature": "16ceeee05cc53252c1fcbb91c3ff092e7bed21c9bcfa962231c8d8009208a8f9",
+      "sha256": "012bdc641bb18bf6ab0c18514d9c255fe171f3123f0a4ec92df454bd68eb0c22",
+      "sampleRate": 24000
+    },
+    "geometrytriangleone-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangleone-1-4.ce658500b79d.wav",
+      "text": "现在隐藏已经数过的那一类，只看不包含最上顶点的图形。下方的，以及交叉线旁边的小三角形，都逐个核对。这一类有十个。可以暂停，用图形按钮一个一个看。",
+      "duration": 16.53,
+      "signature": "d827983dcebbc3a11f4790fad4174d9e3fccc278088682d83f166678b86feaa8",
+      "sha256": "ce658500b79de2f0abac3072b10793e986b69ebc365a007ec62df0489c40a346",
+      "sampleRate": 24000
+    },
+    "geometrytriangleone-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangleone-1-5.5ffd1ea8599b.wav",
+      "text": "最后把两类相加，二十四加十，一共三十四个。原图一的答案就是三十四。重叠不是重复，同一个三角形只计一次。每条边都必须在原图上真实存在。",
+      "duration": 16.37,
+      "signature": "2909774e72e9abf8bfda1bd997ce1f79ebf8228dd1ef01739d933197ddd12aa2",
+      "sha256": "5ffd1ea8599b9ac34ce724c7a3dda48c40d01291fdbc93d34333807b72e9c862",
+      "sampleRate": 24000
+    },
+    "geometrytriangletwo-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangletwo-1-1.e43c0d6bc7d4.wav",
+      "text": "请对照原图，咱们这节数第二张。三角形的三个角，可以落在原来的端点，也可以落在线段的交点。每条边都要有完整的直线连接，不能凭想象补线。",
+      "duration": 13.65,
+      "signature": "387bc9e083ce390ed32927f27972654a40a964a75eb888105952be3509497439",
+      "sha256": "e43c0d6bc7d40678e0ffef42ad0ba9ec7017026401af57b353235207fa6c65b0",
+      "sampleRate": 24000
+    },
+    "geometrytriangletwo-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangletwo-1-2.44004d94e3f4.wav",
+      "text": "给最上面的顶点做个标记。先把所有包含这个顶点的三角形归在一类，看高亮框逐个变化。这些图形不一定只在上半部，有的会跨过中间。这一类共有三十个。",
+      "duration": 14.69,
+      "signature": "db20f6ad47cdc0c52fa1e5cc790ae5105f9dcd432d1eec9cfdec92d41dd1668e",
+      "sha256": "44004d94e3f43c4ca2f20a488154a29e58d801f9a050470f49aa40e810219bcc",
+      "sampleRate": 24000
+    },
+    "geometrytriangletwo-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangletwo-1-3.59bafbcac646.wav",
+      "text": "数完含最上顶点的图形，还不能停。剩下的那些不含这个顶点的三角形，也要单独找。这样分类时，一个三角形能同时属于两类吗？想清楚就不会重复。",
+      "duration": 14.64,
+      "signature": "a89c7dd6854e6141513b37d62672c598abaca94fdada6c9aee6115e3d0528c04",
+      "sha256": "59bafbcac6462e83d146e00afe264b8347c83529813e108d490040b0bbf49be7",
+      "sampleRate": 24000
+    },
+    "geometrytriangletwo-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangletwo-1-4.817c614647db.wav",
+      "text": "现在隐藏已经数过的那一类，只看不包含最上顶点的图形。下方的，以及交叉线旁边的小三角形，都逐个核对。这一类有十七个。可以暂停，用图形按钮一个一个看。",
+      "duration": 20.77,
+      "signature": "e4fb4eb58fca028bb34051d66adbe61d5e2f4817dc281339b4be7902956e9326",
+      "sha256": "817c614647db5488a48f5aae628c61f3ae25242297a85a218353ebe840ce5b32",
+      "sampleRate": 24000
+    },
+    "geometrytriangletwo-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytriangletwo-1-5.ca6df2b67ca9.wav",
+      "text": "最后把两类相加，三十加十七，一共四十七个。原图二的答案就是四十七。重叠不是重复，同一个三角形只计一次。每条边都必须在原图上真实存在。",
+      "duration": 13.89,
+      "signature": "4ac578b242ccbad08b8a1e4d1ef1129d597801dae1decb9428baed8913de589c",
+      "sha256": "ca6df2b67ca91f0aad5b872277f4811c1915820d668ed859df61cec99ea58f9a",
+      "sampleRate": 24000
+    },
+    "geometrytrianglethree-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytrianglethree-1-1.a2aaaafa0fbe.wav",
+      "text": "请对照原图，咱们这节数第三张。三角形的三个角，可以落在原来的端点，也可以落在线段的交点。每条边都要有完整的直线连接，不能凭想象补线。",
+      "duration": 13.73,
+      "signature": "1ae1f41d13d3d394d4d4d04906d1d2c88371c450055f421158ade5ce77bf0136",
+      "sha256": "a2aaaafa0fbed8cfc29bbfebad8cd709baf99d2fb55a082a2914b2a6529c77d5",
+      "sampleRate": 24000
+    },
+    "geometrytrianglethree-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytrianglethree-1-2.e5ddae605af3.wav",
+      "text": "给最上面的顶点做个标记。先把所有包含这个顶点的三角形归在一类，看高亮框逐个变化。这些图形不一定只在上半部，有的会跨过中间。这一类共有三十六个。",
+      "duration": 17.81,
+      "signature": "af263d3e9a3fec3ea8c6a8bca016d40cd5fa8c8c497810d067e97cee300e782e",
+      "sha256": "e5ddae605af32b5defc6ab3a49ddc901ab5af5778377e3e2ddab6028e6bdbb49",
+      "sampleRate": 24000
+    },
+    "geometrytrianglethree-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytrianglethree-1-3.39f1d9b9ebd3.wav",
+      "text": "数完含最上顶点的图形，还不能停。剩下的那些不含这个顶点的三角形，也要单独找。这样分类时，一个三角形能同时属于两类吗？想清楚就不会重复。",
+      "duration": 16.16,
+      "signature": "c1f824b8c8c87c196d547f9452d2945795b97badd5cb097cb214b10d351a6eef",
+      "sha256": "39f1d9b9ebd38334708fbee35a747f3215db285bae3676f3fdc604d85f3b1706",
+      "sampleRate": 24000
+    },
+    "geometrytrianglethree-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytrianglethree-1-4.a683a43b399d.wav",
+      "text": "现在隐藏已经数过的那一类，只看不包含最上顶点的图形。下方的，以及交叉线旁边的小三角形，都逐个核对。这一类有二十八个。可以暂停，用图形按钮一个一个看。",
+      "duration": 16.85,
+      "signature": "1dc832a390a6b54ca85459a6990320b40e28ee0262f151bd232e9fcb7fedbbf0",
+      "sha256": "a683a43b399dc48474c2cf5fdbafead575e9489e3ddc2b5503336a2176e1604b",
+      "sampleRate": 24000
+    },
+    "geometrytrianglethree-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/geometrytrianglethree-1-5.95b699870cb7.wav",
+      "text": "最后把两类相加，三十六加二十八，一共六十四个。原图三的答案就是六十四。重叠不是重复，同一个三角形只计一次。每条边都必须在原图上真实存在。",
+      "duration": 14.61,
+      "signature": "2fdd67645f5677e6ab4b094167d263de9b8f67c1c50a418502a4db80dfdc4489",
+      "sha256": "95b699870cb7aee33439984a5bacd13822413645bed046ba5e5c3ee9e8e998f0",
+      "sampleRate": 24000
+    },
+    "agepast-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/agepast-1-1.11cf4b252f5f.wav",
+      "text": "基础题问几年后，这次是几年前。两个人都要一起变小，年龄差还是不变。先把问法圈出来，再用年龄差寻找三倍的那个时刻。",
+      "duration": 14.53,
+      "signature": "34b25231c11c0bb83e2d750a862bcdf5e70dec8f0a2e5b715733385a4bfe3ab7",
+      "sha256": "11cf4b252f5f57bf4a1ef4709c2f3d9606fb4035218565f5fbe30122810a38af",
+      "sampleRate": 24000
+    },
+    "agepast-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/agepast-1-2.814a7b821346.wav",
+      "text": "妈妈三十五岁，小禾十五岁，相差二十岁。往前一年，两人都少一岁，差还是二十。往前再多几年，年龄差也一样。",
+      "duration": 10.45,
+      "signature": "03508ac524ffb5020ef61bedd72c03e9c6c100cd5248205f7024288eb341d391",
+      "sha256": "814a7b8213469d04e1c7e25c643f600fbb7076b919b7a61d2ccdd184fbb43dbe",
+      "sampleRate": 24000
+    },
+    "agepast-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/agepast-1-3.a1123875c773.wav",
+      "text": "当妈妈是小禾的三倍时，小禾一份，妈妈三份。差的二十岁，对应的是两份。应该把二十除以几，才能求小禾那时的年龄呢？",
+      "duration": 13.2,
+      "signature": "070972699fe0ba4dd387b24a6b3bf2f1c4ae4a714db01b042bf5745e74c4ee11",
+      "sha256": "a1123875c7736bb255dea0681ad00a099942dd56c76657c443491c2f843fc5f3",
+      "sampleRate": 24000
+    },
+    "agepast-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/agepast-1-4.cf3d5493526d.wav",
+      "text": "二十除以二，小禾那时十岁。妈妈是三倍，就三十岁。现在小禾十五岁，要回到十岁，应该向前走五年。",
+      "duration": 12.05,
+      "signature": "5923bffc51b9e1646f49d684bed0a7f81295ca0d143a0ec86aca1f750c3bcd0f",
+      "sha256": "cf3d5493526d52a6987dc472e5b75205692319f406ce7e005bfd22faa52bcc32",
+      "sampleRate": 24000
+    },
+    "agepast-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/agepast-1-5.00da4fd7b7d0.wav",
+      "text": "十五减十是五，所以五年前，妈妈三十岁，小禾十岁，正好三倍。年龄差一直二十。先求那时几岁，再求隔了几年，不要把十岁直接当答案。",
+      "duration": 12.69,
+      "signature": "7ef2db7f14a02c0734214c92349e020413ecef6cc086a644b9e357a26079be59",
+      "sha256": "00da4fd7b7d0ac0fac0d4db8d144d92742cb80a77e4f23589b9524a0006a023e",
+      "sampleRate": 24000
+    },
+    "agemother-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/agemother-1-1.65303d7857e5.wav",
+      "text": "现在妈妈是女儿的六倍，九年以后变成三倍。倍数变了，但两个人都长大九岁，年龄差不变。不能把现在的一份，和九年后的一份，当成一样大。",
+      "duration": 11.81,
+      "signature": "cf4e3095e7ed3c60fd114145f9b6ea129e4805dcb8b920b427a9bd083bf111ee",
+      "sha256": "65303d7857e583566935242c622c9faf74bd84e93b2188cbfe2d6b0bbec95236",
+      "sampleRate": 24000
+    },
+    "agemother-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/agemother-1-2.8b52791eee38.wav",
+      "text": "现在妈妈六份、女儿一份，差五份。九年后妈妈三份、女儿一份，差两份。把相同的年龄差都画成十小份，才能让每一小份大小相同。",
+      "duration": 10.77,
+      "signature": "73ac436381f12136e8bcbce93e27d54d5679771b49ac38be83eb9c46923947d1",
+      "sha256": "8b52791eee38ed85e59b29dbe9621c6bc03921774f99c286b1b3b117627f5f8e",
+      "sampleRate": 24000
+    },
+    "agemother-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/agemother-1-3.3d8aea8f125b.wav",
+      "text": "在这张统一的图里，现在女儿占两小份，妈妈占十二小份；九年后女儿五小份，妈妈十五小份。女儿增加了几小份，对应题目里的九年呢？",
+      "duration": 20.96,
+      "signature": "fb422eef0596fa22fdfcaac8db3f92d89d03aeb13f5eadb7095c5220d687be5a",
+      "sha256": "3d8aea8f125b81e9002f5e91b2cb88dfbe7e22a71c3d526c2437e07490c19ca8",
+      "sampleRate": 24000
+    },
+    "agemother-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/agemother-1-4.12fa349bf4d1.wav",
+      "text": "女儿从两小份长到五小份，增加三小份。三小份对应九岁，所以一小份三岁。现在女儿两小份，是六岁；妈妈十二小份，是三十六岁。",
+      "duration": 11.57,
+      "signature": "dcc833c36d86d3c99dba2ce48cb222a7c103c506710db4b8a7178d5097d53cfc",
+      "sha256": "12fa349bf4d194b365c598ff1e010799539a0e2534783b641bd17aecbb4c54c1",
+      "sampleRate": 24000
+    },
+    "agemother-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/agemother-1-5.9cde06eee9a2.wav",
+      "text": "检查，三十六是六的六倍。九年后，妈妈四十五岁，女儿十五岁，四十五又是十五的三倍。两个时刻都符合，所以妈妈现在三十六岁。",
+      "duration": 11.89,
+      "signature": "36f455303825428822f89378351265d30a26b1ae399d5c67b15faceefba2dd8d",
+      "sha256": "9cde06eee9a2cfb3e2cc36914db777a2a3d2529f9f0c0faa9bdf709c4790cf67",
+      "sampleRate": 24000
+    },
+    "agefather-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/agefather-1-1.5e4446a96ac7.wav",
+      "text": "题目给了两个时刻，不是今年。十一年前父亲是儿子的七倍，十四年后是两倍。把过去、今年、未来排在同一条时间线上，先求两个已知时刻相隔多少年。",
+      "duration": 14.05,
+      "signature": "91b24ed5dad392afbdc022140eb9b6da1f93c142edd823866a3c44a0785c0f7b",
+      "sha256": "5e4446a96ac79d032aeeb9235e64cdac48e6fca05a30d32a545b264157233034",
+      "sampleRate": 24000
+    },
+    "agefather-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/agefather-1-2.6b9ca9b2c02f.wav",
+      "text": "从十一年前走到今年，要十一年，再走十四年到未来，一共二十五年。过去父七份子一份，差六份；未来父两份子一份，差一份。年龄差相同，可以统一单位。",
+      "duration": 16.85,
+      "signature": "eb658a471cf776277d955e8bf27e6db46dd202be4ad2f7ed5ab4c01697d43fa8",
+      "sha256": "6b9ca9b2c02f0c25bf70578fadde28bed27c1a2c14993749fc3eb57c201346ef",
+      "sampleRate": 24000
+    },
+    "agefather-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/agefather-1-3.a3b013c08250.wav",
+      "text": "把不变的年龄差当作六个相同小份。过去儿子一小份，父亲七小份；未来儿子六小份，父亲十二小份。儿子从一份到六份，增加几小份呢？",
+      "duration": 17.04,
+      "signature": "68c330b233aa60ff27821d1206747930088e183c24fd4925560ebaa582c25007",
+      "sha256": "a3b013c08250c9853dcd93ed8d5ec6646eb598b0209e04d55cd10535faa0c281",
+      "sampleRate": 24000
+    },
+    "agefather-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/agefather-1-4.8d3cca14efe6.wav",
+      "text": "儿子增加五小份，正好二十五年，所以一小份五岁。十一年前，儿子五岁，父亲七份，三十五岁。现在还不能停，题目问的是今年。",
+      "duration": 13.25,
+      "signature": "688754a62600c88cc8af94a145ada6b33a67b2fda9f07e622efb6579c8ddaba3",
+      "sha256": "8d3cca14efe66624aea7018342e251487f3ea26d6d095243ae4ea7fb8a89a0fd",
+      "sampleRate": 24000
+    },
+    "agefather-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/agefather-1-5.36fb66ad570c.wav",
+      "text": "从十一年前加回十一岁，儿子十六，父亲四十六。再过十四年，儿子三十，父亲六十，正好两倍。记住，最后把求出的年龄搬回题目要求的时刻。",
+      "duration": 17.17,
+      "signature": "58d9277b2f0be89c8165ede8a617076fc7efee3808adbe2a85e62eb76b753363",
+      "sha256": "36fb66ad570cac3231e92a6946d894e9c599e9e25b7b88128dc9bae7359e6f84",
+      "sampleRate": 24000
+    },
+    "treescircle-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treescircle-1-1.a123aeca2ead.wav",
+      "text": "先看看这个圆形花坛，沿边走一圈是四十米。咱们从标记处出发，每隔五米种一棵，绕完一圈，又回到原来的地方。这种首尾相接的路线，叫封闭路线。",
       "duration": 15.09,
-      "signature": "067c37722a34645fdf058eb2663fb903dc2f7ac378c2328e1c7b2c59b6caaed6",
-      "sha256": "dc7d444dd20674eaef3c56d2a1f6bb9baca135785e2f05ddb90c913ec71c143b",
+      "signature": "3aa57af155a18293a61f0097de19286f427b1584c9739b3b59649694d4bf52f6",
+      "sha256": "a123aeca2eadd03b7589995964bcac792c3544e506cd25e4bbef74ae29ce5298",
+      "sampleRate": 24000
+    },
+    "treescircle-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treescircle-1-2.4826aa5e2dbf.wav",
+      "text": "先把四十米的一圈，分成每段五米的小段。四十除以五，得到八个间隔。这里用的是沿着圆边走的长度，不是横穿花坛的距离，也不用求圆周率。",
+      "duration": 14.21,
+      "signature": "bee4fb0949a29952622f94a07a0647e0b8890efc7f69cf9b2ae32486d252adcf",
+      "sha256": "4826aa5e2dbff15dc8443de50ed4075cbb38a2f309faf7557c4710b403b0e7e0",
+      "sampleRate": 24000
+    },
+    "treescircle-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treescircle-1-3.2c6041beabda.wav",
+      "text": "直路两端都种时，棵数比间隔多一。可是围成一圈，走完最后一个间隔，已经回到第一棵树旁边。这个位置还需要再种一棵吗？看清起点，再选一选。",
+      "duration": 14.72,
+      "signature": "3fb457a0519f6376ed9b4dcdaeeebc6ed65f3b3499327d2c76ae17d632474d91",
+      "sha256": "2c6041beabda83d8a8a8a63d2bb3586e3126e9e7ac44967e838233bbe73621c7",
+      "sampleRate": 24000
+    },
+    "treescircle-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treescircle-1-4.193f963d3078.wav",
+      "text": "跟着小圆点走，每走过一个间隔，就到一棵树。走完第八段，回到第一棵。那里已经有树，不再添加。八个间隔正好对应八棵树，答案不能再加一。",
+      "duration": 14.29,
+      "signature": "26acdc55c698fdd82dcadf38d606fd006a0838c0e9b48998965edd525e97d449",
+      "sha256": "193f963d30789af66fdbeb8502304fbeac1a7def080160b9869f68624702d0e3",
+      "sampleRate": 24000
+    },
+    "treescircle-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treescircle-1-5.f7d9f880e660.wav",
+      "text": "想一想区别，直路的起点和终点分开，两个端点都种要加一。圆形的起点和终点重合，最后一段连回第一棵，所以棵数等于间隔数。换一个圆形花坛，也先用一圈长度除以间距。",
+      "duration": 18.05,
+      "signature": "2edbaa463039585253d2a187a72de85e88e03c9731214a291021abd22ac81ffa",
+      "sha256": "f7d9f880e66041a94a124b42727902ae3b6921eb9131d8ecfe7a641cbb7a051b",
+      "sampleRate": 24000
+    },
+    "treestriangle-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treestriangle-1-1.183fd551e58b.wav",
+      "text": "换成三角形花园，每条边十八米，沿边每隔六米种一棵，三个顶点都要种。虽然路线有三个拐角，但沿三条边走完，还是回到同一个起点，也是一条封闭路线。",
+      "duration": 15.97,
+      "signature": "c097db6f12451b556b91c45089fb205a80a018153be32860b54688ef584372a1",
+      "sha256": "183fd551e58b1290055f3e5c3c3de25c8dc92fb546a1693e8225be8aa833b55e",
+      "sampleRate": 24000
+    },
+    "treestriangle-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treestriangle-1-2.65e7b5c9cf98.wav",
+      "text": "把三条边合起来，十八乘三，周长五十四米。五十四除以六，一共九个间隔。每条边十八米都能按六米分完，所以三个顶点正好都能种上树。",
+      "duration": 13.89,
+      "signature": "bd66beecacc19df8627327b21ec97006c01b600e83a63d76cb1da41b264d808e",
+      "sha256": "65e7b5c9cf981b1769225e953e1d150885e8d934a74732943dbbcd71655b7cdd",
+      "sampleRate": 24000
+    },
+    "treestriangle-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treestriangle-1-3.f94206f1564d.wav",
+      "text": "如果单独看一条边，三个间隔，两端都种，有四棵。三条边直接算四乘三，会怎样呢？看拐角的树，相邻两条边会不会把同一棵树各数一次？",
+      "duration": 16.88,
+      "signature": "0ce411abd0982197a63b37f3ea4cb1d2717f540ccec57bdda8cca110b503b8ad",
+      "sha256": "f94206f1564d7a88096cc8ccc49fdd6936c631bdea45fc1ff857f515c1b0ee91",
+      "sampleRate": 24000
+    },
+    "treestriangle-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treestriangle-1-4.7af216c699eb.wav",
+      "text": "先按每边四棵来数，得到十二次。三个顶点，每一个都被两条边各数了一次，因此各多算一次。十二减三，是九棵。动画里的拐角只有一棵树，不能叠上第二棵。",
+      "duration": 15.81,
+      "signature": "3846207f2b8f4a4051ef2811d79fe05406abdaf32e32d994e05003245b3d3918",
+      "sha256": "7af216c699eb36f49ded608097e928061fe8c448862bb5b90183d40f340790ea",
+      "sampleRate": 24000
+    },
+    "treestriangle-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treestriangle-1-5.77ac2a52fb20.wav",
+      "text": "也可以直接用封闭路线的方法，一圈五十四米，除以六，九个间隔对应九棵树。两种方法得到同样结果。三角形不是圆，但只要首尾相接，最后一段就回到第一棵。",
+      "duration": 15.65,
+      "signature": "35e832bf173bb1a770cd5dbb0b9229715b9db839a8316314be2a7f426ee5fdd2",
+      "sha256": "77ac2a52fb20fa003a8b92866c9289a1c9acd6ec97b7eecbb8aa0f296792b301",
+      "sampleRate": 24000
+    },
+    "treesrectangle-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treesrectangle-1-1.5cd5b8983b7b.wav",
+      "text": "这次换成长方形，长十八米，宽十二米。请沿着边走一圈，长边有两条，短边也有两条。题目只在外边种树，不在操场里面种，四个拐角都要有树。",
+      "duration": 15.81,
+      "signature": "139b26066efc31b20c9074e14c5d4b966a79e0bd5b3527e7143337786765f49c",
+      "sha256": "5cd5b8983b7b1d8bb0d306ebf86ea2d10fb5686da90f4b56d334fb5006d602da",
+      "sampleRate": 24000
+    },
+    "treesrectangle-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treesrectangle-1-2.7d810d1d8450.wav",
+      "text": "先走一条长边十八米，再走一条短边十二米，合起来三十米。这样的长边加短边还有一组，所以一圈六十米。求整圈长度，不能只把长和宽加一次。",
+      "duration": 15.97,
+      "signature": "68675d898c91f59b040a7deba63bb5e3234c2ea31de1ccc7ee789f18225392b0",
+      "sha256": "7d810d1d845091d46438e25a0b51833b884832393262abbd6f1700883be3d7f6",
+      "sampleRate": 24000
+    },
+    "treesrectangle-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treesrectangle-1-3.efe117819d49.wav",
+      "text": "围着操场走完四条边，最后到了哪里呢？是出现一个新的终点，还是又回到第一棵树？请用手沿图走一圈，想想六十除以六以后，还要不要加一。",
+      "duration": 18.08,
+      "signature": "3864eab4ad18c1a1344fb5ec1e38e6790e7eb11f45a7b8642683ffcead320cb0",
+      "sha256": "efe117819d492868bfc660a288cd5ad91cb67edc8723e81b13a7e7c6d2b0b759",
+      "sampleRate": 24000
+    },
+    "treesrectangle-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treesrectangle-1-4.349d51a133f2.wav",
+      "text": "六十米，每段六米，一共十个间隔。最后一段回到起点，十个间隔对应十棵树。长边能分成三段，短边能分成两段，四个拐角都正好落在种树的位置上。",
+      "duration": 13.97,
+      "signature": "ea7547fc94db45b2dd2f26d4f943702af7ed5fd20265f5491a8362abaa5322b5",
+      "sha256": "349d51a133f2d834ecd7864d9209676b8e66efa5127b20389bafdb0becfda3a4",
+      "sampleRate": 24000
+    },
+    "treesrectangle-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treesrectangle-1-5.efccf9b9ccb4.wav",
+      "text": "再按边检查，长边各四棵，短边各三棵，合计十四次。但四个拐角各重复一次，要减去四，仍是十棵。长方形、正方形和三角形，都可以先看是不是首尾相接的一圈。",
+      "duration": 18.13,
+      "signature": "8cc8445f545ec38f1fe0a90d06b05986a69775acc0b5997197a62a232e02c514",
+      "sha256": "efccf9b9ccb42e3b42dd88ca1262a764470b1c48cbee3d260b3f414b3a07f0e7",
+      "sampleRate": 24000
+    },
+    "treesloopspacing-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/treesloopspacing-1-1.6064b57232df.wav",
+      "text": "前面知道间距，求一圈种几棵。这次反过来，告诉咱们一圈四十八米，均匀种了十二棵，问相邻两棵树沿边相距多少米。先把问题圈出来，答案应该是米。",
+      "duration": 14.77,
+      "signature": "b8f6c8f310a8f893b6f86e1c03b75fecb6f037e87883abac8c2cd21a9fe971d1",
+      "sha256": "6064b57232df8b438abc8eaa1dec83348cf2143c799d40ec0aa3c8fb24885aec",
+      "sampleRate": 24000
+    },
+    "treesloopspacing-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/treesloopspacing-1-2.ffcaf0cd5bd4.wav",
+      "text": "给十二棵树标上号码。从第一棵走到第十二棵，虽然经过十一个间隔，但还没有走完整圈。第十二棵回到第一棵，还有最后一个间隔，合起来正好十二个。",
+      "duration": 13.17,
+      "signature": "772b7c54a3c2386899038c57d2a80e34142def5483f5dd47d6434a80a6c27ed0",
+      "sha256": "ffcaf0cd5bd4b2b0e49465f91a9c8bd7c02c6b102d65e90dfe8ff2bda0430778",
+      "sampleRate": 24000
+    },
+    "treesloopspacing-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/treesloopspacing-1-3.af41c390a676.wav",
+      "text": "如果只数相邻号码，从第一棵到第十二棵，就只数了十一段。可题目给的是整圈四十八米。漏掉最后一棵回到第一棵的那一段，还算完整圈吗？想好应该分几份。",
+      "duration": 17.84,
+      "signature": "a1fb11c173489a1e3092184c78e52c16361d3aad043abbee6e2d11e64de40f28",
+      "sha256": "af41c390a6768953807af79dd23a788335d8f8b40f66679e56b4ea29641ec6a7",
+      "sampleRate": 24000
+    },
+    "treesloopspacing-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/treesloopspacing-1-4.1616d50f1029.wav",
+      "text": "十二个间隔一样长，把四十八米平均分成十二份，每份四米。看高亮沿边走，每走四米到下一棵，最后四米回到第一棵。这就是所求的相邻间距。",
+      "duration": 14.45,
+      "signature": "4a91b806193b0d4f83cb29673e6fbeb63292e519ceda3f5c8d0e01087df7a165",
+      "sha256": "1616d50f1029e559d946e749d48a57c191c3e4d9545c539fd667e89b3de477bb",
+      "sampleRate": 24000
+    },
+    "treesloopspacing-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/treesloopspacing-1-5.d965afac4d6c.wav",
+      "text": "检查一下，十二段，每段四米，合起来四十八米，正好走完整圈。封闭路线求棵数，用一圈长度除以间距；反过来求间距，用一圈长度除以棵数。先找间隔数，问法变了也能做。",
+      "duration": 18.13,
+      "signature": "9610e797acf45fb9d90aa7df6300c8cb73b42bca12c4f3e7998d9e5f7c5639d9",
+      "sha256": "d965afac4d6cac14ee4f2f0994c008989bf35cf643b4e652a391673e2c890298",
+      "sampleRate": 24000
+    },
+    "unitworkone-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworkone-1-1.86ad6c166244.wav",
+      "text": "请先把两种数量圈出来，六名工人和二小时，合起来加工七十二个零件。接下来数量和时间都变了。每名工人每小时的效率相同，咱们要找的这一份，是一名工人工作一小时的产量。",
+      "duration": 17.57,
+      "signature": "62baec088e7f94f4f37b171cee892b80c4d292b2a1c0c6fcec1b9af7edfceca1",
+      "sha256": "86ad6c166244f912983f8d1c6d8a6dd7edafad2564c68865233ce55a2bccaead",
+      "sampleRate": 24000
+    },
+    "unitworkone-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworkone-1-2.62e4af35ce68.wav",
+      "text": "七十二个平均分给六名工人，一名工人二小时加工十二个。再把十二平均分到二小时，每小时六个。看格子，一行代表一名工人，一列代表一小时，一个小格才是每名工人每小时的六个。",
+      "duration": 19.73,
+      "signature": "e661e866e23cda1105b6683c17effb5f0a8e0b21b086a01fc73c2012e0311e87",
+      "sha256": "62e4af35ce68f170ef7d41253441293f8ba5152691426a6a4ff195d525620bb7",
+      "sampleRate": 24000
+    },
+    "unitworkone-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworkone-1-3.a2c9f12bc1d8.wav",
+      "text": "现在换成八名工人，工作三小时。图里要排八行，每行三个小格。已经知道每个小格是六个零件，接下来要算几个这样的小格呢？请先分清数量和时间，别漏掉其中一个。",
+      "duration": 15.12,
+      "signature": "02c2eb44eebbe4cbdfa695c3b5a45c59b5208e078045d5de6461733a3a23caa1",
+      "sha256": "a2c9f12bc1d8850d04de48f096134798835b50463b4df03691f0cf1dce5fd064",
+      "sampleRate": 24000
+    },
+    "unitworkone-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworkone-1-4.c88b1ac33731.wav",
+      "text": "八乘三，一共二十四个小格。每格六个零件，把这些相同的小份合起来，就是六乘八再乘三，得到一百四十四个。看高亮一格一格填满，增加数量和增加时间，都在增加相同的小份。",
+      "duration": 17.73,
+      "signature": "26d217de3cf1864a9d77984e27974b9a811f7c246ab372b1bb88e8bfe710f8ec",
+      "sha256": "c88b1ac33731b24bfd364915c82fd4d8be8bc0f585c3048a77554555027ccb72",
+      "sampleRate": 24000
+    },
+    "unitworkone-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworkone-1-5.0b99f7ba9f70.wav",
+      "text": "用一份六个放回原题，六乘六再乘二，正好七十二个，说明每小时的一份找对了。新任务同样按每格六个计算，答案一百四十四个。记住，先求每一名每一小时，再乘新的数量和新的小时数。",
+      "duration": 17.89,
+      "signature": "46ab8d7e693ee245fb1dcaa3495e978cd75cd4bc1b168327d695bb921635643f",
+      "sha256": "0b99f7ba9f7048df60aaa888d4d83d1d6fb2e51e395156d4897a59e850b12f01",
+      "sampleRate": 24000
+    },
+    "unitworktwo-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworktwo-1-1.70cde25f6044.wav",
+      "text": "请先把两种数量圈出来，五名工人和四小时，合起来加工一百个零件。接下来数量和时间都变了。每名工人每小时的效率相同，咱们要找的这一份，是一名工人工作一小时的产量。",
+      "duration": 16.45,
+      "signature": "eea6154f9480f60a4cf37f8221221ed85c5e93a426bc07c5099f85404b94bc1b",
+      "sha256": "70cde25f6044ff87a94d7eee4e24af054d3a73b36cfd90821ddf01e5c98ca5c8",
+      "sampleRate": 24000
+    },
+    "unitworktwo-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworktwo-1-2.39287b25fd57.wav",
+      "text": "一百个平均分给五名工人，一名工人四小时加工二十个。再把二十平均分到四小时，每小时五个。看格子，一行代表一名工人，一列代表一小时，一个小格才是每名工人每小时的五个。",
+      "duration": 15.89,
+      "signature": "e60291ed5308f7b34e234fc994ebf7196cb91a21795eccbb8dc5206a3a4546ed",
+      "sha256": "39287b25fd5719774d0ae1f16175027bae1b52927997f30e99589cf9815ecae0",
+      "sampleRate": 24000
+    },
+    "unitworktwo-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworktwo-1-3.f4d7e18b645f.wav",
+      "text": "现在换成七名工人，工作六小时。图里要排七行，每行六个小格。已经知道每个小格是五个零件，接下来要算几个这样的小格呢？请先分清数量和时间，别漏掉其中一个。",
+      "duration": 18.08,
+      "signature": "fbc9c238d4ebf6cf10c2fa586a9e312a10235471e0c322dd746c0b3a17d15aed",
+      "sha256": "f4d7e18b645f9c99ed0fee2f9781e41f563c4d387d6aadfe4301640ffc8bbe4a",
+      "sampleRate": 24000
+    },
+    "unitworktwo-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworktwo-1-4.19a2854fe816.wav",
+      "text": "七乘六，一共四十二个小格。每格五个零件，把这些相同的小份合起来，就是五乘七再乘六，得到二百一十个。看高亮一格一格填满，增加数量和增加时间，都在增加相同的小份。",
+      "duration": 18.29,
+      "signature": "6e58901e537253fa1770dc174797062bd50e63a3ead79118fa18b540b539f981",
+      "sha256": "19a2854fe8163dc5158a41f508fbec3641bcd0035b996b836eeab5cb3ace4674",
+      "sampleRate": 24000
+    },
+    "unitworktwo-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitworktwo-1-5.84295d9fe5b8.wav",
+      "text": "用一份五个放回原题，五乘五再乘四，正好一百个，说明每小时的一份找对了。新任务同样按每格五个计算，答案二百一十个。记住，先求每一名每一小时，再乘新的数量和新的小时数。",
+      "duration": 18.05,
+      "signature": "f7790c8e364c22d0e8f7ca13e47191767791ef950aa0c03b9896d3e7d18d4f79",
+      "sha256": "84295d9fe5b82b42b07e5f6a1354b4aca4ffe3e7b7ca0ff12fb1423570289be2",
+      "sampleRate": 24000
+    },
+    "unitmachine-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitmachine-1-1.aec404068162.wav",
+      "text": "请先把两种数量圈出来，三台机器和五小时，合起来生产九十个零件。接下来数量和时间都变了。每台机器每小时的效率相同，咱们要找的这一份，是一台机器工作一小时的产量。",
+      "duration": 17.97,
+      "signature": "d74afb83ac72bcc922f337a587c823bd40198603be0f518261a91588965f3bae",
+      "sha256": "aec4040681629b9cd3d81b0c571aba76690b1b584f38f0e6601997116fd2a9b3",
+      "sampleRate": 24000
+    },
+    "unitmachine-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitmachine-1-2.83a564ebde4c.wav",
+      "text": "九十个平均分给三台机器，一台机器五小时生产三十个。再把三十平均分到五小时，每小时六个。看格子，一行代表一台机器，一列代表一小时，一个小格才是每台机器每小时的六个。",
+      "duration": 16.69,
+      "signature": "3128fa788c71155fa0c957bacb41e5da0a6f2ccde57342051d11a2ea503a9dc7",
+      "sha256": "83a564ebde4ccc3ac1582412738e203c60fe5026d34d6b24292014ae30f11f25",
+      "sampleRate": 24000
+    },
+    "unitmachine-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitmachine-1-3.9e55b48af8bb.wav",
+      "text": "现在换成四台机器，工作八小时。图里要排四行，每行八个小格。已经知道每个小格是六个零件，接下来要算几个这样的小格呢？请先分清数量和时间，别漏掉其中一个。",
+      "duration": 18.16,
+      "signature": "d9bf9bf8f0c4fa690b739885374e2bd80b5bfd519d3f183379b1831b3b6b4907",
+      "sha256": "9e55b48af8bbe9a21a870908624e24e8a65818a1629fe3fdedc5e7d92af2f553",
+      "sampleRate": 24000
+    },
+    "unitmachine-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitmachine-1-4.80512cafbd22.wav",
+      "text": "四乘八，一共三十二个小格。每格六个零件，把这些相同的小份合起来，就是六乘四再乘八，得到一百九十二个。看高亮一格一格填满，增加数量和增加时间，都在增加相同的小份。",
+      "duration": 18.45,
+      "signature": "44baf9d4af40e9599e22bb7ad17f45f0d77ea52fbe32f4b41623ab620fed6285",
+      "sha256": "80512cafbd22edde26ac312901ee09eae1fbda0b314333ff503508c463376e28",
+      "sampleRate": 24000
+    },
+    "unitmachine-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitmachine-1-5.1bbbdf963418.wav",
+      "text": "用一份六个放回原题，六乘三再乘五，正好九十个，说明每小时的一份找对了。新任务同样按每格六个计算，答案一百九十二个。记住，先求每一台每一小时，再乘新的数量和新的小时数。",
+      "duration": 22.93,
+      "signature": "085c7f8076b972802469a22ce60854a7c121778597383e78580a082ca744fad1",
+      "sha256": "1bbbdf9634181d236145aed1f4a1e5cda8732b3916625a1978830a5b7e90db67",
+      "sampleRate": 24000
+    },
+    "unitfoodone-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodone-1-1.e94f6fe83a28.wav",
+      "text": "先不用知道食物有多少千克。把一个人一天吃的食物，记作一份。二十个人吃二十四天，需要二十乘二十四，一共四百八十份。这样把人数和天数一起算进去，也叫用人天数表示食物总量。",
+      "duration": 16.45,
+      "signature": "d7c80626ca4d0a796ed9e726fa15c355d44cb2201a1e94115eb83359b1625179",
+      "sha256": "e94f6fe83a280594dcce7f2c41deea9fb6966f13c590c6364f83e4e483dc5ed2",
+      "sampleRate": 24000
+    },
+    "unitfoodone-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodone-1-2.40ba229389a8.wav",
+      "text": "先来的还是二十个人，他们已经吃了四天，用掉二十乘四，就是八十份。动画把这些天的食物标成金色，剩下的绿色食物是四百份。也可以先算原来的二十四天减四天，再乘二十人。",
+      "duration": 14.77,
+      "signature": "7ba1cbc9bb753d4230bdb7aecb7ea3ff5751ff113affc87e4b89e9a3862c57bc",
+      "sha256": "40ba229389a8f287569d6ccd8b31c3f31982cd88687db01e8e36add9c69f6da4",
+      "sampleRate": 24000
+    },
+    "unitfoodone-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodone-1-3.f6770f38f2a3.wav",
+      "text": "接下来又来了二十个人。原来的二十个人还在，所以现在一共有多少人？食物没有补充，绿色的剩余份数不变。请先算现在每天要吃几份，再想还能吃几天。",
+      "duration": 15.68,
+      "signature": "135600cc73b4385046d4865ac616c080d89d71880fdad5e06294e31821c88222",
+      "sha256": "f6770f38f2a34a295d875045a97a3502f2a39acc477dfed7a94afaf9c7229156",
+      "sampleRate": 24000
+    },
+    "unitfoodone-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodone-1-4.93121e61db85.wav",
+      "text": "现在二十加二十，共四十人，每天需要四十份。把剩余四百份重新排一排，人数增加，能吃的天数就变少了。四百除以四十，等于十，所以从新朋友到来以后，还能吃十天。",
+      "duration": 16.37,
+      "signature": "70c107ac44ef4848718b358c27df57267c5414536087cec20b16da7e5e4af5e2",
+      "sha256": "93121e61db85a40e9af1802026405a9bd62155da1e19922b5d5c056927c22e7e",
+      "sampleRate": 24000
+    },
+    "unitfoodone-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodone-1-5.cad8a92b901b.wav",
+      "text": "检查一下，以前吃掉八十份，今后四十人吃十天，要四十乘十，正好四百份。两部分合起来四百八十份，食物没有变多也没有变少。题目问剩下还能吃几天，所以答案是十天，不把已经吃过的四天再加进去。",
+      "duration": 21.25,
+      "signature": "5dbc327bddef9e37679cf63e994c04fe6aa4d24489f6149e3677b7b37d6767df",
+      "sha256": "cad8a92b901b488f3b70bcf36894b52f291bce1ea9c65a4a433b0a0722440ae9",
+      "sampleRate": 24000
+    },
+    "unitfoodtwo-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodtwo-1-1.2f8af8952005.wav",
+      "text": "先不用知道食物有多少千克。把一个人一天吃的食物，记作一份。三十个人吃二十天，需要三十乘二十，一共六百份。这样把人数和天数一起算进去，也叫用人天数表示食物总量。",
+      "duration": 17.49,
+      "signature": "a2ca5d9720d14dc109c17363fb248d4db7a860f4e46459a7a8f265db2f180827",
+      "sha256": "2f8af89520056d76a0c9b7fc5c80d0a754ab69e56d6960180ebda8ec5fb7d192",
+      "sampleRate": 24000
+    },
+    "unitfoodtwo-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodtwo-1-2.a8320cf6f728.wav",
+      "text": "先来的还是三十个人，他们已经吃了五天，用掉三十乘五，就是一百五十份。动画把这些天的食物标成金色，剩下的绿色食物是四百五十份。也可以先算原来的二十天减五天，再乘三十人。",
+      "duration": 15.49,
+      "signature": "4a78b11b4b0a01d19851a933e342841638c36e315d63cc688cbf856e47e7e530",
+      "sha256": "a8320cf6f728e60b2f2ee37e11f7a8fefabb62a1e2bba073b8c179dea271561e",
+      "sampleRate": 24000
+    },
+    "unitfoodtwo-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodtwo-1-3.ada993dcfe81.wav",
+      "text": "接下来又来了十五个人。原来的三十个人还在，所以现在一共有多少人？食物没有补充，绿色的剩余份数不变。请先算现在每天要吃几份，再想还能吃几天。",
+      "duration": 15.2,
+      "signature": "d53d99b0c4c540c516a261f29d0a4e4b693c71980c73918e59a80401c156f975",
+      "sha256": "ada993dcfe818915913a7b234d87081cfd512256cd22090cc6d32b62f07d4a33",
+      "sampleRate": 24000
+    },
+    "unitfoodtwo-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodtwo-1-4.7dc1e16fbb1e.wav",
+      "text": "现在三十加十五，共四十五人，每天需要四十五份。把剩余四百五十份重新排一排，人数增加，能吃的天数就变少了。四百五十除以四十五，等于十，所以从新朋友到来以后，还能吃十天。",
+      "duration": 19.73,
+      "signature": "22ec6439e5fd6c2e391a4fca131a952bdec3ee996dfe594b3068668a3f559469",
+      "sha256": "7dc1e16fbb1e677b74bce857d329e95ca084960b58e56c49f952b1bb722d1786",
+      "sampleRate": 24000
+    },
+    "unitfoodtwo-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodtwo-1-5.7916cc756f54.wav",
+      "text": "检查一下，以前吃掉一百五十份，今后四十五人吃十天，要四十五乘十，正好四百五十份。两部分合起来六百份，食物没有变多也没有变少。题目问剩下还能吃几天，所以答案是十天，不把已经吃过的五天再加进去。",
+      "duration": 21.01,
+      "signature": "6d3aeaff04311a23aa74ddbede8eb00ade487d933c4d215d694666ed494de167",
+      "sha256": "7916cc756f54c000d0a8e033ad7c96c66d13dcdb87a28f763d94096d6e9e4205",
+      "sampleRate": 24000
+    },
+    "unitfoodthree-1-1": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodthree-1-1.038b89175844.wav",
+      "text": "先不用知道食物有多少千克。把一个人一天吃的食物，记作一份。十二个人吃四十天，需要十二乘四十，一共四百八十份。这样把人数和天数一起算进去，也叫用人天数表示食物总量。",
+      "duration": 15.89,
+      "signature": "fd7679ac957fda010e5e7da6fbbb293c263746c3f9be96d0afab37a78bdc23cb",
+      "sha256": "038b891758447b37da459043d144bbd8ed73657ae32f370e3a6436fde5258b15",
+      "sampleRate": 24000
+    },
+    "unitfoodthree-1-2": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodthree-1-2.fa279dd52058.wav",
+      "text": "先来的还是十二个人，他们已经吃了十天，用掉十二乘十，就是一百二十份。动画把这些天的食物标成金色，剩下的绿色食物是三百六十份。也可以先算原来的四十天减十天，再乘十二人。",
+      "duration": 15.97,
+      "signature": "45b89fe5ecb67dfb722db6983f77bf70056a1349f6429c29db5a44e314cecdcf",
+      "sha256": "fa279dd5205857cdbe535783e28748806c4ad82bbeb4d4488c3a779946db55f1",
+      "sampleRate": 24000
+    },
+    "unitfoodthree-1-3": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodthree-1-3.b11eff4fec67.wav",
+      "text": "接下来又来了六个人。原来的十二个人还在，所以现在一共有多少人？食物没有补充，绿色的剩余份数不变。请先算现在每天要吃几份，再想还能吃几天。",
+      "duration": 14.32,
+      "signature": "0d6157f122476359279414ac32142ddfa318996287618f1261e2d4c76c35ba62",
+      "sha256": "b11eff4fec6730188b82e9dfd08350118a43d05de82068a81110ad2cd0ee0328",
+      "sampleRate": 24000
+    },
+    "unitfoodthree-1-4": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodthree-1-4.c7db5190a11f.wav",
+      "text": "现在十二加六，共十八人，每天需要十八份。把剩余三百六十份重新排一排，人数增加，能吃的天数就变少了。三百六十除以十八，等于二十，所以从新朋友到来以后，还能吃二十天。",
+      "duration": 19.33,
+      "signature": "fac7ad64c440f02ed0ceee5f9ec4d71f0422eaa1ff2346a8e456bf8acdcde3a0",
+      "sha256": "c7db5190a11f17a2cfca433526f52d3bd98c576a17f5d5dc3e8a51d7f17614fd",
+      "sampleRate": 24000
+    },
+    "unitfoodthree-1-5": {
+      "src": "/audio/qwen3/a8188efda9d8/unitfoodthree-1-5.8bb57c18ea08.wav",
+      "text": "检查一下，以前吃掉一百二十份，今后十八人吃二十天，要十八乘二十，正好三百六十份。两部分合起来四百八十份，食物没有变多也没有变少。题目问剩下还能吃几天，所以答案是二十天，不把已经吃过的十天再加进去。",
+      "duration": 16.37,
+      "signature": "ad0654edbaeaec0e3f9ff30d3b82e08fd43e8e677e7b671db2cef54f9aff6540",
+      "sha256": "8bb57c18ea0823374dd7a69ceec7282886ed719b2a91c532ff8adf4691ffc8af",
       "sampleRate": 24000
     }
   }
