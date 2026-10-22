@@ -2,7 +2,7 @@
 
 小学奥数教学网站位于 [math-garden](./math-garden/README.md)。
 
-本地访问 http://127.0.0.1:5173/ ，线上通过 Netlify 部署。
+本地访问 http://127.0.0.1:5173/ ，线上地址：[数学小花园](https://molly-math-garden.netlify.app/)。
 
 ```sh
 ./start.sh  # 构建并在后台启动
@@ -12,6 +12,8 @@
 脚本可从任意目录执行，启动后可关闭终端。重复启动不会创建多个服务，关闭时只停止本项目的进程。日志位于 `math-garden/.local-service/server.log`。首次安装依赖时，在 `math-garden` 目录执行 `npm ci`。
 
 ## 线上部署与同步
+
+部署状态：[Netlify 控制台](https://app.netlify.com/projects/molly-math-garden/deploys)。
 
 Netlify 使用仓库根目录的 `netlify.toml`：在 `math-garden` 目录安装依赖，使用 Node 24 执行 `npm test && npm run build`，发布 `dist`，包含配套图片和音频。
 
