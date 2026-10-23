@@ -32,8 +32,8 @@ test('Qwen plan selects local 1.7B Serena with a stable identity and child-frien
   assert.equal(plan.provider, 'qwen3-tts');
   assert.match(plan.model, /1.7B-CustomVoice-8bit$/);
   assert.equal(plan.speaker, 'serena');
-  assert.equal(plan.jobs.length, 240);
-  assert.equal(new Set(plan.jobs.map(j => j.id)).size, 240);
+  assert.equal(plan.jobs.length, 410);
+  assert.equal(new Set(plan.jobs.map(j => j.id)).size, 410);
   assert.deepEqual(plan, qwenPlan());
   for (const job of plan.jobs) {
     assert.equal(job.language, 'Chinese');
@@ -57,14 +57,36 @@ test('a complete Qwen pack atomically installs matching text and audio', () => {
   const root = mkdtempSync(join(tmpdir(), 'qwen-pack-test-'));
   try {
     const { pack, project } = makePack(root);
-    assert.equal(validateQwenPack(pack).files.length, 240);
+    assert.equal(validateQwenPack(pack).files.length, 410);
     const result = installQwenPack(pack, project);
-    assert.equal(result.entries, 240);
+    assert.equal(result.entries, 410);
     const installed = JSON.parse(readFileSync(join(project, 'src/audio-catalog.json'), 'utf8'));
     assert.equal(installed.provider, 'qwen3-tts');
     for (const entry of Object.values(installed.entries) as { src: string }[]) assert.ok(existsSync(join(project, `public${entry.src}`)));
     assert.ok(existsSync(join(project, `public${result.reviewPath}`)));
   } finally { rmSync(root, { recursive: true, force: true }); }
+});
+test('installing an expanded pack keeps valid published audio URLs and repairs corrupt local files', () => {
+  const root = mkdtempSync(join(tmpdir(), 'qwen-reuse-test-'));
+  try {
+    const {pack,project}=makePack(root);
+    const first=installQwenPack(pack,project);
+    assert.equal(first.copiedEntries,410);
+    const catalog=JSON.parse(readFileSync(join(project,'src/audio-catalog.json'),'utf8'));
+    const key='geometry-1-1',original=catalog.entries[key];
+    const moved={...original,src:original.src.replace('012345abcdef','abcdef012345')};
+    mkdirSync(join(project,'public/audio/qwen3/abcdef012345'),{recursive:true});
+    writeFileSync(join(project,`public${moved.src}`),readFileSync(join(project,`public${original.src}`)));
+    catalog.entries[key]=moved;writeFileSync(join(project,'src/audio-catalog.json'),JSON.stringify(catalog));
+    const second=installQwenPack(pack,project);
+    assert.equal(second.reusedEntries,410);assert.equal(second.copiedEntries,0);
+    assert.equal(JSON.parse(readFileSync(join(project,'src/audio-catalog.json'),'utf8')).entries[key].src,moved.src);
+    writeFileSync(join(project,`public${moved.src}`),'corrupt');
+    const repaired=installQwenPack(pack,project);
+    assert.equal(repaired.copiedEntries,1);assert.equal(repaired.reusedEntries,409);
+    const restored=JSON.parse(readFileSync(join(project,'src/audio-catalog.json'),'utf8')).entries[key];
+    assert.equal(createHash('sha256').update(readFileSync(join(project,`public${restored.src}`))).digest('hex'),original.sha256);
+  } finally { rmSync(root,{recursive:true,force:true}); }
 });
 test('a late stale transcript, incomplete pack or corrupt audio cannot activate a Qwen pack', () => {
   const root = mkdtempSync(join(tmpdir(), 'qwen-invalid-test-'));
@@ -79,7 +101,7 @@ test('a late stale transcript, incomplete pack or corrupt audio cannot activate 
     catalog.entries[key] = original;
     delete catalog.entries[key];
     writeFileSync(join(pack, 'catalog.json'), JSON.stringify(catalog));
-    assert.throws(() => validateQwenPack(pack), /240段/);
+    assert.throws(() => validateQwenPack(pack), /410段/);
     catalog.entries[key] = original;
     writeFileSync(join(pack, 'catalog.json'), JSON.stringify(catalog));
     writeFileSync(join(pack, basename(original.src)), 'corrupt');

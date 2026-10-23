@@ -11,16 +11,16 @@ import { checkAnswer, emptyProgress, parseProgress, countSolved, progressKey } f
 
 test('grade one offers a progression in every topic and other grades remain empty', () => {
   assert.equal(topics.length, 9);
-  assert.equal(lessons.length, 48);
+  assert.equal(lessons.length, 82);
   assert.deepEqual(availableGrades, [1]);
   for (const grade of [1]) {
     const group = lessons.filter(x => x.grade === grade);
-    assert.equal(group.length, 48);
+    assert.equal(group.length, 82);
     assert.deepEqual(new Set(group.map(x => x.topic)), new Set(topics.map(x => x.id)));
   }
   for (const grade of [2, 3, 4, 5, 6]) assert.deepEqual(coursesByGrade[grade], []);
   assert.equal(archivedGradeFourLessons.length, 9);
-  assert.equal(new Set(lessons.flatMap(l => l.exercises.map(x => x.id))).size, 66);
+  assert.equal(new Set(lessons.flatMap(l => l.exercises.map(x => x.id))).size, 100);
   for (const lesson of lessons) {
     assert.equal(lesson.grade, 1);
     if (lesson.audioSourceId) {

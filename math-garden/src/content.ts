@@ -2,6 +2,7 @@ import { gradeOneLessons } from './courses/grade-1/index.ts';
 import { extensionLessons } from './courses/grade-1/extensions.ts';
 import { closedTreeLessons } from './courses/grade-1/closed-trees.ts';
 import { compoundUnitLessons } from './courses/grade-1/compound-unit.ts';
+import { reference20261023Lessons } from './courses/reference-20261023-lessons.ts';
 import type { StoryFrame } from './story-types.ts';
 export type TopicId = 'trees' | 'unit' | 'sum' | 'cycle' | 'average' | 'ratio' | 'transfer' | 'geometry' | 'age';
 export type Scene =
@@ -45,7 +46,7 @@ export const topics: { id: TopicId; name: string; icon: string; subtitle: string
   { id: 'geometry', name: '平面图形计数', icon: 'grid', subtitle: '按大小和位置有序地数' },
   { id: 'age', name: '年龄问题', icon: 'clock', subtitle: '年龄一起变，年龄差不变' },
 ];
-export const coursesByGrade: Record<number, Lesson[]> = { 1: [...gradeOneLessons, ...extensionLessons, ...closedTreeLessons, ...compoundUnitLessons], 2: [], 3: [], 4: [], 5: [], 6: [] };
+export const coursesByGrade: Record<number, Lesson[]> = { 1: [...gradeOneLessons, ...extensionLessons, ...closedTreeLessons, ...compoundUnitLessons, ...reference20261023Lessons], 2: [], 3: [], 4: [], 5: [], 6: [] };
 export const lessons: Lesson[] = Object.values(coursesByGrade).flat();
 export const availableGrades = Object.keys(coursesByGrade).map(Number).filter(grade => coursesByGrade[grade].length > 0);
 export const defaultLesson = lessons[0];

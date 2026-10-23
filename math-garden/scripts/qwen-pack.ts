@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { copyFileSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { basename, dirname, join, resolve } from 'node:path';
 import type { AudioCatalog } from '../src/narration.ts';
 import { qwenPlan } from './qwen-plan.ts';
@@ -44,11 +44,29 @@ export function validateQwenPack(packDirectory: string) {
 export function installQwenPack(packDirectory: string, projectDirectory = '.') {
   const verified = validateQwenPack(packDirectory);
   const root = resolve(projectDirectory);
-  const review = readFileSync(join(resolve(packDirectory), 'index.html'));
-  for (const file of verified.files) { const target = join(root, file.relative); mkdirSync(dirname(target), { recursive: true }); copyFileSync(file.source, target); }
+  let review = readFileSync(join(resolve(packDirectory), 'index.html'), 'utf8');
+  let current: AudioCatalog | undefined;
+  try { current = JSON.parse(readFileSync(join(root, 'src/audio-catalog.json'), 'utf8')); } catch { /* A first install may have no catalog. */ }
+  const sameVoice = current && ['provider','model','modelRevision','speaker'].every(key => current![key as keyof AudioCatalog] === verified.catalog[key as keyof AudioCatalog]);
+  const catalog: AudioCatalog = { ...verified.catalog, entries: {} };
+  let reusedEntries = 0;
+  for (const [id, entry] of Object.entries(verified.catalog.entries)) {
+    const old = sameVoice ? current?.entries?.[id] : undefined;
+    const oldPath = old && /^\/audio\/qwen3\/[a-f0-9]{12}\/[a-z]+-[1-6]-[1-5]\.[a-f0-9]{12}\.wav$/.test(old.src) ? join(root, `public${old.src}`) : undefined;
+    const reuse = old && oldPath && old.sha256 === entry.sha256 && old.text === entry.text && old.signature === entry.signature && old.sourceLessonId === entry.sourceLessonId && existsSync(oldPath) && createHash('sha256').update(readFileSync(oldPath)).digest('hex') === entry.sha256;
+    const next = reuse ? { ...entry, src: old.src } : entry;
+    catalog.entries[id] = next;
+    if (reuse) reusedEntries++;
+    else {
+      const target = join(root, `public${entry.src}`);
+      mkdirSync(dirname(target), { recursive: true }); copyFileSync(join(resolve(packDirectory), basename(entry.src)), target);
+    }
+    review = review.replaceAll(`src="${basename(entry.src)}"`, `src="${next.src}"`);
+  }
+  mkdirSync(join(root, `public${verified.prefix}`), { recursive: true });
   writeFileSync(join(root, `public${verified.prefix}/index.html`), review);
   const catalogPath = join(root, 'src/audio-catalog.json');
   const temporary = `${catalogPath}.tmp`;
-  writeFileSync(temporary, JSON.stringify(verified.catalog, null, 2) + '\n'); renameSync(temporary, catalogPath);
-  return { voice: verified.catalog.voiceLabel, entries: verified.files.length, reviewPath: `${verified.prefix}/index.html` };
+  writeFileSync(temporary, JSON.stringify(catalog, null, 2) + '\n'); renameSync(temporary, catalogPath);
+  return { voice: catalog.voiceLabel, entries: verified.files.length, reusedEntries, copiedEntries: verified.files.length - reusedEntries, reviewPath: `${verified.prefix}/index.html` };
 }

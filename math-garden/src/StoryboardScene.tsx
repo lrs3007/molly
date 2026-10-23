@@ -1,14 +1,19 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PlantingLoopScene from './PlantingLoopScene';
 import CompoundUnitScene from './CompoundUnitScene';
+import ReferenceStoryScene from './ReferenceStoryScene';
 import type { Lesson } from './content';
 import type { StoryFrame } from './story-types';
 import { enumerateTriangles, lShapeSquares, triangleSegments } from './figure-math';
+import { sourceFigureGroup } from './reference-figure-math';
 const green = '#7da58a', ink = '#4f745b', gold = '#d3a951';
 const progress = (p: number) => Math.max(0, Math.min(1, p));
-function Body({ frame, previous, p }: { frame: Exclude<StoryFrame, { kind: 'figures' }>; previous?: StoryFrame; p: number }) {
+function Body({ frame, previous, p, selected }: { frame: Exclude<StoryFrame, { kind: 'figures' }>; previous?: StoryFrame; p: number; selected?:number|null }) {
   const t = progress(p * 1.8);
   switch (frame.kind) {
+    case 'source-count':
+    case 'transfer-story':
+    case 'age-story': return <ReferenceStoryScene frame={frame} previous={previous} p={p} selected={selected}/>;
     case 'production-grid':
     case 'food-supply': return <CompoundUnitScene frame={frame} p={p}/>;
     case 'planting-loop': return <PlantingLoopScene frame={frame} p={p}/>;
@@ -98,10 +103,12 @@ function FigureBody({ frame, p, selectedGroup, selected }: { frame: Extract<Stor
 }
 export default function StoryboardScene({ lesson, step, fraction }: { lesson: Lesson; step: number; fraction: number }) {
   const [selected, setSelected] = useState<number | null>(null), [selectedGroup, setSelectedGroup] = useState<string>();
+  useEffect(()=>{setSelected(null);setSelectedGroup(undefined);},[lesson.id,step]);
   if (lesson.scene.kind !== 'storyboard') return null;
   const frame = lesson.scene.frames[step], previous = lesson.scene.frames[step - 1];
   const group = selectedGroup ?? (frame.kind === 'figures' ? frame.group : 'all');
   let count = 0;
+  if(frame.kind==='source-count')count=sourceFigureGroup(frame.figure,frame.group).filter(s=>!frame.size||Math.max(...s.map(p=>p[0]))-Math.min(...s.map(p=>p[0]))===frame.size).length;
   if (frame.kind === 'figures') {
     if (frame.figure === 'l-squares') count = lShapeSquares().squares.filter(s => group === 'small' ? s.size === 1 : group === 'medium' ? s.size === 2 : group === 'large' ? s.size === 3 : true).length;
     else count = enumerateTriangles(Number(frame.figure.at(-1))).filter(t => { const top = t.some(([x,y]) => Math.abs(x) < 1e-7 && Math.abs(y) < 1e-7); return group === 'top' ? top : group === 'other' ? !top : true; }).length;
@@ -109,9 +116,13 @@ export default function StoryboardScene({ lesson, step, fraction }: { lesson: Le
   const current = Math.min(count - 1, selected ?? Math.floor(fraction * count));
   return <div className="storyboard-scene"><svg className="lesson-scene" viewBox="0 0 610 300" role="img" aria-label={`${lesson.steps[step].title}：${lesson.steps[step].caption}`}>
     <text x="305" y="26" textAnchor="middle" fill={ink} fontSize="14">{frame.title}</text>
-    {frame.kind === 'figures' ? <FigureBody frame={frame} p={fraction} selected={selected} selectedGroup={selectedGroup}/> : <Body frame={frame} previous={previous} p={fraction}/>}
+    {frame.kind === 'figures' ? <FigureBody frame={frame} p={fraction} selected={selected} selectedGroup={selectedGroup}/> : <Body frame={frame} previous={previous} p={fraction} selected={selected}/>}
     <text x="305" y="291" textAnchor="middle" fill={ink} fontSize="11">{frame.footer}</text>
-  </svg>{frame.kind === 'figures' && <div className="figure-controls">
+  </svg>{frame.kind==='source-count'&&frame.phase!=='outline'&&<div className="figure-controls" aria-label="原图逐个计数">
+    <button disabled={current<=0} onClick={()=>setSelected(Math.max(0,current-1))}>上一个图形</button><span>{current+1} / {count}</span>
+    <button disabled={current>=count-1} onClick={()=>setSelected(Math.min(count-1,current+1))}>下一个图形</button>
+    <button className={selected===null?'following':''} onClick={()=>setSelected(null)}>跟随讲解</button>
+  </div>}{frame.kind === 'figures' && <div className="figure-controls">
     <label>计数分组<select aria-label="计数分组" value={group} onChange={event => { setSelectedGroup(event.target.value); setSelected(null); }}><option value="all">全部图形</option>{frame.figure === 'l-squares' ? <><option value="small">边长1格</option><option value="medium">边长2格</option><option value="large">边长3格</option></> : <><option value="top">含最上顶点</option><option value="other">不含最上顶点</option></>}</select></label>
     <button disabled={current <= 0} onClick={() => setSelected(Math.max(0,current - 1))}>上一个图形</button><span>{current + 1} / {count}</span><button disabled={current >= count - 1} onClick={() => setSelected(Math.min(count - 1,current + 1))}>下一个图形</button>
     <button className={selected === null ? 'following' : ''} onClick={() => { setSelected(null); setSelectedGroup(undefined); }}>跟随讲解</button>

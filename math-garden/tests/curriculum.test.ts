@@ -3,19 +3,19 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { lessons, topics } from '../src/content.ts';
-import { referenceImages, referenceText } from '../src/courses/reference-20261017.ts';
+import { referenceDocument, referenceImages, referenceText } from '../src/courses/reference-20261017.ts';
 import { enumerateTriangles, lShapeSquares } from '../src/figure-math.ts';
 import { emptyProgress, parseProgress, progressKey } from '../src/progress.ts';
 
 test('all nine topics start with a foundation and cover every reference question and image', () => {
-  const counts = [9, 10, 3, 5, 4, 4, 3, 6, 4];
+  const counts = [9, 10, 3, 5, 4, 4, 14, 18, 15];
   topics.forEach((topic, i) => {
     const path = lessons.filter(l => l.topic === topic.id);
     assert.equal(path.length, counts[i]);
     assert.equal(path[0].id, `${topic.id}-1`);
     assert.ok(path.slice(1).every(l => l.level && l.exercises.length));
   });
-  const originals = lessons.filter(l => l.source);
+  const originals = lessons.filter(l => l.source?.document === referenceDocument);
   assert.equal(originals.length, 17); // The three diagrams in one source question are taught separately.
   assert.deepEqual([...new Set(originals.map(l => l.source!.paragraph))].sort((a,b) => a-b), [2,4,5,8,10,13,15,19,22,26,28,31,33,36,39]);
   for (const l of originals) assert.ok(l.problem.startsWith(referenceText[l.source!.paragraph]), l.id);
@@ -52,7 +52,7 @@ test('every new practice answer has an independent calculation', () => {
     geometrytriangleone: '不能', geometrytriangletwo: '不能', geometrytrianglethree: '不能',
     agepast: 16-(40-16)/(3-1), agemother: 36-6, agefather: 5+11,
   };
-  const extensions = lessons.filter(l => !l.audioSourceId);
+  const extensions = lessons.filter(l => !l.audioSourceId && l.source?.document !== '数学原题分类汇编.docx');
   assert.equal(extensions.length, Object.keys(cases).length);
   for (const l of extensions) {
     assert.ok(l.id.slice(0,-2) in cases, l.id);

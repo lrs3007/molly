@@ -18,7 +18,7 @@ try {
   for (const grade of ['二年级', '三年级', '四年级']) assert.ok(new RegExp(`${grade}.*?筹备中`).test(app), `${grade} must be coming soon`);
   assert.ok(app.includes('一年级'));
   assert.ok(!app.includes('探索三年级') && !app.includes('探索四年级'));
-  assert.equal(Object.keys((await server.ssrLoadModule('/src/narration.ts')).audioCatalog.entries).length, 240);
+  assert.equal(Object.keys((await server.ssrLoadModule('/src/narration.ts')).audioCatalog.entries).length, 410);
   assert.ok(app.includes('本类学习路径') && app.includes('从基础到变化'));
   for (const lesson of lessons.filter(l => l.images?.length)) {
     const html = renderToStaticMarkup(React.createElement(ProblemImages, {images:lesson.images}));
@@ -44,6 +44,17 @@ try {
         const ration=Number(html.match(/data-rations="(\d+)"/)[1]);
         if(['regroup','check'].includes(f.phase)) assert.equal(green*ration,f.people*(f.days-f.eatenDays),'Regrouping must conserve all remaining food.');
         else assert.equal((green+consumed)*ration,f.people*f.days);
+      }
+      if(f.kind==='source-count') {
+        assert.ok(html.includes(`data-source-figure="${f.figure}"`));
+        if(f.phase!=='outline')assert.ok(html.includes('原图逐个计数')&&html.includes('下一个图形')&&html.includes('跟随讲解'));
+      }
+      if(f.kind==='age-story')assert.ok(html.includes(`data-age-time="${f.time}"`));
+      if(f.kind==='transfer-story'&&fraction===1) {
+        const points=[...html.matchAll(/<circle[^>]*cx="([\d.]+)" cy="([\d.]+)"/g)].map(m=>[Number(m[1]),Number(m[2])]);
+        const left=points.filter(([x,y])=>x>=71&&x<=225&&y>=81&&y<=223).length;
+        const right=points.filter(([x,y])=>x>=361&&x<=515&&y>=81&&y<=223).length;
+        assert.deepEqual([left,right],f.values,`${lesson.id} final tray counts must match the explanation`);
       }
     }
     assert.ok(!html.includes('NaN') && !html.includes('undefined') && !html.includes('Infinity'), `${lesson.id} step ${step} must render valid geometry`);

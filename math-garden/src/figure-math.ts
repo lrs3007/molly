@@ -14,7 +14,12 @@ const triangleCache = new Map<number, Point[][]>();
 export function enumerateTriangles(figure: number) {
   const cached = triangleCache.get(figure);
   if (cached) return cached;
-  const segments = triangleSegments(figure), points = new Map<string, Point>();
+  const triangles = trianglesFromSegments(triangleSegments(figure));
+  triangleCache.set(figure, triangles);
+  return triangles;
+}
+export function trianglesFromSegments(segments: Segment[]) {
+  const points = new Map<string, Point>();
   const add = (p: Point) => points.set(p.map(v => v.toFixed(7)).join(','), p);
   segments.forEach(s => s.forEach(add));
   for (const [a, b] of segments) for (const [c, d] of segments) {
@@ -35,7 +40,6 @@ export function enumerateTriangles(figure: number) {
     const difference = area(a)-area(b);
     return Math.abs(difference)>1e-7 ? difference : center(a,1)-center(b,1) || center(a,0)-center(b,0);
   });
-  triangleCache.set(figure, triangles);
   return triangles;
 }
 export function lShapeSquares() {
