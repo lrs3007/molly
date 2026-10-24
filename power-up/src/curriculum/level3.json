@@ -1,0 +1,2666 @@
+[
+  {
+    "id": "l3-u0",
+    "level": 3,
+    "number": 0,
+    "title": "Welcome to Diversicus",
+    "titleZh": "欢迎来到马戏团",
+    "page": 4,
+    "theme": "circus",
+    "missionZh": "向新朋友介绍自己，询问名字、年龄、爱好和时间。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "circus",
+        "zh": "马戏团",
+        "icon": "🎪"
+      },
+      {
+        "en": "artist",
+        "zh": "表演者",
+        "icon": "🎨"
+      },
+      {
+        "en": "friend",
+        "zh": "朋友",
+        "icon": "🤝"
+      },
+      {
+        "en": "name",
+        "zh": "名字",
+        "icon": "🏷️"
+      },
+      {
+        "en": "clock",
+        "zh": "时钟",
+        "icon": "🕐"
+      },
+      {
+        "en": "dance",
+        "zh": "跳舞",
+        "icon": "💃"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "认识新伙伴",
+        "titleEn": "Meet our friends",
+        "kind": "vocabulary",
+        "goalZh": "听懂介绍名字、年龄和爱好的表达。",
+        "explainZh": "欢迎来到热闹的马戏团！先听听新朋友怎样介绍自己。名字、年龄和喜欢做的事，都是交朋友时可以分享的信息。介绍完自己，也别忘了问问对方，给新朋友说话的机会。",
+        "exampleEn": "Hello! My name is Mia. I am nine. I like dancing.",
+        "exampleZh": "你好！我叫米娅。我九岁。我喜欢跳舞。",
+        "visual": "words",
+        "focus": [
+          "name",
+          "nine",
+          "dancing"
+        ],
+        "quiz": {
+          "promptZh": "米娅喜欢做什么？",
+          "options": [
+            "跳舞",
+            "画画",
+            "游泳",
+            "跑步"
+          ],
+          "answer": 0,
+          "explanationZh": "听到表示跳舞的词，就能找到米娅的爱好。",
+          "spokenEn": "I like dancing."
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "把问题问清楚",
+        "titleEn": "Ask a good question",
+        "kind": "grammar",
+        "goalZh": "根据想了解的信息选择疑问词。",
+        "explainZh": "想认识一个人，可以问不同的问题。问人、地点、时间和原因时，句子开头的词不一样。先想清楚自己缺少哪一条信息，再选择问题。听回答时，也要留心回答的是不是同一件事。",
+        "exampleEn": "Who is your friend? Where does she live? When do you practise?",
+        "exampleZh": "你的朋友是谁？她住在哪里？你什么时候练习？",
+        "visual": "sentence",
+        "focus": [
+          "Who",
+          "Where",
+          "When"
+        ],
+        "quiz": {
+          "promptZh": "想知道朋友住在哪里，应该选哪句？",
+          "options": [
+            "Who is she?",
+            "Where does she live?",
+            "When is lunch?",
+            "How old is she?"
+          ],
+          "answer": 1,
+          "explanationZh": "询问地点时，使用表示“在哪里”的疑问词。"
+        }
+      },
+      {
+        "id": "mission",
+        "titleZh": "完成见面小对话",
+        "titleEn": "Our first conversation",
+        "kind": "mission",
+        "goalZh": "用问答完成一段自我介绍。",
+        "explainZh": "现在来完成第一次见面的小对话。先问好，再介绍自己，接着问一个关于对方的问题。对方说完后，再接一句相关的话。这样一来一回，介绍就会变成自然的交流，而不只是背句子。",
+        "exampleEn": "Hi, I am Ben. What is your name? I am Lily. Nice to meet you!",
+        "exampleZh": "嗨，我叫本。你叫什么名字？我叫莉莉。很高兴认识你！",
+        "visual": "mission",
+        "focus": [
+          "What is your name?",
+          "Nice to meet you!"
+        ],
+        "quiz": {
+          "promptZh": "新朋友介绍了自己的名字后，哪句回应最合适？",
+          "options": [
+            "It is raining.",
+            "Turn left.",
+            "Nice to meet you!",
+            "I was tired."
+          ],
+          "answer": 2,
+          "explanationZh": "第一次见面时，可以说“很高兴认识你”来友好回应。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u1",
+    "level": 3,
+    "number": 1,
+    "title": "Practice time",
+    "titleZh": "练习时间",
+    "page": 6,
+    "theme": "circus",
+    "missionZh": "为一位马戏团表演者安排一周练习计划。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "practise",
+        "zh": "练习",
+        "icon": "🎯"
+      },
+      {
+        "en": "balance",
+        "zh": "平衡",
+        "icon": "⚖️"
+      },
+      {
+        "en": "skip",
+        "zh": "跳绳",
+        "icon": "🪢"
+      },
+      {
+        "en": "hop",
+        "zh": "单脚跳",
+        "icon": "🦶"
+      },
+      {
+        "en": "quarter",
+        "zh": "一刻钟",
+        "icon": "🕒"
+      },
+      {
+        "en": "half",
+        "zh": "一半",
+        "icon": "◐"
+      },
+      {
+        "en": "thirteen",
+        "zh": "十三",
+        "icon": "1️⃣"
+      },
+      {
+        "en": "thirty",
+        "zh": "三十",
+        "icon": "3️⃣"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "动作和时刻",
+        "titleEn": "Action and time",
+        "kind": "vocabulary",
+        "goalZh": "认识练习动作，读懂整点、半点和一刻钟。",
+        "explainZh": "看，表演者正在安排练习。先说动作，再说开始的时刻。半点表示过了三十分钟，一刻钟表示十五分钟。读钟面时先找时针，再看分针；说动作时，想象自己真的做一遍，词语会记得更牢。",
+        "exampleEn": "We practise at half past four. We hop and skip.",
+        "exampleZh": "我们四点半练习。我们单脚跳，也跳绳。",
+        "visual": "words",
+        "focus": [
+          "practise",
+          "half past four",
+          "hop",
+          "skip"
+        ],
+        "quiz": {
+          "promptZh": "练习什么时候开始？",
+          "options": [
+            "四点整",
+            "四点一刻",
+            "五点半",
+            "四点半"
+          ],
+          "answer": 3,
+          "explanationZh": "半点是过了三十分钟，所以这里是四点半。",
+          "spokenEn": "We practise at half past four."
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "用疑问词找信息",
+        "titleEn": "Question words",
+        "kind": "grammar",
+        "goalZh": "区分如何、什么、何时、何地、哪一个、谁和为什么。",
+        "explainZh": "每个疑问词都在寻找一种信息。问方法、事物、时间、地点、选择、人物和原因时，要用不同的开头。先看看答案属于哪一类，再倒过来选择问句，这样就能发现问题和答案之间的联系。",
+        "exampleEn": "How do you practise? Which ball do you use? Why do you like it?",
+        "exampleZh": "你怎样练习？你用哪一个球？你为什么喜欢它？",
+        "visual": "sentence",
+        "focus": [
+          "how",
+          "what",
+          "when",
+          "where",
+          "which",
+          "who",
+          "why"
+        ],
+        "quiz": {
+          "promptZh": "回答是“因为它很有趣”，问句应当询问什么？",
+          "options": [
+            "原因",
+            "地点",
+            "时间",
+            "人物"
+          ],
+          "answer": 0,
+          "explanationZh": "带有“因为”的回答说明原因，要使用询问“为什么”的疑问词。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "说说小时候的本领",
+        "titleEn": "What I could do",
+        "kind": "grammar",
+        "goalZh": "用过去的年龄和能够、不能够描述过去的能力。",
+        "explainZh": "来看看小时候和现在有什么变化。说过去几岁时，要把表示“是”的词换成过去形式；说当时会不会做某件事，用表示过去能力的词。它后面的动作保持原形，否定时再加上表示“不”的部分。",
+        "exampleEn": "When I was five, I could ride a bike. I could not swim. When we were four, we could not ride bikes.",
+        "exampleZh": "我五岁时会骑自行车。我当时不会游泳。我们四岁的时候不会骑自行车。",
+        "visual": "timeline",
+        "focus": [
+          "was",
+          "were",
+          "could",
+          "could not"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确表达“我六岁时会跳绳”？",
+          "options": [
+            "I can skipped at six.",
+            "I could skip when I was six.",
+            "I could skipping when I am six.",
+            "I were skip at six."
+          ],
+          "answer": 1,
+          "explanationZh": "过去的年龄用过去形式，表示过去能力后接动作原形。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "听清十三和三十",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "根据重音和结尾区分十几和几十。",
+        "explainZh": "这两类数字听起来很像，我们来仔细听结尾。十几的词尾有鼻音，重音常在后面；几十的重音通常在前面。先慢慢听，再把数字放进自然的短句里比较，别只根据开头猜答案。",
+        "exampleEn": "Thirteen, thirty. Fourteen, forty. Fifteen, fifty.",
+        "exampleZh": "十三，三十。十四，四十。十五，五十。",
+        "visual": "sounds",
+        "focus": [
+          "thirteen",
+          "thirty",
+          "fourteen",
+          "forty"
+        ],
+        "quiz": {
+          "promptZh": "听音选择正确数字。",
+          "options": [
+            "30",
+            "13",
+            "40",
+            "50"
+          ],
+          "answer": 1,
+          "explanationZh": "注意结尾的鼻音和后半部分的重音。",
+          "spokenEn": "thirteen"
+        },
+        "phonics": [
+          {
+            "spelling": "teen",
+            "sound": "/tiːn/",
+            "word": "thirteen"
+          },
+          {
+            "spelling": "ty",
+            "sound": "/ti/",
+            "word": "thirty"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "身体怎样保持平衡",
+        "titleEn": "Find your balance",
+        "kind": "discover",
+        "goalZh": "观察支撑位置与身体平衡之间的关系。",
+        "explainZh": "想一想，双脚站立和单脚站立，哪一种更稳？支撑的位置变了，身体也需要调整。伸开双臂能帮助我们控制姿势。先在安全平坦的地面观察，再说说动作变化，不用追求高难度表演。",
+        "exampleEn": "I stand on two feet. Then I lift one foot and stretch my arms.",
+        "exampleZh": "我用双脚站立。然后我抬起一只脚，伸开双臂。",
+        "visual": "compare",
+        "focus": [
+          "two feet",
+          "one foot",
+          "balance"
+        ],
+        "quiz": {
+          "promptZh": "研究平衡时，哪种做法更合适？",
+          "options": [
+            "闭眼站在椅子上",
+            "站在湿滑地面",
+            "在平坦安全的地面比较站姿",
+            "从高处跳下来"
+          ],
+          "answer": 2,
+          "explanationZh": "观察平衡可以从安全的简单站姿开始。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "再试一次",
+        "titleEn": "One more try",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "练习时遇到困难，并不表示永远学不会。故事里的孩子先停下来，再把大动作分成小步骤。观察朋友怎样鼓励他，也想一想自己可以怎样回应。说一句友好的话，就能让继续练习更容易。",
+        "exampleEn": "Leo could not catch the ball. He threw the ball a little lower. His friend said, \"Try again. I am here.\" At last, Leo caught it and smiled.",
+        "exampleZh": "利奥接不住球。 他试着把球抛低一点。 朋友说：“再试一次，我陪着你。” 最后，利奥接住球，笑了。",
+        "visual": "story",
+        "focus": [
+          "could not",
+          "tried",
+          "again"
+        ],
+        "quiz": {
+          "promptZh": "朋友怎样帮助利奥？",
+          "options": [
+            "嘲笑他",
+            "把球藏起来",
+            "叫他永远别练了",
+            "陪着他并鼓励他再试一次"
+          ],
+          "answer": 3,
+          "explanationZh": "朋友提供陪伴和鼓励，让利奥愿意继续尝试。"
+        },
+        "story": [
+          {
+            "en": "Leo could not catch the ball.",
+            "zh": "利奥接不住球。"
+          },
+          {
+            "en": "He threw the ball a little lower.",
+            "zh": "他试着把球抛低一点。"
+          },
+          {
+            "en": "His friend said, \"Try again. I am here.\"",
+            "zh": "朋友说：“再试一次，我陪着你。”"
+          },
+          {
+            "en": "At last, Leo caught it and smiled.",
+            "zh": "最后，利奥接住球，笑了。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "安排一周练习",
+        "titleEn": "My practice week",
+        "kind": "mission",
+        "goalZh": "结合星期、动作和时刻安排练习并说出过去与现在的变化。",
+        "explainZh": "轮到你安排表演者的一周了。选三天，给每一天安排一个动作和开始时间。再补充一句以前会不会做的事情，看看练习带来了什么变化。读给家人听，请他们根据你的介绍找出对应的日程。",
+        "exampleEn": "On Monday, I practise at five. On Wednesday, I skip at half past four.",
+        "exampleZh": "星期一，我五点练习。星期三，我四点半跳绳。",
+        "visual": "mission",
+        "focus": [
+          "On Monday",
+          "at five",
+          "half past four"
+        ],
+        "quiz": {
+          "promptZh": "计划中最应该写清楚哪组信息？",
+          "options": [
+            "星期、动作和时间",
+            "只写最喜欢的颜色",
+            "只画一张笑脸",
+            "只列出朋友名字"
+          ],
+          "answer": 0,
+          "explanationZh": "练习计划需要让人知道何时做什么。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u2",
+    "level": 3,
+    "number": 2,
+    "title": "What’s for breakfast?",
+    "titleZh": "早餐吃什么",
+    "page": 18,
+    "theme": "food",
+    "missionZh": "设计一份菜单，扮演餐厅经营者与顾客。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "cereal",
+        "zh": "谷物早餐",
+        "icon": "🥣"
+      },
+      {
+        "en": "toast",
+        "zh": "烤面包",
+        "icon": "🍞"
+      },
+      {
+        "en": "yoghurt",
+        "zh": "酸奶",
+        "icon": "🥛"
+      },
+      {
+        "en": "egg",
+        "zh": "鸡蛋",
+        "icon": "🥚"
+      },
+      {
+        "en": "juice",
+        "zh": "果汁",
+        "icon": "🧃"
+      },
+      {
+        "en": "rice",
+        "zh": "米饭",
+        "icon": "🍚"
+      },
+      {
+        "en": "chef",
+        "zh": "厨师",
+        "icon": "👨‍🍳"
+      },
+      {
+        "en": "menu",
+        "zh": "菜单",
+        "icon": "📋"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "早餐菜单",
+        "titleEn": "Breakfast menu",
+        "kind": "vocabulary",
+        "goalZh": "认识早餐食物，并复习几个常见动作的过去式。",
+        "explainZh": "看看早餐桌上有哪些食物。有些食物可以按一个、两个来数，有些通常需要说一杯或一碗。再说说昨天吃了什么，留心有些动作词的过去式会整个变样，不能只在词尾加上同一个结尾。",
+        "exampleEn": "Yesterday, I ate toast and drank milk. Today, I have cereal and yoghurt.",
+        "exampleZh": "昨天，我吃了烤面包，喝了牛奶。今天，我吃谷物早餐和酸奶。",
+        "visual": "words",
+        "focus": [
+          "ate",
+          "drank",
+          "toast",
+          "cereal"
+        ],
+        "quiz": {
+          "promptZh": "昨天这个孩子喝了什么？",
+          "options": [
+            "果汁",
+            "牛奶",
+            "茶",
+            "水"
+          ],
+          "answer": 1,
+          "explanationZh": "听到喝牛奶的过去式表达，就能找到答案。",
+          "spokenEn": "Yesterday, I drank milk."
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "给人和事物加说明",
+        "titleEn": "Who, which and where",
+        "kind": "grammar",
+        "goalZh": "用关系从句补充说明人物、事物和地点。",
+        "explainZh": "有时一个名词还不够清楚，我们可以在后面加一句小小的说明。介绍人、事物和地点时，连接的词各不相同。先找到正在说明的名词，再看看后半句补充了什么，整句话就容易理解了。",
+        "exampleEn": "This is the chef who makes our soup. This is the bowl which I use. This is the cafe where we eat.",
+        "exampleZh": "这是为我们做汤的厨师。这是我用的碗。这是我们吃饭的咖啡馆。",
+        "visual": "sentence",
+        "focus": [
+          "who",
+          "which",
+          "where"
+        ],
+        "quiz": {
+          "promptZh": "要补充说明一位厨师，应该用哪个连接词？",
+          "options": [
+            "where",
+            "when",
+            "who",
+            "why"
+          ],
+          "answer": 2,
+          "explanationZh": "介绍人的补充说明通常使用表示人的关系词。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "把过去的事情连起来",
+        "titleEn": "When we finished",
+        "kind": "grammar",
+        "goalZh": "用时间连接词叙述过去事件，并用介词说明同伴。",
+        "explainZh": "讲昨天的经历时，可以先说一件事发生了，再说接下来做什么。两件过去的事都要留心动作词的过去形式。如果想说明和谁一起做，就加上表示同伴的部分，时间和人物也就都说清楚了。",
+        "exampleEn": "When we finished breakfast, we walked to school. I walked with my sister.",
+        "exampleZh": "我们吃完早餐后，步行去学校。我和姐姐一起走。",
+        "visual": "timeline",
+        "focus": [
+          "When",
+          "finished",
+          "walked",
+          "with"
+        ],
+        "quiz": {
+          "promptZh": "哪句说明“和姐姐一起”？",
+          "options": [
+            "before breakfast",
+            "at school",
+            "when we arrived",
+            "with my sister"
+          ],
+          "answer": 3,
+          "explanationZh": "表示“和某人一起”的部分，用来补充同行的人。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "同一个字母，两种声音",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "观察字母在不同单词中的两种常见读音。",
+        "explainZh": "同一个字母，放进不同单词里可能发不同的音。先听两个词的开头，比较像轻轻送气的声音，还是后舌部发出的短促声音。再看后面的字母找线索，不过拼读线索需要结合完整单词确认。",
+        "exampleEn": "City, cereal, carrot, cake.",
+        "exampleZh": "城市，谷物早餐，胡萝卜，蛋糕。",
+        "visual": "sounds",
+        "focus": [
+          "city",
+          "cereal",
+          "carrot",
+          "cake"
+        ],
+        "quiz": {
+          "promptZh": "哪一组开头的声音相同？",
+          "options": [
+            "city 和 cereal",
+            "city 和 cake",
+            "cereal 和 carrot",
+            "carrot 和 city"
+          ],
+          "answer": 0,
+          "explanationZh": "这两个词开头都读轻轻送气的声音。"
+        },
+        "phonics": [
+          {
+            "spelling": "c before e, i, y",
+            "sound": "/s/",
+            "word": "cereal"
+          },
+          {
+            "spelling": "c before a, o, u",
+            "sound": "/k/",
+            "word": "carrot"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "认识多样的早餐",
+        "titleEn": "Food for the day",
+        "kind": "discover",
+        "goalZh": "认识食物类别与营养的多样性，了解不同地方的早餐。",
+        "explainZh": "世界各地的早餐很不一样，有人吃面包，有人吃米饭或面条。不同食物提供的营养成分也有差别，我们可以按谷物、蔬果等类别观察一餐的搭配。先了解食物和文化差异，再介绍自己熟悉的早餐。",
+        "exampleEn": "Some families eat rice for breakfast. Other families eat bread and fruit.",
+        "exampleZh": "有些家庭早餐吃米饭。另一些家庭吃面包和水果。",
+        "visual": "compare",
+        "focus": [
+          "rice",
+          "bread",
+          "fruit",
+          "breakfast"
+        ],
+        "quiz": {
+          "promptZh": "面对不同地方的早餐，怎样做更友好？",
+          "options": [
+            "说别人吃得奇怪",
+            "愿意了解并尊重不同习惯",
+            "要求大家只吃同一种",
+            "不听别人的介绍"
+          ],
+          "answer": 1,
+          "explanationZh": "食物习惯可能不同，先了解和尊重差异。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "两份不同的早餐",
+        "titleEn": "Two breakfast choices",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "朋友选择了不同的早餐，我们可以表达自己的喜好，也要尊重对方的决定。读故事时分清谁喜欢什么。试着用礼貌的问句介绍食物，听到不同答案后也给出友好的回应。",
+        "exampleEn": "Mia chose rice for breakfast. Ben chose toast and an egg. \"Would you like some rice?\" Mia asked. \"No, thank you. Your breakfast looks lovely,\" Ben said.",
+        "exampleZh": "米娅早餐选了米饭。 本选了烤面包和鸡蛋。 米娅问：“你想来点米饭吗？” 本说：“不用了，谢谢。你的早餐看起来很棒。”",
+        "visual": "story",
+        "focus": [
+          "chose",
+          "Would you like",
+          "No, thank you"
+        ],
+        "quiz": {
+          "promptZh": "本不想吃米饭时，怎样回应的？",
+          "options": [
+            "直接嘲笑米娅",
+            "把米饭拿走",
+            "礼貌拒绝，并友好回应",
+            "不允许米娅吃米饭"
+          ],
+          "answer": 2,
+          "explanationZh": "礼貌表达自己的选择，同时尊重朋友的喜好。"
+        },
+        "story": [
+          {
+            "en": "Mia chose rice for breakfast.",
+            "zh": "米娅早餐选了米饭。"
+          },
+          {
+            "en": "Ben chose toast and an egg.",
+            "zh": "本选了烤面包和鸡蛋。"
+          },
+          {
+            "en": "\"Would you like some rice?\" Mia asked.",
+            "zh": "米娅问：“你想来点米饭吗？”"
+          },
+          {
+            "en": "\"No, thank you. Your breakfast looks lovely,\" Ben said.",
+            "zh": "本说：“不用了，谢谢。你的早餐看起来很棒。”"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "开一家早餐店",
+        "titleEn": "Our little cafe",
+        "kind": "mission",
+        "goalZh": "用菜单和礼貌问答完成餐厅角色扮演。",
+        "explainZh": "现在开一家小小早餐店。准备三种食物和两种饮品，给菜单配上图片。一个人做顾客，一个人做店员，用完整句子点餐。结束后交换角色，再说一说谁准备食物、顾客在哪里用餐。",
+        "exampleEn": "Welcome to our cafe. What would you like? I would like toast and some juice, please.",
+        "exampleZh": "欢迎来到我们的咖啡馆。你想要什么？我想要烤面包和一些果汁，谢谢。",
+        "visual": "mission",
+        "focus": [
+          "What would you like?",
+          "I would like",
+          "please"
+        ],
+        "quiz": {
+          "promptZh": "顾客点餐时，哪句最礼貌？",
+          "options": [
+            "Give me food now!",
+            "I am a chair.",
+            "Where was Tuesday?",
+            "I would like some juice, please."
+          ],
+          "answer": 3,
+          "explanationZh": "完整表达自己想要的食物，再加上礼貌用语。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u3",
+    "level": 3,
+    "number": 3,
+    "title": "A healthy body",
+    "titleZh": "健康的身体",
+    "page": 30,
+    "theme": "health",
+    "missionZh": "制作身体知识小卡，介绍关节与日常身体活动。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "shoulder",
+        "zh": "肩膀",
+        "icon": "💪"
+      },
+      {
+        "en": "knee",
+        "zh": "膝盖",
+        "icon": "🦵"
+      },
+      {
+        "en": "elbow",
+        "zh": "手肘",
+        "icon": "💪"
+      },
+      {
+        "en": "ankle",
+        "zh": "脚踝",
+        "icon": "🦶"
+      },
+      {
+        "en": "headache",
+        "zh": "头痛",
+        "icon": "🤕"
+      },
+      {
+        "en": "toothache",
+        "zh": "牙痛",
+        "icon": "🦷"
+      },
+      {
+        "en": "strong",
+        "zh": "强壮的",
+        "icon": "🏋️"
+      },
+      {
+        "en": "rest",
+        "zh": "休息",
+        "icon": "🛌"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "身体哪里不舒服",
+        "titleEn": "Our body words",
+        "kind": "vocabulary",
+        "goalZh": "认识身体部位和表达不适的常用词。",
+        "explainZh": "指一指肩膀、膝盖和脚踝，再把词语和身体位置连起来。描述不舒服时，要说清楚是哪一个部位。如果自己或朋友真的身体不适，应及时告诉可信任的大人；学英语时，我们先练习怎样把情况表达清楚。",
+        "exampleEn": "My knee hurts. I have a headache. I need to tell an adult.",
+        "exampleZh": "我的膝盖疼。我头痛。我需要告诉一位大人。",
+        "visual": "words",
+        "focus": [
+          "knee",
+          "headache",
+          "toothache"
+        ],
+        "quiz": {
+          "promptZh": "听到这个孩子说哪里疼？",
+          "options": [
+            "牙齿",
+            "脚踝",
+            "膝盖",
+            "肩膀"
+          ],
+          "answer": 2,
+          "explanationZh": "膝盖这个词指出了疼痛的位置。",
+          "spokenEn": "My knee hurts."
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "比较身体本领",
+        "titleEn": "As strong as",
+        "kind": "grammar",
+        "goalZh": "复习比较级、最高级，并用同级比较说明一样或不一样。",
+        "explainZh": "比较两个人时，可以说谁更高；比较一组人时，可以找出最高的。如果想说两个人一样高，就把形容词放在一对表示“和……一样”的词中间。否定这种表达，就表示没有对方那么高。",
+        "exampleEn": "Eva is taller than Sam. Max is the tallest. Sam is as strong as Eva. Sam is not as tall as Eva.",
+        "exampleZh": "伊娃比萨姆高。马克斯最高。萨姆和伊娃一样强壮。萨姆没有伊娃高。",
+        "visual": "compare",
+        "focus": [
+          "taller than",
+          "the tallest",
+          "as strong as",
+          "not as"
+        ],
+        "quiz": {
+          "promptZh": "哪句表示“两个人一样强壮”？",
+          "options": [
+            "Sam is stronger than Eva.",
+            "Sam is the strongest.",
+            "Sam is not strong.",
+            "Sam is as strong as Eva."
+          ],
+          "answer": 3,
+          "explanationZh": "成对的同级比较表达，把形容词放在中间。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "想做什么，需要做什么",
+        "titleEn": "Want to and need to",
+        "kind": "grammar",
+        "goalZh": "用想要和需要加动词不定式表达愿望与需要。",
+        "explainZh": "“想要”和“需要”表达的重点不一样，一个是愿望，一个是需要做的事。它们后面接动作时，要先放一个连接小词，再接动作原形。否定时把“不”放在主要动词前，后面的动作形式保持不变。",
+        "exampleEn": "I want to play outside. I need to finish my work. I do not want to rush.",
+        "exampleZh": "我想在外面玩。我需要完成作业。我不想匆忙行事。",
+        "visual": "sentence",
+        "focus": [
+          "want to",
+          "need to",
+          "do not want to"
+        ],
+        "quiz": {
+          "promptZh": "哪个句子结构正确？",
+          "options": [
+            "I need to rest.",
+            "I need resting to.",
+            "I want plays.",
+            "I need to rested."
+          ],
+          "answer": 0,
+          "explanationZh": "表达需要做某事时，连接小词后接动作原形。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "写出来的字母不一定都发音",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "听辨不发音字母与鼻音开头。",
+        "explainZh": "看看“膝盖”这个词，虽然开头写了两个辅音字母，读的时候却没有把第一个字母单独念出来。先听完整单词，再和只写一个鼻音字母的词比较。拼写和声音可以不同，我们要一边看，一边听。",
+        "exampleEn": "Knee, know, nose, neck.",
+        "exampleZh": "膝盖，知道，鼻子，脖子。",
+        "visual": "sounds",
+        "focus": [
+          "knee",
+          "know",
+          "nose",
+          "neck"
+        ],
+        "quiz": {
+          "promptZh": "哪个单词开头有一个不发音的字母？",
+          "options": [
+            "nose",
+            "knee",
+            "neck",
+            "nine"
+          ],
+          "answer": 1,
+          "explanationZh": "膝盖这个词开头的第一个字母不单独发音。"
+        },
+        "phonics": [
+          {
+            "spelling": "kn",
+            "sound": "/n/",
+            "word": "knee"
+          },
+          {
+            "spelling": "n",
+            "sound": "/n/",
+            "word": "nose"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "骨骼和关节",
+        "titleEn": "Bones and joints",
+        "kind": "discover",
+        "goalZh": "通过弯曲手臂和手指，观察关节的作用。",
+        "explainZh": "轻轻弯一弯手肘，再动动手指，看看身体在哪里可以转动。骨骼帮助支撑身体，关节让相邻的骨头能够活动。不同位置的活动方式不完全相同，观察时轻轻做，遇到疼痛就停止并告诉大人。",
+        "exampleEn": "My elbow is a joint. I bend my arm at the elbow.",
+        "exampleZh": "手肘是一个关节。我在手肘处弯曲手臂。",
+        "visual": "compare",
+        "focus": [
+          "bones",
+          "joints",
+          "bend"
+        ],
+        "quiz": {
+          "promptZh": "哪一个是手臂弯曲时用到的关节？",
+          "options": [
+            "头发",
+            "衣服",
+            "手肘",
+            "书包"
+          ],
+          "answer": 2,
+          "explanationZh": "手肘处的关节让手臂可以弯曲。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "慢一点也没关系",
+        "titleEn": "A kind teammate",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "朋友累了的时候，先注意他的感受，再听听他需要什么。故事里的伙伴没有催促，而是改变了自己的安排。想一想，如果你也在场，可以怎样用友好的语言表达理解和陪伴。",
+        "exampleEn": "Sam wanted to finish the game. Eva said, \"My ankle hurts.\" Sam stopped and called the teacher. \"We can play another day,\" he said.",
+        "exampleZh": "萨姆想完成游戏。 伊娃说：“我的脚踝疼。” 萨姆停下来，叫来了老师。 他说：“我们可以改天再玩。”",
+        "visual": "story",
+        "focus": [
+          "wanted to",
+          "hurts",
+          "another day"
+        ],
+        "quiz": {
+          "promptZh": "萨姆最关心什么？",
+          "options": [
+            "自己一定赢",
+            "让伊娃继续跑",
+            "把游戏藏起来",
+            "伊娃的感受和需要"
+          ],
+          "answer": 3,
+          "explanationZh": "他停止游戏，寻求老师帮助，说明他在体谅朋友。"
+        },
+        "story": [
+          {
+            "en": "Sam wanted to finish the game.",
+            "zh": "萨姆想完成游戏。"
+          },
+          {
+            "en": "Eva said, \"My ankle hurts.\"",
+            "zh": "伊娃说：“我的脚踝疼。”"
+          },
+          {
+            "en": "Sam stopped and called the teacher.",
+            "zh": "萨姆停下来，叫来了老师。"
+          },
+          {
+            "en": "\"We can play another day,\" he said.",
+            "zh": "他说：“我们可以改天再玩。”"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "制作身体知识卡",
+        "titleEn": "My body fact cards",
+        "kind": "mission",
+        "goalZh": "用身体词汇和简单事实制作可介绍的小卡片。",
+        "explainZh": "挑选三个身体部位，画图并标出英文。每张卡片再写一句能观察到的事实，例如手肘可以弯曲。向家人介绍时，先说名称，再做一个轻柔的演示，让对方根据动作猜一猜你介绍的是哪张卡。",
+        "exampleEn": "This is my knee. It is a joint. I can bend my leg.",
+        "exampleZh": "这是我的膝盖。它是一个关节。我可以弯曲腿。",
+        "visual": "mission",
+        "focus": [
+          "knee",
+          "joint",
+          "bend"
+        ],
+        "quiz": {
+          "promptZh": "身体知识卡上应该写什么？",
+          "options": [
+            "部位名称和观察到的事实",
+            "别人的私人信息",
+            "未经确认的治疗方法",
+            "只有一个价格"
+          ],
+          "answer": 0,
+          "explanationZh": "用图示和简单事实来清楚介绍身体部位。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u4",
+    "level": 3,
+    "number": 4,
+    "title": "Fun in the jungle",
+    "titleZh": "丛林探险",
+    "page": 44,
+    "theme": "nature",
+    "missionZh": "设计丛林探险路线，用英语说明动物动作和安全规则。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "jungle",
+        "zh": "丛林",
+        "icon": "🌴"
+      },
+      {
+        "en": "waterfall",
+        "zh": "瀑布",
+        "icon": "🌊"
+      },
+      {
+        "en": "river",
+        "zh": "河流",
+        "icon": "🏞️"
+      },
+      {
+        "en": "root",
+        "zh": "根",
+        "icon": "🌱"
+      },
+      {
+        "en": "leaf",
+        "zh": "叶子",
+        "icon": "🍃"
+      },
+      {
+        "en": "quickly",
+        "zh": "迅速地",
+        "icon": "⚡"
+      },
+      {
+        "en": "carefully",
+        "zh": "小心地",
+        "icon": "👣"
+      },
+      {
+        "en": "quietly",
+        "zh": "安静地",
+        "icon": "🤫"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "丛林里的发现",
+        "titleEn": "Explore the jungle",
+        "kind": "vocabulary",
+        "goalZh": "认识自然地貌与动作方式的词语。",
+        "explainZh": "我们沿着小路去丛林里看看。河流、瀑布和植物是地点中的事物，轻轻地、慢慢地则在说明动作怎么做。先把这两类词分开，再试着把地点和动作连成一句有画面的描述。",
+        "exampleEn": "We walked beside the river. Then we looked carefully at a leaf.",
+        "exampleZh": "我们沿着河边走。然后，我们仔细看了一片叶子。",
+        "visual": "words",
+        "focus": [
+          "river",
+          "leaf",
+          "walked",
+          "carefully"
+        ],
+        "quiz": {
+          "promptZh": "哪个词是在说明动作怎么做？",
+          "options": [
+            "river",
+            "carefully",
+            "waterfall",
+            "root"
+          ],
+          "answer": 1,
+          "explanationZh": "“仔细地”描述观察的方式，是说明动作的词。"
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "动作怎样发生",
+        "titleEn": "Adverbs in action",
+        "kind": "grammar",
+        "goalZh": "用副词说明动作方式，并注意不规则形式。",
+        "explainZh": "同一个动作可以用不同方式完成。看图里的人，一个慢慢走，一个很快走。说明动作方式的词通常跟着动作出现。有些词由形容词变化而来，有些形式特殊，不能把所有词都加上同样的结尾。",
+        "exampleEn": "Nia sings beautifully. Tom works hard. I can draw well.",
+        "exampleZh": "妮娅唱得很优美。汤姆努力工作。我画得很好。",
+        "visual": "sentence",
+        "focus": [
+          "beautifully",
+          "hard",
+          "fast",
+          "well",
+          "badly",
+          "loudly",
+          "quietly",
+          "slowly"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确描述“画得好”？",
+          "options": [
+            "I draw good.",
+            "I draw beautiful.",
+            "I draw well.",
+            "I draw a well good."
+          ],
+          "answer": 2,
+          "explanationZh": "说明画这个动作做得好，要使用对应的副词形式。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "比较动作的方式",
+        "titleEn": "Faster and more carefully",
+        "kind": "grammar",
+        "goalZh": "用副词比较级比较两个动作。",
+        "explainZh": "现在比较两个人怎样做同一件事。有的副词比较级直接改变词尾，有的需要在前面加上表示“更加”的词，也有特殊变化。句子里再加上比较的对象，我们就能清楚知道谁做得更快或更仔细。",
+        "exampleEn": "A fox runs faster than a tortoise. Nia paints more carefully than Tom. Leo swims better than me.",
+        "exampleZh": "狐狸比乌龟跑得快。妮娅画得比汤姆仔细。利奥游得比我好。",
+        "visual": "compare",
+        "focus": [
+          "faster than",
+          "more carefully than",
+          "better than"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确比较“更仔细地”？",
+          "options": [
+            "She walks careful than me.",
+            "She walks carefuller than me.",
+            "She walks most carefully than me.",
+            "She walks more carefully than me."
+          ],
+          "answer": 3,
+          "explanationZh": "较长的副词常用前加比较词的形式，再接比较对象。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "不同拼写，相同辅音",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "观察三种拼写怎样对应相近的辅音。",
+        "explainZh": "先听单词中舌尖轻触上齿龈的声音，再看看它们的拼写。有的词只写一个字母，有的写两个，还有的把它放在词尾组合里。不要把每个字母都读成字母名，要跟随完整单词的发音。",
+        "exampleEn": "Leaf, hill, little.",
+        "exampleZh": "叶子，小山，小的。",
+        "visual": "sounds",
+        "focus": [
+          "leaf",
+          "hill",
+          "little"
+        ],
+        "quiz": {
+          "promptZh": "哪个单词使用两个相邻的相同辅音字母？",
+          "options": [
+            "leaf",
+            "lake",
+            "hill",
+            "leg"
+          ],
+          "answer": 2,
+          "explanationZh": "小山这个词中间写着两个相同的辅音字母。"
+        },
+        "phonics": [
+          {
+            "spelling": "l",
+            "sound": "/l/",
+            "word": "leaf"
+          },
+          {
+            "spelling": "ll",
+            "sound": "/l/",
+            "word": "hill"
+          },
+          {
+            "spelling": "le",
+            "sound": "/əl/",
+            "word": "little"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "从根到花",
+        "titleEn": "From roots to flowers",
+        "kind": "discover",
+        "goalZh": "认识植物的根、茎、叶、花，并观察生长所需条件。",
+        "explainZh": "把植物从下往上看，根在土里，茎支撑着叶和花。植物会随时间发生变化，观察记录能帮助我们发现生长的过程。照顾植物时，了解它需要的水分和光照，再比较不同日子的样子。",
+        "exampleEn": "The roots are under the soil. The stem holds the leaves and flowers.",
+        "exampleZh": "根在土壤下面。茎支撑叶子和花。",
+        "visual": "timeline",
+        "focus": [
+          "roots",
+          "stem",
+          "leaves",
+          "flowers"
+        ],
+        "quiz": {
+          "promptZh": "植物通常用哪个部分固定在土里？",
+          "options": [
+            "根",
+            "花瓣",
+            "果实",
+            "花盆上的标签"
+          ],
+          "answer": 0,
+          "explanationZh": "根通常位于土中，帮助植物固定并吸收水分。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "小路上的帮手",
+        "titleEn": "The helpful path",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "探险时不仅要看自己的路线，也要注意同行的人。故事里的孩子停下来帮助朋友，大家才一起完成了旅程。读一读事情的先后顺序，再想想怎样在安全的情况下向他人提供帮助。",
+        "exampleEn": "The friends walked slowly through the park. A little boy dropped his map. Nia picked it up and gave it back. They found the path together.",
+        "exampleZh": "朋友们慢慢穿过公园。 一个小男孩掉了地图。 妮娅捡起来，还给了他。 他们一起找到了小路。",
+        "visual": "story",
+        "focus": [
+          "slowly",
+          "picked it up",
+          "together"
+        ],
+        "quiz": {
+          "promptZh": "妮娅做了什么来帮助别人？",
+          "options": [
+            "把地图藏起来",
+            "捡起地图并归还",
+            "抢先离开",
+            "嘲笑迷路的人"
+          ],
+          "answer": 1,
+          "explanationZh": "她用一个小行动帮助了丢失地图的孩子。"
+        },
+        "story": [
+          {
+            "en": "The friends walked slowly through the park.",
+            "zh": "朋友们慢慢穿过公园。"
+          },
+          {
+            "en": "A little boy dropped his map.",
+            "zh": "一个小男孩掉了地图。"
+          },
+          {
+            "en": "Nia picked it up and gave it back.",
+            "zh": "妮娅捡起来，还给了他。"
+          },
+          {
+            "en": "They found the path together.",
+            "zh": "他们一起找到了小路。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "设计探险公园",
+        "titleEn": "Our jungle adventure",
+        "kind": "mission",
+        "goalZh": "用地点、动作副词和比较句介绍探险路线。",
+        "explainZh": "在纸上画一条经过三处景物的路线，给每处景物配一句行动说明。哪里需要慢慢走，哪里适合安静观察？再比较两条路线的特点。介绍时让朋友用手指跟着走，看看你的说明是否清楚。",
+        "exampleEn": "Walk slowly beside the river. Look carefully at the flowers. This path is shorter than that one.",
+        "exampleZh": "在河边慢慢走。仔细看花。这条小路比那条短。",
+        "visual": "mission",
+        "focus": [
+          "slowly",
+          "carefully",
+          "shorter than"
+        ],
+        "quiz": {
+          "promptZh": "河边湿滑的小路，哪句说明更合适？",
+          "options": [
+            "Run as fast as you can.",
+            "Close your eyes.",
+            "Walk slowly and carefully.",
+            "Push your friend."
+          ],
+          "answer": 2,
+          "explanationZh": "根据地点特点选择安全、清晰的动作说明。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u5",
+    "level": 3,
+    "number": 5,
+    "title": "Behind the scenes",
+    "titleZh": "舞台幕后",
+    "page": 56,
+    "theme": "clothes",
+    "missionZh": "分工制作简单舞台道具，提出建议并介绍材料。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "costume",
+        "zh": "戏服",
+        "icon": "👘"
+      },
+      {
+        "en": "mask",
+        "zh": "面具",
+        "icon": "🎭"
+      },
+      {
+        "en": "paper",
+        "zh": "纸",
+        "icon": "📄"
+      },
+      {
+        "en": "wood",
+        "zh": "木头",
+        "icon": "🪵"
+      },
+      {
+        "en": "metal",
+        "zh": "金属",
+        "icon": "🔩"
+      },
+      {
+        "en": "glass",
+        "zh": "玻璃",
+        "icon": "🪟"
+      },
+      {
+        "en": "soft",
+        "zh": "柔软的",
+        "icon": "🧸"
+      },
+      {
+        "en": "shiny",
+        "zh": "闪亮的",
+        "icon": "✨"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "认识道具和材料",
+        "titleEn": "Props and materials",
+        "kind": "vocabulary",
+        "goalZh": "用材料与外观词描述衣服和道具。",
+        "explainZh": "舞台上的东西看起来很特别，我们来看看它们真正使用的材料。颜色、软硬和光泽描述的是不同特点。把材料名称和外观分开说，再找一个身边可以安全观察的物品，用两句话介绍它。",
+        "exampleEn": "The costume is bright. The mask is shiny. We have paper and cloth.",
+        "exampleZh": "戏服很鲜艳。面具闪闪发亮。我们有纸和布。",
+        "visual": "words",
+        "focus": [
+          "costume",
+          "mask",
+          "paper",
+          "cloth",
+          "shiny"
+        ],
+        "quiz": {
+          "promptZh": "哪个词表示材料？",
+          "options": [
+            "bright",
+            "shiny",
+            "soft",
+            "paper"
+          ],
+          "answer": 3,
+          "explanationZh": "纸是一种材料，其他选项描述外观或触感。"
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "它是用什么做的",
+        "titleEn": "What is it made of?",
+        "kind": "grammar",
+        "goalZh": "用被动表达说明一个或多个物品的材料。",
+        "explainZh": "想知道物品的材料，可以先问“它是用什么做的”。一个物品和多个物品，句子里的系动词要相应变化，后面说明材料的部分保持一致。观察真实物品再回答，别只根据外观猜材料。",
+        "exampleEn": "What's the box made of? It's made of wood. What are the stars made of? They're made of paper.",
+        "exampleZh": "盒子是用什么做的？它是木头做的。这些星星是用什么做的？它们是纸做的。",
+        "visual": "sentence",
+        "focus": [
+          "is made of",
+          "are made of",
+          "wood",
+          "paper"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确介绍多颗纸星星？",
+          "options": [
+            "The stars is made of paper.",
+            "The stars are made of paper.",
+            "The stars made in paper are.",
+            "The stars is making paper."
+          ],
+          "answer": 1,
+          "explanationZh": "多个物品要搭配复数形式的系动词。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "一起提出好主意",
+        "titleEn": "Shall we make a mask?",
+        "kind": "grammar",
+        "goalZh": "用三种表达提出建议，并回应伙伴的想法。",
+        "explainZh": "准备表演时，每个人都可以提出想法。我们可以直接邀请大家一起做，也可以用问句征求意见，还可以提出一种可能的做法。说完自己的建议，再认真听伙伴的回应，大家一起决定下一步。",
+        "exampleEn": "Shall we make a mask? We could use red paper. Let us try it together.",
+        "exampleZh": "我们做个面具好吗？我们可以用红纸。让我们一起试试。",
+        "visual": "sentence",
+        "focus": [
+          "Shall we",
+          "could",
+          "Let us",
+          "Let’s"
+        ],
+        "quiz": {
+          "promptZh": "哪句是在征求大家的意见？",
+          "options": [
+            "I made a mask yesterday.",
+            "The paper is red.",
+            "Shall we make a mask?",
+            "There are two stars."
+          ],
+          "answer": 2,
+          "explanationZh": "这个问句邀请大家考虑一个共同活动。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "长元音的两种拼法",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "比较两个不同拼写组合中的相同元音。",
+        "explainZh": "听一听“夜晚”和“风筝”中间的声音，嘴巴会从一个位置自然滑向另一个位置。虽然它们拼写不同，中间的元音却相同。第二类单词末尾的字母通常不单独读，它会影响前面元音的读法。",
+        "exampleEn": "Night, light, kite, white.",
+        "exampleZh": "夜晚，灯光，风筝，白色的。",
+        "visual": "sounds",
+        "focus": [
+          "night",
+          "light",
+          "kite",
+          "white"
+        ],
+        "quiz": {
+          "promptZh": "哪一组使用相同的三个字母组合？",
+          "options": [
+            "kite 和 night",
+            "white 和 light",
+            "night 和 kite",
+            "night 和 light"
+          ],
+          "answer": 3,
+          "explanationZh": "这两个词都包含同样的三个字母组合。"
+        },
+        "phonics": [
+          {
+            "spelling": "igh",
+            "sound": "/aɪ/",
+            "word": "light"
+          },
+          {
+            "spelling": "i-e",
+            "sound": "/aɪ/",
+            "word": "kite"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "材料有什么特点",
+        "titleEn": "Choose a material",
+        "kind": "discover",
+        "goalZh": "根据材料的软硬、透明与弹性等特点选择简单道具。",
+        "explainZh": "不同材料有不同特点，制作同一个道具时要先想用途。纸容易折叠，布比较柔软；透明、结实和能否弯曲又是另外的特点。先做安全的小观察，再说明选择的理由，别把外观当作唯一依据。",
+        "exampleEn": "Paper is easy to fold. Cloth is soft. We can use paper for a small mask.",
+        "exampleZh": "纸容易折叠。布很柔软。我们可以用纸做一个小面具。",
+        "visual": "compare",
+        "focus": [
+          "fold",
+          "soft",
+          "material"
+        ],
+        "quiz": {
+          "promptZh": "做一个容易折叠的纸道具，哪种材料更合适？",
+          "options": [
+            "纸",
+            "厚玻璃",
+            "石块",
+            "金属螺丝"
+          ],
+          "answer": 0,
+          "explanationZh": "纸通常容易折叠，适合这种简单道具。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "先听听你的主意",
+        "titleEn": "A mask for everyone",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "讨论作品时，有不同想法很正常。先听完伙伴的理由，再看看能不能把两个想法结合起来。故事里没有谁的主意一定最好，重要的是共同完成一个大家都愿意参与的作品。",
+        "exampleEn": "Ben wanted a red mask. Mia wanted a blue one. They listened to each other. Their new mask had red stars and blue stripes.",
+        "exampleZh": "本想做红面具。 米娅想做蓝面具。 他们听了彼此的想法。 新面具上有红星星和蓝条纹。",
+        "visual": "story",
+        "focus": [
+          "wanted",
+          "listened",
+          "red stars",
+          "blue stripes"
+        ],
+        "quiz": {
+          "promptZh": "他们怎样解决不同意见？",
+          "options": [
+            "让声音最大的人决定",
+            "听彼此的想法，再结合设计",
+            "把道具扔掉",
+            "不再一起合作"
+          ],
+          "answer": 1,
+          "explanationZh": "他们认真倾听，并把两个想法组合在一起。"
+        },
+        "story": [
+          {
+            "en": "Ben wanted a red mask.",
+            "zh": "本想做红面具。"
+          },
+          {
+            "en": "Mia wanted a blue one.",
+            "zh": "米娅想做蓝面具。"
+          },
+          {
+            "en": "They listened to each other.",
+            "zh": "他们听了彼此的想法。"
+          },
+          {
+            "en": "Their new mask had red stars and blue stripes.",
+            "zh": "新面具上有红星星和蓝条纹。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "准备一场小表演",
+        "titleEn": "Our little performance",
+        "kind": "mission",
+        "goalZh": "设计道具、说明材料，并用建议表达完成分工。",
+        "explainZh": "选一个简短情境，准备两件安全的小道具。先提出建议，再说每件道具用什么材料做。给伙伴分配任务时听听他们的意见，完成后用几句英语介绍作品，再一起演一小段。",
+        "exampleEn": "Let us make a crown. It is made of paper. Shall we add some stars?",
+        "exampleZh": "让我们做一顶王冠。它是纸做的。我们加一些星星好吗？",
+        "visual": "mission",
+        "focus": [
+          "Let us",
+          "made of",
+          "Shall we"
+        ],
+        "quiz": {
+          "promptZh": "介绍纸王冠的材料时，哪句合适？",
+          "options": [
+            "It was a sunny day.",
+            "I can jump.",
+            "It is made of paper.",
+            "She has a blue coat."
+          ],
+          "answer": 2,
+          "explanationZh": "用说明材料的表达，告诉听者王冠由什么制成。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u6",
+    "level": 3,
+    "number": 6,
+    "title": "Classroom stars",
+    "titleZh": "课堂之星",
+    "page": 68,
+    "theme": "school",
+    "missionZh": "举办一次班级表扬活动，介绍同伴的优点和合作表现。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "maths",
+        "zh": "数学",
+        "icon": "➗"
+      },
+      {
+        "en": "science",
+        "zh": "科学",
+        "icon": "🔬"
+      },
+      {
+        "en": "geography",
+        "zh": "地理",
+        "icon": "🌍"
+      },
+      {
+        "en": "history",
+        "zh": "历史",
+        "icon": "🏛️"
+      },
+      {
+        "en": "subject",
+        "zh": "学科",
+        "icon": "📚"
+      },
+      {
+        "en": "map",
+        "zh": "地图",
+        "icon": "🗺️"
+      },
+      {
+        "en": "symbol",
+        "zh": "符号",
+        "icon": "🔣"
+      },
+      {
+        "en": "team",
+        "zh": "团队",
+        "icon": "🤝"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "喜欢的学科",
+        "titleEn": "Our school subjects",
+        "kind": "vocabulary",
+        "goalZh": "认识常见学科与课堂活动。",
+        "explainZh": "每门学科都有可以探索的内容。数学帮助我们研究数量，科学鼓励我们观察和提问，地理会用到地图。把学科和课堂活动连起来，再说说自己最喜欢哪一门，以及喜欢它的一个具体原因。",
+        "exampleEn": "In science, we observe plants. In geography, we read maps. I enjoy maths too.",
+        "exampleZh": "科学课上，我们观察植物。地理课上，我们读地图。我也喜欢数学。",
+        "visual": "words",
+        "focus": [
+          "science",
+          "geography",
+          "maths",
+          "maps"
+        ],
+        "quiz": {
+          "promptZh": "阅读地图通常与哪门学科最相关？",
+          "options": [
+            "音乐",
+            "美术",
+            "体育",
+            "地理"
+          ],
+          "answer": 3,
+          "explanationZh": "地图是学习地理时经常使用的工具。"
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "给出友好的建议",
+        "titleEn": "Should and should not",
+        "kind": "grammar",
+        "goalZh": "用情态动词表达建议，构成否定句和问句。",
+        "explainZh": "看到一个情境，先想什么做法比较合适，再用建议的语气表达。表示“应该”的词后面接动作原形，否定时表示不建议这样做。要询问建议，可以把这个词放在句首，语气友好地问出来。",
+        "exampleEn": "You should listen carefully. You should not interrupt. Should we help our partner? Yes, we should.",
+        "exampleZh": "你应该仔细听。你不应该打断别人。我们应该帮助伙伴吗？是的，应该。",
+        "visual": "sentence",
+        "focus": [
+          "should",
+          "should not",
+          "Should we",
+          "Yes, we should"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确表达“你应该检查答案”？",
+          "options": [
+            "You should check your answer.",
+            "You should checking your answer.",
+            "You should checks your answer.",
+            "You should checked your answer."
+          ],
+          "answer": 0,
+          "explanationZh": "表示建议的情态动词后接动作原形。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "发现每个人的长处",
+        "titleEn": "Good at learning",
+        "kind": "grammar",
+        "goalZh": "用擅长加名词或动名词介绍长处。",
+        "explainZh": "说擅长什么时，可以接学科名称，也可以接一个活动。接活动时，动作词要变成表示这项活动的形式。每个人的长处可能不同，我们可以具体说出一个例子，也可以表达某件事自己还不太擅长。",
+        "exampleEn": "I am good at science. Eva is good at drawing. I am not very good at singing yet.",
+        "exampleZh": "我擅长科学。伊娃擅长画画。我目前还不太擅长唱歌。",
+        "visual": "sentence",
+        "focus": [
+          "good at science",
+          "good at drawing",
+          "not very good at"
+        ],
+        "quiz": {
+          "promptZh": "哪个句子结构正确？",
+          "options": [
+            "She is good at draw.",
+            "She is good at drawing.",
+            "She good at to draw.",
+            "She is good drawing at."
+          ],
+          "answer": 1,
+          "explanationZh": "介绍擅长的活动时，介词后使用表示活动的形式。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "两种拼写，同一种送气声",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "比较单字母和双字母组合对应的辅音。",
+        "explainZh": "把上排牙齿轻轻靠近下嘴唇，让气流通过，听听这个辅音。它可以由一个字母表示，也可以由两个字母组合表示。先听单词开头，再看拼写，不要因为写法不同就把同一个声音分成两种读法。",
+        "exampleEn": "Fish, photo, phone, flower.",
+        "exampleZh": "鱼，照片，电话，花。",
+        "visual": "sounds",
+        "focus": [
+          "fish",
+          "photo",
+          "phone",
+          "flower"
+        ],
+        "quiz": {
+          "promptZh": "哪个单词使用两个字母来表示开头的这个辅音？",
+          "options": [
+            "fish",
+            "flower",
+            "photo",
+            "fun"
+          ],
+          "answer": 2,
+          "explanationZh": "照片这个词使用双字母组合表示开头的送气辅音。"
+        },
+        "phonics": [
+          {
+            "spelling": "f",
+            "sound": "/f/",
+            "word": "fish"
+          },
+          {
+            "spelling": "ph",
+            "sound": "/f/",
+            "word": "photo"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "读懂地图和符号",
+        "titleEn": "Maps and symbols",
+        "kind": "discover",
+        "goalZh": "认识地图用简化图形和图例表示真实地点。",
+        "explainZh": "地图不能把所有东西都画得和真实大小一样，所以会用简单图形和符号表示地点。先找到图例，看看每个符号是什么意思，再寻找目标位置。自己画图时也配上图例，让别人能够读懂你的设计。",
+        "exampleEn": "The star shows the library. The blue line shows the river. Look at the key first.",
+        "exampleZh": "星星表示图书馆。蓝线表示河流。先看图例。",
+        "visual": "position",
+        "focus": [
+          "map",
+          "symbol",
+          "key"
+        ],
+        "quiz": {
+          "promptZh": "看不懂地图符号时，先找什么？",
+          "options": [
+            "书包颜色",
+            "钟面",
+            "人物年龄",
+            "图例"
+          ],
+          "answer": 3,
+          "explanationZh": "图例解释地图符号的含义。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "每个人都有好主意",
+        "titleEn": "The team map",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "小组里有人擅长画图，有人擅长组织语言，还有人特别细心。合作不是让一个人做完所有事情，而是认真听见每个人的想法。看故事里的孩子怎样分工，再想想自己可以为团队做什么。",
+        "exampleEn": "Mia drew the park. Ben wrote the street names. Eva checked the symbols. Their team made a clear map together.",
+        "exampleZh": "米娅画了公园。 本写了街道名称。 伊娃检查了符号。 他们的团队一起做出了一张清楚的地图。",
+        "visual": "story",
+        "focus": [
+          "drew",
+          "wrote",
+          "checked",
+          "together"
+        ],
+        "quiz": {
+          "promptZh": "他们为什么能完成清楚的地图？",
+          "options": [
+            "每个人分工合作",
+            "只有一个人在做",
+            "大家互相打断",
+            "他们没有交流"
+          ],
+          "answer": 0,
+          "explanationZh": "不同长处的人共同参与，让作品更加完整。"
+        },
+        "story": [
+          {
+            "en": "Mia drew the park.",
+            "zh": "米娅画了公园。"
+          },
+          {
+            "en": "Ben wrote the street names.",
+            "zh": "本写了街道名称。"
+          },
+          {
+            "en": "Eva checked the symbols.",
+            "zh": "伊娃检查了符号。"
+          },
+          {
+            "en": "Their team made a clear map together.",
+            "zh": "他们的团队一起做出了一张清楚的地图。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "给同伴一份表扬",
+        "titleEn": "Classroom celebration",
+        "kind": "mission",
+        "goalZh": "用具体事例介绍同伴的长处，表达感谢。",
+        "explainZh": "准备一张表扬卡，不只写“你真棒”，还要说清楚伙伴做了什么。可以表扬认真倾听、愿意帮助或努力练习。介绍同伴擅长的事情，再给出一个具体例子，让每个孩子的努力都能被看见。",
+        "exampleEn": "This award is for Eva. She is good at drawing, and she helps our team. Thank you, Eva!",
+        "exampleZh": "这个奖送给伊娃。她擅长画画，也帮助我们的团队。谢谢你，伊娃！",
+        "visual": "mission",
+        "focus": [
+          "good at",
+          "helps our team",
+          "Thank you"
+        ],
+        "quiz": {
+          "promptZh": "哪种表扬最具体？",
+          "options": [
+            "你就是好。",
+            "你认真检查了地图上的符号，帮助了小组。",
+            "你什么都不用做。",
+            "你的椅子是蓝色的。"
+          ],
+          "answer": 1,
+          "explanationZh": "说明真实行为，能让伙伴知道自己的努力被看见了。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u7",
+    "level": 3,
+    "number": 7,
+    "title": "When I grow up …",
+    "titleZh": "长大以后",
+    "page": 82,
+    "theme": "jobs",
+    "missionZh": "介绍一个向往的职业，说明工作内容与需要的品质。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "doctor",
+        "zh": "医生",
+        "icon": "🧑‍⚕️"
+      },
+      {
+        "en": "engineer",
+        "zh": "工程师",
+        "icon": "👷"
+      },
+      {
+        "en": "artist",
+        "zh": "艺术家",
+        "icon": "🎨"
+      },
+      {
+        "en": "scientist",
+        "zh": "科学家",
+        "icon": "🧑‍🔬"
+      },
+      {
+        "en": "friendly",
+        "zh": "友好的",
+        "icon": "😊"
+      },
+      {
+        "en": "brave",
+        "zh": "勇敢的",
+        "icon": "🦁"
+      },
+      {
+        "en": "careful",
+        "zh": "细心的",
+        "icon": "🔍"
+      },
+      {
+        "en": "patient",
+        "zh": "耐心的",
+        "icon": "⏳"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "职业与品质",
+        "titleEn": "Jobs and qualities",
+        "kind": "vocabulary",
+        "goalZh": "认识职业与描述性格的词。",
+        "explainZh": "职业说的是一个人做什么工作，性格词描述的是一个人怎样与人相处、怎样做事。一个职业可能需要许多不同品质，也不只属于某一种人。选择一个你感兴趣的职业，说说它做的事情和你想培养的品质。",
+        "exampleEn": "An engineer designs things. A patient teacher listens carefully. A friendly doctor helps people.",
+        "exampleZh": "工程师设计物品。耐心的老师仔细倾听。友好的医生帮助人们。",
+        "visual": "words",
+        "focus": [
+          "engineer",
+          "teacher",
+          "patient",
+          "friendly"
+        ],
+        "quiz": {
+          "promptZh": "哪个词是在描述性格？",
+          "options": [
+            "doctor",
+            "engineer",
+            "patient",
+            "scientist"
+          ],
+          "answer": 2,
+          "explanationZh": "耐心描述一个人的处事特点，其他选项是职业。"
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "如果这样，就会怎样",
+        "titleEn": "When and if",
+        "kind": "grammar",
+        "goalZh": "用一般现在时表达常见条件与结果。",
+        "explainZh": "有些句子把条件和结果连在一起，说的是通常会出现的情况。表示“如果”或“当……时”的部分是一边，结果是另一边。表达这种规律时，两边通常都用一般现在时，第三人称单数的变化也不能漏掉。",
+        "exampleEn": "If you practise, you improve. When a teacher asks a question, we listen.",
+        "exampleZh": "如果你练习，就会进步。老师提问时，我们认真听。",
+        "visual": "sentence",
+        "focus": [
+          "If",
+          "When",
+          "practise",
+          "improve"
+        ],
+        "quiz": {
+          "promptZh": "哪句用一般现在时说明通常的结果？",
+          "options": [
+            "If he practises, he improves.",
+            "If he practising, he improve.",
+            "If he practised, he improving.",
+            "If he practises, he improved yesterday."
+          ],
+          "answer": 0,
+          "explanationZh": "条件和通常的结果都用一般现在时，并注意第三人称单数。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "长什么样，是什么样的人",
+        "titleEn": "Look like and be like",
+        "kind": "grammar",
+        "goalZh": "区分询问外貌与询问性格的两种表达。",
+        "explainZh": "想了解一个人，外貌和性格是两类不同的信息。问“长什么样”时，回答身高、头发等外观；问“是怎样的人”时，回答友好、耐心等性格。先听问题要了解哪一类，再给相应的信息。",
+        "exampleEn": "What does your aunt look like? She has curly hair. What is she like? She is patient.",
+        "exampleZh": "你姑姑长什么样？她有卷发。她是什么样的人？她很耐心。",
+        "visual": "compare",
+        "focus": [
+          "look like",
+          "be like",
+          "curly hair",
+          "patient"
+        ],
+        "quiz": {
+          "promptZh": "回答“She is friendly.”最适合哪个问题？",
+          "options": [
+            "Where does she work?",
+            "What is she like?",
+            "What does she look like?",
+            "When is her birthday?"
+          ],
+          "answer": 1,
+          "explanationZh": "友好是性格特点，对应询问“是怎样的人”的问题。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "职业名称的词尾",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "听辨不同拼写的弱读词尾。",
+        "explainZh": "很多职业名称末尾的拼写不同，声音却很相近。英式英语里，这些词尾常常轻轻带过，不要每个字母都读得同样重。先听完整单词的重音，再轻读结尾，让职业名称听起来更自然。",
+        "exampleEn": "Teacher, farmer, doctor, actor.",
+        "exampleZh": "老师，农民，医生，演员。",
+        "visual": "sounds",
+        "focus": [
+          "teacher",
+          "farmer",
+          "doctor",
+          "actor"
+        ],
+        "quiz": {
+          "promptZh": "哪个职业名称的词尾是 or？",
+          "options": [
+            "teacher",
+            "farmer",
+            "doctor",
+            "singer"
+          ],
+          "answer": 2,
+          "explanationZh": "医生这个词结尾使用的是另一组职业词尾字母。"
+        },
+        "phonics": [
+          {
+            "spelling": "er",
+            "sound": "/ə/",
+            "word": "teacher"
+          },
+          {
+            "spelling": "ar",
+            "sound": "/ə/",
+            "word": "scholar"
+          },
+          {
+            "spelling": "or",
+            "sound": "/ə/",
+            "word": "doctor"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "从物品寻找过去",
+        "titleEn": "Time detectives",
+        "kind": "discover",
+        "goalZh": "了解考古通过遗留物和记录研究过去。",
+        "explainZh": "一块旧陶片能告诉我们什么？研究过去的人会观察遗留的物品、它们发现的位置和其他证据，再提出解释。一个物品不一定只有一种可能的用途，所以要把观察到的事实和自己的猜测分开。",
+        "exampleEn": "We found a piece of pottery. We recorded its shape and the place where we found it.",
+        "exampleZh": "我们发现了一块陶片。我们记录了它的形状和发现地点。",
+        "visual": "timeline",
+        "focus": [
+          "pottery",
+          "recorded",
+          "evidence"
+        ],
+        "quiz": {
+          "promptZh": "研究旧物品时，哪种做法更可靠？",
+          "options": [
+            "只根据颜色随便下结论",
+            "把发现地点忘掉",
+            "只挑喜欢的答案",
+            "记录物品特点，再比较证据"
+          ],
+          "answer": 3,
+          "explanationZh": "记录和比较证据，有助于区分观察与猜测。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "听见朋友的担心",
+        "titleEn": "A patient friend",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "看到朋友安静下来，先别急着猜他怎么了。可以温和地询问，再认真听他的回答。故事里的伙伴根据朋友的感受调整了回应，既没有嘲笑，也没有替对方做所有决定。",
+        "exampleEn": "Ben was quiet before his talk. Mia asked, \"Are you worried?\" Ben nodded, so she listened to him. They practised the first sentence together.",
+        "exampleZh": "发言前，本很安静。 米娅问：“你在担心吗？” 本点点头，于是她认真听他说。 他们一起练习了第一句话。",
+        "visual": "story",
+        "focus": [
+          "worried",
+          "listened",
+          "together"
+        ],
+        "quiz": {
+          "promptZh": "米娅怎样回应朋友的情绪？",
+          "options": [
+            "先询问，再倾听并陪他练习",
+            "说他一定会失败",
+            "不让他说话",
+            "立即离开"
+          ],
+          "answer": 0,
+          "explanationZh": "她先了解朋友的感受，再提供合适的帮助。"
+        },
+        "story": [
+          {
+            "en": "Ben was quiet before his talk.",
+            "zh": "发言前，本很安静。"
+          },
+          {
+            "en": "Mia asked, \"Are you worried?\"",
+            "zh": "米娅问：“你在担心吗？”"
+          },
+          {
+            "en": "Ben nodded, so she listened to him.",
+            "zh": "本点点头，于是她认真听他说。"
+          },
+          {
+            "en": "They practised the first sentence together.",
+            "zh": "他们一起练习了第一句话。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "我的职业小介绍",
+        "titleEn": "My dream job",
+        "kind": "mission",
+        "goalZh": "介绍理想职业，用条件句说明工作中的行为。",
+        "explainZh": "选择一个你想进一步了解的职业，先说它做什么，再介绍自己想培养的品质。用一句条件和结果的表达说明这个工作中的做法。职业梦想可以改变，重要的是愿意提问、了解和尝试。",
+        "exampleEn": "I want to be a scientist. I am curious. If I have a question, I look for evidence.",
+        "exampleZh": "我想成为科学家。我有好奇心。如果我有问题，我会寻找证据。",
+        "visual": "mission",
+        "focus": [
+          "want to be",
+          "If",
+          "evidence"
+        ],
+        "quiz": {
+          "promptZh": "介绍理想职业时，哪组内容最完整？",
+          "options": [
+            "只说衣服颜色",
+            "职业、工作内容和相关品质",
+            "只报一个数字",
+            "只模仿别人的名字"
+          ],
+          "answer": 1,
+          "explanationZh": "介绍做什么以及怎样做，比只说职业名称更清楚。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u8",
+    "level": 3,
+    "number": 8,
+    "title": "City break",
+    "titleZh": "城市短途旅行",
+    "page": 94,
+    "theme": "town",
+    "missionZh": "设计一份城镇游览指南，说明计划、地点与行走路线。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "museum",
+        "zh": "博物馆",
+        "icon": "🏛️"
+      },
+      {
+        "en": "bridge",
+        "zh": "桥",
+        "icon": "🌉"
+      },
+      {
+        "en": "square",
+        "zh": "广场",
+        "icon": "⛲"
+      },
+      {
+        "en": "station",
+        "zh": "车站",
+        "icon": "🚉"
+      },
+      {
+        "en": "across",
+        "zh": "穿过表面",
+        "icon": "↔️"
+      },
+      {
+        "en": "through",
+        "zh": "穿过内部",
+        "icon": "🚇"
+      },
+      {
+        "en": "past",
+        "zh": "经过",
+        "icon": "🚶"
+      },
+      {
+        "en": "round",
+        "zh": "绕过",
+        "icon": "🔄"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "城镇里的路线",
+        "titleEn": "Places and directions",
+        "kind": "vocabulary",
+        "goalZh": "认识公共地点与基本方向表达。",
+        "explainZh": "到一个新地方，先找到车站、广场和博物馆等明显地点。说明路线时可以把这些地点当作路标。先从起点看向前进方向，再说向左还是向右；换了站立方向，左右也会跟着改变。",
+        "exampleEn": "Turn right at the station. The museum is beside the square.",
+        "exampleZh": "在车站右转。博物馆在广场旁边。",
+        "visual": "position",
+        "focus": [
+          "station",
+          "museum",
+          "square",
+          "turn right"
+        ],
+        "quiz": {
+          "promptZh": "听到要在哪里右转？",
+          "options": [
+            "博物馆",
+            "桥上",
+            "车站",
+            "公园"
+          ],
+          "answer": 2,
+          "explanationZh": "句子把车站作为转弯的路标。",
+          "spokenEn": "Turn right at the station."
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "说说接下来的计划",
+        "titleEn": "Going to visit",
+        "kind": "grammar",
+        "goalZh": "用将来计划表达构成肯定、否定和疑问句。",
+        "explainZh": "说已经打算做的事情，可以用一个表示将来计划的结构。先根据主语选择合适的系动词，再接计划的部分和动作原形。否定时在系动词后加“不”，提问时把系动词移到句首。",
+        "exampleEn": "We are going to visit the museum. We are not going to drive. Are you going to walk? What are you going to draw?",
+        "exampleZh": "我们打算参观博物馆。我们不打算开车。你们打算步行吗？你打算画什么？",
+        "visual": "timeline",
+        "focus": [
+          "are going to",
+          "are not going to",
+          "Are you going to"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确询问对方的计划？",
+          "options": [
+            "You going to walk?",
+            "Are you going walking?",
+            "Do you are going to walk?",
+            "Are you going to walk?"
+          ],
+          "answer": 3,
+          "explanationZh": "询问计划时，把系动词放到句首，动作保持原形。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "把移动路线说清楚",
+        "titleEn": "Across and through",
+        "kind": "grammar",
+        "goalZh": "区分穿过表面、穿过内部及进入、离开、越过、经过和绕行。",
+        "explainZh": "看小人怎样移动：从一边走到另一边，可以经过路面，也可以穿过内部空间。进入和离开是一对相反方向，越过、经过和绕行又各有不同轨迹。把手指当作小人走一遍，再用对应的词描述。",
+        "exampleEn": "Walk across the square, through the arch and past the shop. Then go into the museum.",
+        "exampleZh": "穿过广场和拱门，经过商店，然后走进博物馆。",
+        "visual": "position",
+        "focus": [
+          "across",
+          "through",
+          "into",
+          "out of",
+          "over",
+          "past",
+          "round"
+        ],
+        "quiz": {
+          "promptZh": "穿过隧道内部，哪种表达最合适？",
+          "options": [
+            "through the tunnel",
+            "across the tunnel wall",
+            "on the tunnel",
+            "under the chair"
+          ],
+          "answer": 0,
+          "explanationZh": "穿越一个有内部空间的地方，通常使用表示“穿过内部”的词。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "舌尖位置相同，声音不同",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "复习清辅音与浊辅音两种舌齿音。",
+        "explainZh": "把舌尖轻轻放在上下牙齿之间，先送气，再试着让声带轻轻振动。这两种声音的口形相近，区别是声带有没有振动。听完整单词，再把手轻放在喉咙处感觉差别，不要用别的辅音代替。",
+        "exampleEn": "Three, think, this, those.",
+        "exampleZh": "三，思考，这个，那些。",
+        "visual": "sounds",
+        "focus": [
+          "three",
+          "think",
+          "this",
+          "those"
+        ],
+        "quiz": {
+          "promptZh": "哪一组开头都是带声带振动的声音？",
+          "options": [
+            "three 和 think",
+            "this 和 those",
+            "three 和 this",
+            "think 和 those"
+          ],
+          "answer": 1,
+          "explanationZh": "这两个指示词开头都使用带声带振动的舌齿音。"
+        },
+        "phonics": [
+          {
+            "spelling": "th",
+            "sound": "/θ/",
+            "word": "three"
+          },
+          {
+            "spelling": "th",
+            "sound": "/ð/",
+            "word": "those"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "城市、城镇和村庄",
+        "titleEn": "Places people live",
+        "kind": "discover",
+        "goalZh": "观察不同聚居地的规模、设施和生活特点。",
+        "explainZh": "人们居住的地方大小和设施可能很不一样。城市常有更多建筑和交通线路，村庄通常规模较小，不过每个地方都各有特点。比较时找出观察依据，别把地方大小当作生活好坏的唯一标准。",
+        "exampleEn": "A city may have many busy streets. A village may have fewer buildings and quieter roads.",
+        "exampleZh": "城市可能有许多繁忙街道。村庄可能建筑较少，道路更安静。",
+        "visual": "compare",
+        "focus": [
+          "city",
+          "town",
+          "village"
+        ],
+        "quiz": {
+          "promptZh": "比较两个地方时，哪种说法更有依据？",
+          "options": [
+            "大的地方一定更好",
+            "所有村庄都完全一样",
+            "观察建筑、交通和设施的不同",
+            "只看名字就能判断所有情况"
+          ],
+          "answer": 2,
+          "explanationZh": "具体观察能帮助我们比较不同地方的特点。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "先停下来，再找路",
+        "titleEn": "A calm journey",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "发现路线不对时，先停在安全的地方，再看地图和标志。紧张是一种正常感受，我们可以用清楚的步骤帮助自己平静下来。故事里的人没有互相责怪，而是一起确认信息，再继续前进。",
+        "exampleEn": "The friends went past the wrong shop. Ben felt worried, so they stopped safely. Mia checked the map with him. They found the square and felt calm again.",
+        "exampleZh": "朋友们走过了错误的商店。 本有些担心，于是大家在安全的地方停下。 米娅和他一起检查地图。 他们找到了广场，又平静下来。",
+        "visual": "story",
+        "focus": [
+          "worried",
+          "checked",
+          "calm"
+        ],
+        "quiz": {
+          "promptZh": "走错路后，他们先做了什么？",
+          "options": [
+            "闭眼乱跑",
+            "互相责怪",
+            "丢掉地图",
+            "在安全的地方停下来"
+          ],
+          "answer": 3,
+          "explanationZh": "先确保安全，再确认信息，有助于恢复平静。"
+        },
+        "story": [
+          {
+            "en": "The friends went past the wrong shop.",
+            "zh": "朋友们走过了错误的商店。"
+          },
+          {
+            "en": "Ben felt worried, so they stopped safely.",
+            "zh": "本有些担心，于是大家在安全的地方停下。"
+          },
+          {
+            "en": "Mia checked the map with him.",
+            "zh": "米娅和他一起检查地图。"
+          },
+          {
+            "en": "They found the square and felt calm again.",
+            "zh": "他们找到了广场，又平静下来。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "制作城镇指南",
+        "titleEn": "Our town guide",
+        "kind": "mission",
+        "goalZh": "结合将来计划和移动介词介绍一条游览路线。",
+        "explainZh": "挑选三个想介绍的地点，画出起点和路线。先说明打算去哪里，再一步步讲怎样到达，最后说在终点能做什么。请伙伴按照你的说明画路线，如果画得不同，就一起检查哪一步需要说得更清楚。",
+        "exampleEn": "We are going to visit the museum. Walk over the bridge and round the square. The museum is on the left.",
+        "exampleZh": "我们打算去博物馆。走过桥，绕过广场。博物馆在左边。",
+        "visual": "mission",
+        "focus": [
+          "going to",
+          "over",
+          "round",
+          "on the left"
+        ],
+        "quiz": {
+          "promptZh": "指南怎样才能检验路线是否清楚？",
+          "options": [
+            "让伙伴按说明画出或指出路线",
+            "只把地图藏起来",
+            "不写起点",
+            "把所有方向都省略"
+          ],
+          "answer": 0,
+          "explanationZh": "让别人根据说明行动，可以发现哪些地方还需要补充。"
+        }
+      }
+    ]
+  },
+  {
+    "id": "l3-u9",
+    "level": 3,
+    "number": 9,
+    "title": "Let’s travel!",
+    "titleZh": "一起去旅行",
+    "page": 106,
+    "theme": "holiday",
+    "missionZh": "安排一次夏令营，介绍行程先后、感受和徒步准备。",
+    "sourceUrl": "https://drupal-s3fs-prod.s3.eu-west-1.amazonaws.com/files/8615/6768/5170/Power_Up_Power_Up_L3_Scope_And_Sequence_9781108413794_Scope_and_Sequence.pdf",
+    "isbn": "9781108413794",
+    "vocabulary": [
+      {
+        "en": "journey",
+        "zh": "旅程",
+        "icon": "🧳"
+      },
+      {
+        "en": "camp",
+        "zh": "营地",
+        "icon": "⛺"
+      },
+      {
+        "en": "compass",
+        "zh": "指南针",
+        "icon": "🧭"
+      },
+      {
+        "en": "torch",
+        "zh": "手电筒",
+        "icon": "🔦"
+      },
+      {
+        "en": "excited",
+        "zh": "兴奋的",
+        "icon": "🤩"
+      },
+      {
+        "en": "exciting",
+        "zh": "令人兴奋的",
+        "icon": "🎢"
+      },
+      {
+        "en": "interested",
+        "zh": "感兴趣的",
+        "icon": "🤔"
+      },
+      {
+        "en": "interesting",
+        "zh": "有趣的",
+        "icon": "📖"
+      }
+    ],
+    "lessons": [
+      {
+        "id": "vocabulary",
+        "titleZh": "出发前的小清单",
+        "titleEn": "Ready for a trip",
+        "kind": "vocabulary",
+        "goalZh": "认识旅行用品和描述旅途感受的词。",
+        "explainZh": "旅行前先想想目的地和活动，再列出需要的物品。地图和指南针帮助辨认方向，手电筒在需要照明时使用。表达感受时也要区分是在说人的心情，还是在说一件事给人带来的感觉。",
+        "exampleEn": "I packed a map and a torch. I felt excited about our journey.",
+        "exampleZh": "我装好了地图和手电筒。我对旅程感到兴奋。",
+        "visual": "words",
+        "focus": [
+          "map",
+          "torch",
+          "journey",
+          "excited"
+        ],
+        "quiz": {
+          "promptZh": "听到孩子带了哪两样物品？",
+          "options": [
+            "雨伞和足球",
+            "地图和手电筒",
+            "玩具和蛋糕",
+            "水杯和毛巾"
+          ],
+          "answer": 1,
+          "explanationZh": "句子中明确提到了地图和手电筒。",
+          "spokenEn": "I packed a map and a torch."
+        }
+      },
+      {
+        "id": "grammar-1",
+        "titleZh": "先后顺序讲清楚",
+        "titleEn": "Before, after and when",
+        "kind": "grammar",
+        "goalZh": "用之前、之后和当时的连接词组织事件。",
+        "explainZh": "讲旅行经过时，先后顺序非常重要。“之前”和“之后”把两件事的时间关系连起来，“当……时”指出另一件事发生的时刻。先把图片排好顺序，再组成句子；连接词放在句首时，留心两部分之间的停顿。",
+        "exampleEn": "Before we left, we checked the map. After we arrived, we put up our tent. When it got dark, we used a torch.",
+        "exampleZh": "离开前，我们查看了地图。到达后，我们搭起帐篷。天黑时，我们用了手电筒。",
+        "visual": "timeline",
+        "focus": [
+          "Before",
+          "After",
+          "When"
+        ],
+        "quiz": {
+          "promptZh": "哪句表达“吃完午饭以后，我们步行去营地”？",
+          "options": [
+            "Before lunch, we walked to camp.",
+            "We ate after we walked, yesterday.",
+            "After we ate lunch, we walked to camp.",
+            "When before lunch after camp."
+          ],
+          "answer": 2,
+          "explanationZh": "先吃午饭，再去营地，使用表示“之后”的连接词。"
+        }
+      },
+      {
+        "id": "grammar-2",
+        "titleZh": "心情和事物的区别",
+        "titleEn": "Excited or exciting?",
+        "kind": "grammar",
+        "goalZh": "区分描述感受与引发感受的两类形容词。",
+        "explainZh": "看同一件事，可以从两个角度描述。一个词说人感到怎样，另一个说这件事让人产生怎样的感觉。先问自己是在说心情，还是在评价事物，再选择结尾不同的形容词，句子意思就清楚了。",
+        "exampleEn": "The journey was exciting. We were excited. The story was interesting, and I was interested.",
+        "exampleZh": "旅程令人兴奋。我们感到兴奋。故事很有趣，我很感兴趣。",
+        "visual": "compare",
+        "focus": [
+          "excited",
+          "exciting",
+          "interested",
+          "interesting"
+        ],
+        "quiz": {
+          "promptZh": "哪句正确表达“这次旅行令人兴奋”？",
+          "options": [
+            "The trip was excited.",
+            "The trip felt interested.",
+            "The trip was excite.",
+            "The trip was exciting."
+          ],
+          "answer": 3,
+          "explanationZh": "描述事物引发的感觉，使用对应的这一类形容词。"
+        }
+      },
+      {
+        "id": "sounds",
+        "titleZh": "词尾的浊辅音",
+        "titleEn": "Sounds and spelling",
+        "kind": "phonics",
+        "goalZh": "观察词尾组合对应的一个辅音。",
+        "explainZh": "看看“桥”和“橙子”的结尾，不同的字母组合，可以表示同一个连在一起的辅音。先让舌头短暂阻住气流，再释放并让声带振动。跟读完整单词，别把词尾拆成两个字母名称。",
+        "exampleEn": "Bridge, orange, village, large.",
+        "exampleZh": "桥，橙子，村庄，大的。",
+        "visual": "sounds",
+        "focus": [
+          "bridge",
+          "orange",
+          "village",
+          "large"
+        ],
+        "quiz": {
+          "promptZh": "哪个词与 bridge 有相同的词尾辅音？",
+          "options": [
+            "orange",
+            "boat",
+            "leaf",
+            "rice"
+          ],
+          "answer": 0,
+          "explanationZh": "橙子这个词的结尾也使用相同的浊辅音。",
+          "spokenEn": "Bridge."
+        },
+        "phonics": [
+          {
+            "spelling": "ge",
+            "sound": "/dʒ/",
+            "word": "orange"
+          },
+          {
+            "spelling": "dge",
+            "sound": "/dʒ/",
+            "word": "bridge"
+          }
+        ]
+      },
+      {
+        "id": "discover",
+        "titleZh": "方向与徒步准备",
+        "titleEn": "North, south, east and west",
+        "kind": "discover",
+        "goalZh": "认识四个基本方向，并按活动条件讨论装备。",
+        "explainZh": "地图上的方向能帮助我们描述位置。先找北方，再确定南、东和西。徒步前需要和负责的大人一起了解天气、路线和装备；清单要根据活动调整。学会方向和准备的表达，才能把计划介绍得更清楚。",
+        "exampleEn": "North is at the top of this map. East is on the right. We checked the weather before our walk.",
+        "exampleZh": "这张地图上，北在上方，东在右边。步行前，我们查看了天气。",
+        "visual": "position",
+        "focus": [
+          "north",
+          "south",
+          "east",
+          "west"
+        ],
+        "quiz": {
+          "promptZh": "在北方朝上的地图中，右侧通常表示哪个方向？",
+          "options": [
+            "西",
+            "东",
+            "南",
+            "北"
+          ],
+          "answer": 1,
+          "explanationZh": "北方朝上时，东方在右侧，西方在左侧。"
+        }
+      },
+      {
+        "id": "story",
+        "titleZh": "旅途中的新发现",
+        "titleEn": "A story from another place",
+        "kind": "story",
+        "goalZh": "读懂人物感受，并用英语表达关心。",
+        "explainZh": "去到新地方，可能听到不同的语言和故事，也会遇到不熟悉的习惯。先认真听，再礼貌提问，不急着评判。故事里的孩子把新发现分享给伙伴，也尊重讲述者对自己文化的介绍。",
+        "exampleEn": "At camp, Ana told a story from her home. Ben listened without interrupting. After the story, he asked a kind question. They enjoyed learning about each other.",
+        "exampleZh": "在营地，安娜讲了一个家乡故事。 本没有打断，认真听着。 故事结束后，他礼貌地问了一个问题。 他们很高兴能互相了解。",
+        "visual": "story",
+        "focus": [
+          "listened",
+          "After",
+          "learning"
+        ],
+        "quiz": {
+          "promptZh": "本怎样表达对不同文化的尊重？",
+          "options": [
+            "随意打断故事",
+            "说所有故事都一样",
+            "认真听完，再礼貌提问",
+            "要求别人放弃自己的习惯"
+          ],
+          "answer": 2,
+          "explanationZh": "倾听和礼貌提问能帮助我们理解他人的文化。"
+        },
+        "story": [
+          {
+            "en": "At camp, Ana told a story from her home.",
+            "zh": "在营地，安娜讲了一个家乡故事。"
+          },
+          {
+            "en": "Ben listened without interrupting.",
+            "zh": "本没有打断，认真听着。"
+          },
+          {
+            "en": "After the story, he asked a kind question.",
+            "zh": "故事结束后，他礼貌地问了一个问题。"
+          },
+          {
+            "en": "They enjoyed learning about each other.",
+            "zh": "他们很高兴能互相了解。"
+          }
+        ]
+      },
+      {
+        "id": "mission",
+        "titleZh": "安排我们的夏令营",
+        "titleEn": "Our summer camp",
+        "kind": "mission",
+        "goalZh": "组织活动清单、行程顺序和感受表达，完成旅行介绍。",
+        "explainZh": "设计一天的夏令营，安排三项活动并写出先后顺序。再列出要带的物品，用一句话说明自己的期待。向伙伴介绍时，检查计划能否让别人知道何时、何地做什么，以及需要提前准备什么。",
+        "exampleEn": "Before lunch, we are going to draw a camp map. After lunch, we are going to visit the lake. The trip is going to be exciting.",
+        "exampleZh": "午饭前，我们打算画营地地图。午饭后，我们打算去湖边。这次旅行会很精彩。",
+        "visual": "mission",
+        "focus": [
+          "Before",
+          "After",
+          "exciting"
+        ],
+        "quiz": {
+          "promptZh": "哪份夏令营安排信息最完整？",
+          "options": [
+            "只写“去玩”",
+            "只画一棵树",
+            "只列出一个人的名字",
+            "包含活动顺序、地点和准备物品"
+          ],
+          "answer": 3,
+          "explanationZh": "一份清楚的安排需要让伙伴知道行程与准备事项。"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "site_id": "accf38ab-ca89-48ed-b4cc-1236723b4d15",
+  "name": "molly-power-up",
+  "url": "https://molly-power-up.netlify.app",
+  "admin_url": "https://app.netlify.com/projects/molly-power-up",
+  "account_slug": "lrs3007",
+  "repository": "https://github.com/lrs3007/molly",
+  "branch": "main",
+  "base": "power-up",
+  "publish": "power-up/dist"
+}

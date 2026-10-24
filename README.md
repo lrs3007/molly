@@ -1,5 +1,7 @@
 # molly
 
+Power Up 1–3 英语动画课堂位于 [power-up](./power-up/README.md)，线上地址：[Power Up 英语课堂](https://molly-power-up.netlify.app/)，本地地址 http://127.0.0.1:5174/ 。使用 `./start-english.sh` 启动、`./stop-english.sh` 关闭。
+
 小学奥数教学网站位于 [math-garden](./math-garden/README.md)。
 
 本地访问 http://127.0.0.1:5173/ ，线上地址：[数学小花园](https://molly-math-garden.netlify.app/)。
@@ -12,6 +14,8 @@
 脚本可从任意目录执行，启动后可关闭终端。重复启动不会创建多个服务，关闭时只停止本项目的进程。日志位于 `math-garden/.local-service/server.log`。首次安装依赖时，在 `math-garden` 目录执行 `npm ci`。
 
 ## 线上部署与同步
+
+英语课堂使用独立的 [Netlify 站点](https://app.netlify.com/projects/molly-power-up/deploys)和 `power-up/netlify.toml`，在 `power-up` 目录执行 `npm test && npm run build`，发布该目录下的 `dist`。两个站点分别构建，同步同一仓库的 `main` 分支。
 
 部署状态：[Netlify 控制台](https://app.netlify.com/projects/molly-math-garden/deploys)。
 

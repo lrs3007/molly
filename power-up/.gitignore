@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.audio-output/
+.local-service/
+.cache/
+*.aiff
+__pycache__/
