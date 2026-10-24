@@ -10,6 +10,20 @@ try{
  const {default:Games,Ordering,Listening}=await server.ssrLoadModule('/src/LearningGames.tsx');
  const html=renderToStaticMarkup(React.createElement(App));
  for(const label of ['Power Up','Our new school','开始讲解','双语讲解','英文练习','课桌','我的复习','学习足迹','单元小练习','本单元微课'])assert.ok(html.includes(label),label);
+ assert.ok(html.includes('三册教材入口')&&html.includes('Power Up 2')&&html.includes('Power Up 3'),'All books must be visible outside the mobile sidebar');
+ const {emptyProgress}=await server.ssrLoadModule('/src/progress.ts');
+ for(const level of [2,3]){
+  const previous=emptyProgress();
+  globalThis.window={location:{search:`?book=${level}`},localStorage:{getItem:()=>JSON.stringify(previous)}};
+  try{
+   const bookHtml=renderToStaticMarkup(React.createElement(App)),unit=units.find(u=>u.level===level&&u.number===1);
+   assert.ok(bookHtml.includes(`<h1 lang="en-GB">${unit.title}<`),'Book link must change the actual classroom heading');
+   assert.ok(bookHtml.includes(`Power Up ${level} 本册课程目录`));
+   assert.equal((bookHtml.match(/class="book-unit(?: active)?"/g)??[]).length,10);
+   assert.equal((bookHtml.match(/class="book-lesson-links"/g)??[]).length,10);
+   for(const u of units.filter(u=>u.level===level))for(const l of u.lessons)assert.ok(bookHtml.includes(l.titleZh),'The book directory must expose all 66 lessons');
+  }finally{delete globalThis.window;}
+ }
  assert.match(html,/<option(?=[^>]*value="0\.75")(?=[^>]*selected)[^>]*>/,'Natural reading must select 0.75 speed by default');
  const vocabulary=defaultUnit.lessons.find(l=>l.id==='vocabulary');
  assert.ok(html.includes('整句连读')&&html.includes('词组跟读'));

@@ -6,4 +6,5 @@ import './concepts.css';
 import './readability.css';
 import './games.css';
 import './pacing.css';
+import './books.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
